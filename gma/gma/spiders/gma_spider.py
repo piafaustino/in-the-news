@@ -62,7 +62,8 @@ class GmaSpider(scrapy.Spider):
             #data collected from 'add_xpath' is passed through the output processor
             #of the name field and is then assigned to the name field of the item.
             yield loader.load_item()
-        '''
+        
+        
         #to get the last page of the archive.
         for i in response.xpath('//ul[@class="pagination"]/li/a/text()'):
             x = i.extract()
@@ -73,4 +74,4 @@ class GmaSpider(scrapy.Spider):
             gma_page_url = 'http://www.gmanetwork.com/news/archives?'+'p='+ i +'&'+'from=10012014&to=03312015'
             
             yield  scrapy.Request(gma_page_url, callback=self.parse)
-        '''
+        

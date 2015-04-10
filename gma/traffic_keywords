@@ -1,7 +1,5 @@
 road
 roads
-street
-streets
 highway
 highways
 expressway
@@ -42,20 +40,14 @@ service road mishaps
 underpass mishaps
 overpass mishaps
 concrete barrier mishaps
-death
-deaths
-injury
-injuries
-injured
-killed
 fatalities
+road
 road maintenance
 road repair
 road widening
 road infrastructure
 road accident
 road construction
-accident
 road tragedy
 road tragedies
 tragedy
@@ -159,7 +151,6 @@ MMDA
 South Luzon Expressway
 SLEX
 North Luzon Expressway
-NLEX
 EDSA
 Skyway
 C-5
@@ -188,10 +179,7 @@ driver
 conductor
 motoring
 vehicle registration
-road surveillance 
-CCTV
-CCTV footage
-daan 
+road surveillance
 kalye 
 banggaan
 bangga
@@ -199,25 +187,14 @@ binangga
 nagbanggaan
 karambola 
 salpukan
-nagsalpukan 
-bumulusok
-patay 
-sugatan 
-nasaktan 
-namatay
-aksidente 
-naaksidente 
+nagsalpukan  
 lubak 
-rehabilitasyon 
-kumpuni 
-pagkukumpuni 
-butas 
+rehabilitasyon
 sasakyan 
 kotse 
 jeep 
 jeepney 
 PUV 
-padyak 
 trak
 trapik
 daloy ng trapiko 
@@ -242,3 +219,4 @@ lisensya
 pagsikip ng daan
 plaka
 rehistro
+kotse
