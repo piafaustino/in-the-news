@@ -16,7 +16,6 @@ def location_from_article(s):
     with open(LOCATION_KEYWORDS, 'r') as file:
         location_keywords = file.read().splitlines()
 
-#    location_keywords = location_keywords.split('\n')
     location_keywords = [x.strip().lower() for x in location_keywords]
     location_keywords = set(location_keywords)
     location_keywords.remove('')
@@ -46,8 +45,6 @@ def open_url_file():
     with open(URL_LIST, 'r') as file:
         urls_list = file.read().splitlines()
 
-#    urls_list = urls.split('\n')
-
     return urls_list[:10]
 
 class ArticleLoader(ItemLoader):
@@ -63,19 +60,19 @@ class GmaSpider(scrapy.Spider):
     start_urls = open_url_file()
 
     item_fields = {
-                   'title':     '//title/text()',
-                   'link':      '//link[@rel="canonical"]/@href',
-                   'author':    '//strong/a/text()',
-                   'date':      '//span[@class="timestamp"]/text()',      
-                   'article':   '//div[@class="text_body"]/div/text()',
+                   'title':'//title/text()',
+                   'link':'//link[@rel="canonical"]/@href',
+                   'author':'//strong/a/text()',
+                   'date':'//span[@class="timestamp"]/text()',      
+                   'article':'//div[@class="text_body"]/div/text()',
     }
 
     backup_item_fields = {
-                            'article':   '//div[@class="text_body"]/text()',
-                            'title':     '//title/text()',
-                            'link':      '//link[@rel="canonical"]/@href',
-                            'author':    '//span[@class="byline"]/a[@rel="author"]/text()',
-                            'date':      '//span[@class="timestamp"]/text()',      
+                            'article':'//div[@class="text_body"]/text()',
+                            'title':'//title/text()',
+                            'link':'//link[@rel="canonical"]/@href',
+                            'author':'//span[@class="byline"]/a[@rel="author"]/text()',
+                            'date':'//span[@class="timestamp"]/text()',      
     }
 
     def parse(self, response):
