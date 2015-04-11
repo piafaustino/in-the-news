@@ -1,0 +1,4 @@
+scraping_gma
+*.csv
+local_settings.py
+*.py[co]
