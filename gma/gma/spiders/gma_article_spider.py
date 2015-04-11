@@ -14,9 +14,9 @@ LOCATION_KEYWORDS = 'location_keywords'
 
 def location_from_article(s):
     with open(LOCATION_KEYWORDS, 'r') as file:
-        location_keywords = file.read()
+        location_keywords = file.read().splitlines()
 
-    location_keywords = location_keywords.split('\n')
+#    location_keywords = location_keywords.split('\n')
     location_keywords = [x.strip().lower() for x in location_keywords]
     location_keywords = set(location_keywords)
     location_keywords.remove('')
@@ -31,8 +31,9 @@ def location_from_article(s):
 
     # to remove false matches of the Quezon Province in the article
     if 'quezon' in loc_tag:
-        quezon_count = len(re.findall(r'quezon', s))
-        quezon_city_count = len(re.findall(r'quezon city', s))
+        quezon_count = len(re.findall(r'quezon', s.lower()))
+        quezon_city_count = len(re.findall(r'quezon city', s.lower()))
+
         if quezon_city_count == quezon_count:
             loc_tag.remove('quezon')
 
@@ -43,11 +44,11 @@ def ascii_or_remove(s):
 
 def open_url_file():
     with open(URL_LIST, 'r') as file:
-        urls = file.read()
+        urls_list = file.read().splitlines()
 
-    urls_list = urls.split('\n')
+#    urls_list = urls.split('\n')
 
-    return urls_list
+    return urls_list[:10]
 
 class ArticleLoader(ItemLoader):
     default_input_processor = MapCompose(unicode.strip, ascii_or_remove)
