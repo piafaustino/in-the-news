@@ -20,3 +20,4 @@ class GmaItem(scrapy.Item):
     time = scrapy.Field()
     author = scrapy.Field()
     article = scrapy.Field()
+    location = scrapy.Field()

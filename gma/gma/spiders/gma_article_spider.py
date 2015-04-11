@@ -1,25 +1,40 @@
 import scrapy
 from scrapy import Selector
 from scrapy.contrib.loader import ItemLoader
-from scrapy.contrib.loader.processor import Join, MapCompose, TakeFirst
+from scrapy.contrib.loader.processor import Join, MapCompose
+import re
 
 from gma.items import GmaItem
 
+#filename for url list text file
 URL_LIST = 'traffic_urls'
+
+#filename for location keywords text file
 LOCATION_KEYWORDS = 'location_keywords'
 
 def location_from_article(s):
-    with open(LOCATION_LIST, 'r') as f:
-        location_keywords = f.read()
+    with open(LOCATION_KEYWORDS, 'r') as file:
+        location_keywords = file.read()
 
-    location_keyword_list = location_keywords.split('\n')
-    location_keyword_list = [x.strip().lower() for x in location_keyword_list]
+    location_keywords = location_keywords.split('\n')
+    location_keywords = [x.strip().lower() for x in location_keywords]
+    location_keywords = set(location_keywords)
+    location_keywords.remove('')
+    location_keywords = [x + ' ' for x in location_keywords]
 
     loc_tag = []
 
-    for location in location_keyword_list:
-        if location in s:
+    for location in location_keywords:
+        if location in s.lower():
+            location = location.strip()
             loc_tag.append(location)
+
+    # to remove false matches of the Quezon Province in the article
+    if 'quezon' in loc_tag:
+        quezon_count = len(re.findall(r'quezon', s))
+        quezon_city_count = len(re.findall(r'quezon city', s))
+        if quezon_city_count == quezon_count:
+            loc_tag.remove('quezon')
 
     return loc_tag
 
@@ -38,7 +53,8 @@ class ArticleLoader(ItemLoader):
     default_input_processor = MapCompose(unicode.strip, ascii_or_remove)
     default_output_processor = Join()
 
-    location_in = MapCompose(location_from_article)
+    location_in = MapCompose(unicode.strip, ascii_or_remove, location_from_article)
+    location_out = Join(', ')
 
 class GmaSpider(scrapy.Spider):
     name = 'gma_article_spider'
@@ -51,7 +67,6 @@ class GmaSpider(scrapy.Spider):
                    'author':    '//strong/a/text()',
                    'date':      '//span[@class="timestamp"]/text()',      
                    'article':   '//div[@class="text_body"]/div/text()',
-                   'location':  '//div[@class="text_body"]/div/text()'
     }
 
     backup_item_fields = {
@@ -59,8 +74,7 @@ class GmaSpider(scrapy.Spider):
                             'title':     '//title/text()',
                             'link':      '//link[@rel="canonical"]/@href',
                             'author':    '//span[@class="byline"]/a[@rel="author"]/text()',
-                            'date':      '//span[@class="timestamp"]/text()',
-                            'location':  '//div[@class="text_body"]/text()',      
+                            'date':      '//span[@class="timestamp"]/text()',      
     }
 
     def parse(self, response):
@@ -77,5 +91,8 @@ class GmaSpider(scrapy.Spider):
                     loader.add_value(field, response.url)
 
             loader.add_xpath(field, xpath)
+
+        article_data = loader.get_output_value('article')
+        loader.add_value('location', article_data)
 
         yield loader.load_item()
