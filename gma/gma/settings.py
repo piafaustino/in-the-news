@@ -13,5 +13,6 @@ BOT_NAME = 'gma'
 SPIDER_MODULES = ['gma.spiders']
 NEWSPIDER_MODULE = 'gma.spiders'
 
+RETRY_TIMES = 10
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'gma (+http://www.yourdomain.com)'
