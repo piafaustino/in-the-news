@@ -1,6 +1,0 @@
-
-scraping_gma
-*.json
-*.csv
-local_settings.py
-*.py[co]
