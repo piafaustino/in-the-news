@@ -18,7 +18,8 @@ def location_from_article(s):
 
     location_keywords = [x.strip().lower() for x in location_keywords]
     location_keywords = set(location_keywords)
-    location_keywords.remove('')
+    if '' in location_keywords:
+        location_keywords.remove('')
     location_keywords = [x + ' ' for x in location_keywords]
 
     loc_tag = []
@@ -63,7 +64,7 @@ class GmaSpider(scrapy.Spider):
                    'title':'//title/text()',
                    'link':'//link[@rel="canonical"]/@href',
                    'author':'//strong/a/text()',
-                   'date':'//span[@class="timestamp"]/text()',      
+                   'date':'//span[@class="timestamp"]/text()',
                    'article':'//div[@class="text_body"]/div/text()',
     }
 
@@ -72,7 +73,7 @@ class GmaSpider(scrapy.Spider):
                             'title':'//title/text()',
                             'link':'//link[@rel="canonical"]/@href',
                             'author':'//span[@class="byline"]/a[@rel="author"]/text()',
-                            'date':'//span[@class="timestamp"]/text()',      
+                            'date':'//span[@class="timestamp"]/text()',
     }
 
     def parse(self, response):

@@ -1,5 +1,4 @@
 from pprint import pprint
-from unidecode import unidecode
 import json
 
 #json file returned on running gma_spider.py which gets all the titles and links
@@ -13,7 +12,7 @@ TRAFFIC_KEYWORDS = 'traffic_keywords'
 with open('traffic_keywords', 'r') as f:
 	traffic_keywords = f.read().splitlines()
 
-traffic_keywords_list = [unidecode(x.decode('utf8')).strip().lower() for x in traffic_keywords_list]
+traffic_keywords_list = [x.strip().lower() for x in traffic_keywords_list]
 traffic_keywords_list = [' ' + keyword + ' ' for keyword in traffic_keywords_list]
 
 with open(JSON_FILE, 'r') as f:
