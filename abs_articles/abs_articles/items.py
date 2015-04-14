@@ -15,3 +15,12 @@ class ABSArticlesItem(scrapy.Item):
     link = scrapy.Field()
     byline = scrapy.Field()
     description = scrapy.Field()
+
+class ABSArticleItem(scrapy.Item):
+	title = scrapy.Field()
+	byline = scrapy.Field()
+	date = scrapy.Field()
+	article = scrapy.Field()
+	author = scrapy.Field()
+	link = scrapy.Field()
+	location = scrapy.Field()

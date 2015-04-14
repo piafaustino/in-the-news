@@ -4,7 +4,7 @@ from scrapy.contrib.loader import ItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 import re
 
-from abs_articles.items import ABSArticlesItem
+from abs_articles.items import ABSArticleItem
 
 #filename for url list text file
 URL_LIST = './keywords_and_urls/traffic_urls'
@@ -46,7 +46,7 @@ def open_url_file():
 	with open(URL_LIST, 'r') as file:
 		urls_list = file.read().splitlines()
 
-	return urls_list[:10]
+	return urls_list
 
 class ArticleLoader(ItemLoader):
 	default_input_processor = MapCompose(unicode.strip, ascii_or_remove)
@@ -58,26 +58,37 @@ class ArticleLoader(ItemLoader):
 class ABSArticleSpider(scrapy.Spider):
 	name = 'abs_article_spider'
 	allowed_domains = ['abs-cbnnews.com']
-	start_urls = open_url_file()
+	start_urls = [
+				  'http://www.abs-cbnnews.com/nation/metro-manila/04/13/15/milk-tea-sample-tests-negative-toxic-substances',
+				  'http://www.abs-cbnnews.com/video/nation/metro-manila/04/08/15/pag-withdraw-gamit-ang-nakaw-na-atm-card-huli-sa-cctv',
+	]
 
-	item_fields = {}
-	backup_item_fields = {}
+	item_fields = {
+					'title':'//div[@class="text-article"]/h1/span/text()',
+					'byline':'//div[@class="byline"]/text()',
+					'date':'//div[@class="posted"]/text()',
+					'article':'//div[@class="body"]/p/text()',
+					'author':'//div[@class="body"]/p[last()]/strong/text()',
+	}
+
+	backup_item_fields = {
+					'title':'//h3/a/text()',
+					'article':'//p/text()',
+	}
 
 	def parse(self, response):
 		"""
 		Default callback Scrapy uses to process downloaded response.
 		"""
 		sel = Selector(response)
-		loader = ArticleLoader(item=ABSArticlesItem(),selector=sel)
+		loader = ArticleLoader(item=ABSArticleItem(),selector=sel)
 
 		for field, xpath in self.item_fields.iteritems():
 			if not loader.get_xpath(xpath):
-				xpath = self.backup_item_fields[field]
-				if field == 'link':
-					loader.add_value(field, response.url)
-
+				xpath = self.backup_item_fields.get(field)
 			loader.add_xpath(field, xpath)
 
+		loader.add_value('link', unicode(response.url))
 		article_data = loader.get_output_value('article')
 		loader.add_value('location', article_data)
 
