@@ -19,7 +19,7 @@ class GmaSpider(scrapy.Spider):
 	url_list = ['http://www.abs-cbnnews.com/list/Metro-Manila?page=' + str(x) for x in xrange(0,50)]
 	url_list2 = ['http://www.abs-cbnnews.com/list/Region?page=' + str(x) for x in xrange(0,50)]
 
-	start_urls = urls_list + urls_list2
+	start_urls = url_list + url_list2
 
 	articles_list_xpath = '//div[@class="view-content"]/div/div[@class="node-list"]'
 	item_fields = {

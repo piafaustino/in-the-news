@@ -2,5 +2,6 @@ traffic_urls
 scraping_gma
 *.json
 *.csv
+*.csv#
 local_settings.py
 *.py[co]
