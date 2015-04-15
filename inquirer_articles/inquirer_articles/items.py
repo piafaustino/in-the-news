@@ -20,3 +20,4 @@ class InquirerArticleItem(scrapy.Item):
 	author = scrapy.Field()
 	byline = scrapy.Field()
 	article = scrapy.Field()
+	location = scrapy.Field()
