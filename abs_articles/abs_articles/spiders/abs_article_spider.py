@@ -58,10 +58,7 @@ class ArticleLoader(ItemLoader):
 class ABSArticleSpider(scrapy.Spider):
 	name = 'abs_article_spider'
 	allowed_domains = ['abs-cbnnews.com']
-	start_urls = [
-				  'http://www.abs-cbnnews.com/nation/metro-manila/04/13/15/milk-tea-sample-tests-negative-toxic-substances',
-				  'http://www.abs-cbnnews.com/video/nation/metro-manila/04/08/15/pag-withdraw-gamit-ang-nakaw-na-atm-card-huli-sa-cctv',
-	]
+	start_urls = open_url_file()
 
 	item_fields = {
 					'title':'//div[@class="text-article"]/h1/span/text()',
