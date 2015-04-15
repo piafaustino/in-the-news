@@ -6,8 +6,8 @@ from pprint import pprint
 from abs_articles.items import ABSArticlesItem
 
 #number of pages to be scraped. URL does not specify date.
-#325 pages approximately covers 6 to 7 months of news for Metro Manila
-PAGE_COUNT_METRO = 325
+#325 pages approximately covers 6 to 7 months of news for Metro Manila, 825 for around 15 months.
+PAGE_COUNT_METRO = 825
 
 #for Regional news, 6 to 7 months are equivalent to approximately 450 pages.
 PAGE_COUNT_REGION = 450
