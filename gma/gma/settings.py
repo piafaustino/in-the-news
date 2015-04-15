@@ -14,5 +14,6 @@ SPIDER_MODULES = ['gma.spiders']
 NEWSPIDER_MODULE = 'gma.spiders'
 
 RETRY_TIMES = 10
+RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 408, 524, 522]
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'gma (+http://www.yourdomain.com)'
