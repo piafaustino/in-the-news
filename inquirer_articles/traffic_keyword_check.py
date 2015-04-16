@@ -14,18 +14,17 @@ DOMAIN_NAME = 'http://newsinfo.inquirer.net'
 #filename for the output.
 FILE_NAME = './keywords_and_urls/traffic_urls'
 
-def keyword_variants(punct):
-	return [' ' + keyword + str(punct) for keyword in traffic_keywords_list]
-
-
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
-		traffic_keywords = f.read().splitlines()
+		traffic_keywords = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
 
-	traffic_keywords_list = [x.decode('utf-8').strip().lower() for x in traffic_keywords]
+	punctuation_list = [' ', '.', ',',':',';']
+	keywords = []
+	for keyword in traffic_keywords_list:
+		for punct in punctuation_list:
+			keywords.append(' ' + keyword + punct)
 
-	traffic_keywords_list = map(keyword_variants, [' ', '.',',',':',';'])
-	traffic_keywords_list = [i for l in traffic_keywords_list for i in l]
+	traffic_keywords_list.extend(keywords)
 
 	with open(JSON_FILE, 'r') as f:
 		json_articles = json.load(f)
@@ -37,12 +36,9 @@ if __name__ == "__main__":
 
 	for article in json_articles:
 		for keyword in traffic_keywords_list:
-			try:
-				if keyword in article['title'].lower():
-					traffic_article_list.append(article)
-					print article['link']
-					break
-			except:
+			if keyword in article.get('title', ' ').lower():
+				traffic_article_list.append(article)
+				print article['link']
 				break
 
 	with open(FILE_NAME, 'w') as file:

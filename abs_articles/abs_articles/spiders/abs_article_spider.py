@@ -16,11 +16,11 @@ def location_from_article(s):
 	with open(LOCATION_KEYWORDS, 'r') as file:
 		location_keywords = file.read().splitlines()
 
-	location_keywords = [x.strip().lower() for x in location_keywords]
-	location_keywords = set(location_keywords)
 	if '' in location_keywords:
 		location_keywords.remove('')
-	location_keywords = [x + ' ' for x in location_keywords]
+
+	location_keywords = set([x.strip().lower() for x in location_keywords])
+	location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
 
 	loc_tag = []
 
@@ -90,39 +90,3 @@ class ABSArticleSpider(scrapy.Spider):
 		loader.add_value('location', article_data)
 
 		yield loader.load_item()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

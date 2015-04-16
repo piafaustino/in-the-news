@@ -14,19 +14,17 @@ DOMAIN_NAME = 'http://www.gmanetwork.com'
 #filename for the output
 FILE_NAME = './keywords_and_urls/traffic_urls'
 
-def keyword_variants(punct):
-	return [' ' + keyword + str(punct) for keyword in traffic_keywords_list]
-
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
-		traffic_keywords = f.read().splitlines()
+		traffic_keywords = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
 
-	traffic_keywords_list = [x.strip().lower() for x in traffic_keywords]
+	punctuation_list = [' ', '.', ',',':',';']
+	keywords = []
+	for keyword in traffic_keywords_list:
+		for punct in punctuation_list:
+			keywords.append(' ' + keyword + punct)
 
-
-
-	traffic_keywords_list = map(keyword_variants, [' ', '.',',',':',';'])
-	traffic_keywords_list = [i for l in traffic_keywords_list for i in l]
+	traffic_keywords_list.extend(keywords)
 
 	with open(JSON_FILE, 'r') as f:
 		json_articles = json.load(f)
@@ -35,13 +33,11 @@ if __name__ == "__main__":
 
 	for article in json_articles:
 		for keyword in traffic_keywords_list:
-			try:
-				if keyword in str(article['title']).lower():
-					article['link'] = DOMAIN_NAME + article.get('link')
-					print article['link']
-					traffic_article_list.append(article)
-			except:
-				break
+			if keyword in str(article.get('title',default=' ')).lower():
+				article['link'] = DOMAIN_NAME + article.get('link')
+				print article['link']
+				traffic_article_list.append(article)
+
 	with open(FILE_NAME, 'w') as file:
 		for article in traffic_article_list:
 			file.write(article['link']+'\n')

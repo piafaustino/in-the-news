@@ -16,14 +16,13 @@ def location_from_articles(s):
 	with open(LOCATION_KEYWORDS, 'r') as file:
 		location_keywords = file.read().splitlines()
 
-	location_keywords = [x.strip().lower() for x in location_keywords]
-	location_keywords = set(location_keywords)
 	if '' in location_keywords:
 		location_keywords.remove('')
-	location_keywords = [x + ' ' for x in location_keywords]
+
+	location_keywords = set([x.strip().lower() for x in location_keywords])
+	location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
 
 	loc_tag = []
-
 	for location in location_keywords:
 		if location in s.lower():
 			location = location.strip()
@@ -69,35 +68,3 @@ class GmaVideoSpider(scrapy.Spider):
 		loader = ArticleLoader(item=GmaVideosItem(),selector=sel)
 
 		yield loader.loader_item()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

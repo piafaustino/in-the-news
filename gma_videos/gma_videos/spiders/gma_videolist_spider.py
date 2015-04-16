@@ -30,7 +30,7 @@ class GmaVideoListSpider(scrapy.Spider):
 					'link':'./a[1]/@href',
 					'show':'./a/div/div[2]/div/a/text()',
 					'reporter':'./a/div/div[3]/div/a/text()',
-					'date':'./a/div/div[4]/div/text()'
+					'date':'./a/div/div[@class="metadata"][last()]/div/text()'
 	}
 
 	def parse(self, response):
