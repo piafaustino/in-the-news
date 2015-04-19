@@ -16,11 +16,11 @@ def location_from_article(s):
 	with open(LOCATION_KEYWORDS, 'r') as file:
 		location_keywords = file.read().splitlines()
 
-	location_keywords = [x.strip().lower() for x in location_keywords]
-	location_keywords = set(location_keywords)
 	if '' in location_keywords:
 		location_keywords.remove('')
-	location_keywords = [x + ' ' for x in location_keywords]
+
+	location_keywords = set([x.strip().lower() for x in location_keywords])
+	location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
 
 	loc_tag = []
 
@@ -58,10 +58,7 @@ class ArticleLoader(ItemLoader):
 class ABSArticleSpider(scrapy.Spider):
 	name = 'abs_article_spider'
 	allowed_domains = ['abs-cbnnews.com']
-	start_urls = [
-				  'http://www.abs-cbnnews.com/nation/metro-manila/04/13/15/milk-tea-sample-tests-negative-toxic-substances',
-				  'http://www.abs-cbnnews.com/video/nation/metro-manila/04/08/15/pag-withdraw-gamit-ang-nakaw-na-atm-card-huli-sa-cctv',
-	]
+	start_urls = open_url_file()
 
 	item_fields = {
 					'title':'//div[@class="text-article"]/h1/span/text()',
@@ -93,39 +90,3 @@ class ABSArticleSpider(scrapy.Spider):
 		loader.add_value('location', article_data)
 
 		yield loader.load_item()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

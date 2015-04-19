@@ -16,11 +16,15 @@ FILE_NAME = './keywords_and_urls/traffic_urls'
 
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
-		traffic_keywords = f.read().splitlines()
+		traffic_keywords = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
 
-	traffic_keywords_list = [x.decode('utf-8').strip().lower() for x in traffic_keywords]
-	traffic_keywords_list = [' ' + keyword + ' ' for keyword in traffic_keywords_list]
+	punctuation_list = [' ', '.', ',',':',';']
+	keywords = []
+	for keyword in traffic_keywords_list:
+		for punct in punctuation_list:
+			keywords.append(' ' + keyword + punct)
 
+	traffic_keywords_list.extend(keywords)
 
 	with open(JSON_FILE, 'r') as f:
 		json_articles = json.load(f)
@@ -31,7 +35,7 @@ if __name__ == "__main__":
 
 	for article in json_articles:
 		for keyword in traffic_keywords_list:
-			if keyword in article['title'].lower():
+			if keyword in article.get('title', default= ' ').lower():
 				traffic_article_list.append(article)
 				break
 

@@ -5,6 +5,9 @@ from scrapy.contrib.loader.processor import Join, MapCompose, TakeFirst
 
 from gma.items import GmaItem
 
+#3463 count for all the pages for the year 2014
+PAGE_COUNT = 3463
+
 def ascii_or_remove(s):
     return s.encode('ascii',errors='ignore')
 
@@ -15,9 +18,10 @@ class ArticleLoader(ItemLoader):
 class GmaSpider(scrapy.Spider):
     name = 'gma_spider'
     allowed_domains = ['gmanetwork.com']
-    start_urls = [
-        'http://www.gmanetwork.com/news/archives?from=10012014&to=03312015'
-    ]
+
+    gma_page_url = ['http://www.gmanetwork.com/news/archives?'+'p='+ str(i) +'&'+'from=01012014&to=12312014' for i in range(1,PAGE_COUNT+1)]
+
+    start_urls = gma_page_url
 
     article_list_xpath = '//div[@class="items"]/li'
 
@@ -55,23 +59,11 @@ class GmaSpider(scrapy.Spider):
             #then it will be converted before being passed to an input processor
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
-                
+
                 collected_value = loader.get_collected_values(field)
             loader.add_xpath('date', '//div[@class="items"]/h2/text()')
 
             #data collected from 'add_xpath' is passed through the output processor
             #of the name field and is then assigned to the name field of the item.
             yield loader.load_item()
-        
-        
-        #to get the last page of the archive.
-        for i in response.xpath('//ul[@class="pagination"]/li/a/text()'):
-            x = i.extract()
-        x = int(x)
 
-        for i in xrange(x):
-            i = str(i)
-            gma_page_url = 'http://www.gmanetwork.com/news/archives?'+'p='+ i +'&'+'from=10012014&to=03312015'
-            
-            yield  scrapy.Request(gma_page_url, callback=self.parse)
-        

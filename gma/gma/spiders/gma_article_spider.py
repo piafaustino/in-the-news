@@ -7,20 +7,20 @@ import re
 from gma.items import GmaItem
 
 #filename for url list text file
-URL_LIST = 'traffic_urls'
+URL_LIST = './keywords_and_urls/traffic_urls'
 
 #filename for location keywords text file
-LOCATION_KEYWORDS = 'location_keywords'
+LOCATION_KEYWORDS = './keywords_and_urls/location_keywords'
 
 def location_from_article(s):
     with open(LOCATION_KEYWORDS, 'r') as file:
         location_keywords = file.read().splitlines()
 
-    location_keywords = [x.strip().lower() for x in location_keywords]
-    location_keywords = set(location_keywords)
     if '' in location_keywords:
         location_keywords.remove('')
-    location_keywords = [x + ' ' for x in location_keywords]
+
+    location_keywords = set([x.strip().lower() for x in location_keywords])
+    location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
 
     loc_tag = []
 
@@ -46,7 +46,7 @@ def open_url_file():
     with open(URL_LIST, 'r') as file:
         urls_list = file.read().splitlines()
 
-    return urls_list[:10]
+    return urls_list
 
 class ArticleLoader(ItemLoader):
     default_input_processor = MapCompose(unicode.strip, ascii_or_remove)
@@ -70,10 +70,7 @@ class GmaSpider(scrapy.Spider):
 
     backup_item_fields = {
                             'article':'//div[@class="text_body"]/text()',
-                            'title':'//title/text()',
-                            'link':'//link[@rel="canonical"]/@href',
                             'author':'//span[@class="byline"]/a[@rel="author"]/text()',
-                            'date':'//span[@class="timestamp"]/text()',
     }
 
     def parse(self, response):
@@ -85,7 +82,7 @@ class GmaSpider(scrapy.Spider):
 
         for field, xpath in self.item_fields.iteritems():
             if not loader.get_xpath(xpath):
-                xpath = self.backup_item_fields[field]
+                xpath = self.backup_item_fields.get(field)
                 if field == 'link':
                     loader.add_value(field, response.url)
 
