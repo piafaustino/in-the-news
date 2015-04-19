@@ -20,7 +20,7 @@ def location_from_articles(s):
 	location_keywords = set(location_keywords)
 	if '' in location_keywords:
 		location_keywords.remove('')
-	location_keywords = [x for ' ' for x in location_keywords]
+	location_keywords = [x + ' ' for x in location_keywords]
 
 	loc_tag = []
 
@@ -29,7 +29,7 @@ def location_from_articles(s):
 			location = location.strip()
 			loc_tag.append(location)
 
-	# to remove fals matches of Quezon Province to the article
+	# to remove false matches of Quezon Province to the article
 	if 'quezon' in loc_tag:
 		quezon_count = len(re.findall(r'quezon', s.lower()))
 		quezon_city_count = len(re.findall(r'quezon_city', s.lower()))
@@ -44,20 +44,19 @@ def ascii_or_remove(s):
 
 def open_url_file():
 	with open(URL_LIST, 'r') as file:
-		urls_list = file.read().splitlines
-
+		urls_list = file.read().splitlines()
 	return urls_list
 
 class ArticleLoader(ItemLoader):
 	default_input_processor = MapCompose(unicode.strip, ascii_or_remove)
 	default_output_processor = Join()
 
-	location_in = MapCompose(unicode.strip, ascii_or_remove, location_from_article)
+	location_in = MapCompose(unicode.strip, ascii_or_remove, location_from_articles)
 	location_out = Join(', ')
 
 class InquirerArticleSpider(scrapy.Spider):
-	name = 'iquirer_articles_spider'
-	allowed_doains = ['inquirer.net']
+	name = 'inquirer_article_spider'
+	allowed_domains = ['inquirer.net']
 
 	start_urls = open_url_file()
 
@@ -68,11 +67,14 @@ class InquirerArticleSpider(scrapy.Spider):
 		sel = Selector(response)
 		loader = ArticleLoader(item=InquirerArticleItem(),selector=sel)
 
-		loader.add_value('link', response.url)
+		loader.add_value('link', unicode(response.url))
 		loader.add_xpath('title', '//title/text()')
 		loader.add_xpath('kicker', '//h4[@class="kicker"][2]/text()')
-		loader.add_xpath('author', '//a[@class="al-the-reporter"/h4/text()')
+		loader.add_xpath('author', '//a[@class="al-the-reporter"]/h4/text()')
 		loader.add_xpath('byline', '//h4[@class="byline"]/text()')
 		loader.add_xpath('article', '//div[@class="main-article"]/p/text()')
 
-		yield loader.loader_item()
+		article_data = loader.get_output_value('article')
+		loader.add_value('location', article_data)
+
+		yield loader.load_item()
