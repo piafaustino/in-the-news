@@ -16,7 +16,7 @@ FILE_NAME = './keywords_and_urls/traffic_urls'
 
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
-		traffic_keywords = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
+		traffic_keywords = [str(x).strip().lower() for x in f.read().splitlines()]
 
 	punctuation_list = [' ', '.', ',',':',';']
 	keywords = []

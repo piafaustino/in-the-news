@@ -3,7 +3,7 @@ import json
 
 #json file returned on running gma_spider.py which gets all the titles and links
 #of all the articles for 6 months
-JSON_FILE = './325pages.json'
+JSON_FILE = './scrape_results/allpages_article.json'
 
 #keywords to check if the article is a traffic related or not.
 TRAFFIC_KEYWORDS = './keywords_and_urls/traffic_keywords'
@@ -16,7 +16,7 @@ FILE_NAME = './keywords_and_urls/traffic_urls'
 
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
-		traffic_keywords = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
+		traffic_keywords_list = [x.decode('utf-8').strip().lower() for x in f.read().splitlines()]
 
 	punctuation_list = [' ', '.', ',',':',';']
 	keywords = []
@@ -32,15 +32,15 @@ if __name__ == "__main__":
 	#to remove duplicates. Convert the dicts to tuples first so set can be used.
 	json_articles = [dict(t) for t in set([tuple(d.items()) for d in json_articles])]
 
+	traffic_article_list = []
 
 	for article in json_articles:
 		for keyword in traffic_keywords_list:
-			if keyword in article.get('title', default= ' ').lower():
+			if keyword in article.get('title').lower():
 				traffic_article_list.append(article)
 				break
 
-	with open(FILE_NAME, 'w') as file:
+	with open(FILE_NAME, 'w') as outfile:
 		for article in traffic_article_list:
-			link = article['link']
-			article['link'] = DOMAIN_NAME + link
-			file.write(article['link'])
+			article['link'] = DOMAIN_NAME + article['link']
+			outfile.write(article['link']+'\n')

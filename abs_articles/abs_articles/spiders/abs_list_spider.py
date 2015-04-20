@@ -10,7 +10,7 @@ from abs_articles.items import ABSArticlesItem
 PAGE_COUNT_METRO = 825
 
 #for Regional news, 6 to 7 months are equivalent to approximately 450 pages.
-PAGE_COUNT_REGION = 450
+PAGE_COUNT_REGION = 900
 
 def ascii_or_remove(s):
 	return s.encode('ascii',errors='ignore')
@@ -23,10 +23,11 @@ class GmaSpider(scrapy.Spider):
 	name = 'abs_list_spider'
 	allowed_domains = ['abs-cbnnews.com']
 
-	url_list = ['http://www.abs-cbnnews.com/list/Metro-Manila?page=' + str(x) for x in xrange(0,PAGE_COUNT_METRO+1)]
-	url_list2 = ['http://www.abs-cbnnews.com/list/Region?page=' + str(x) for x in xrange(0,PAGE_COUNT_REGION+1)]
+#	url_list = ['http://www.abs-cbnnews.com/list/Metro-Manila?page=' + str(x) for x in xrange(0,PAGE_COUNT_METRO+1)]
+	url_list2 = ['http://www.abs-cbnnews.com/list/Region?page=' + str(x) for x in xrange(450,PAGE_COUNT_REGION+1)]
 
-	start_urls = url_list + url_list2
+#	start_urls = url_list + url_list2
+	start_urls = url_list2
 
 	articles_list_xpath = '//div[@class="view-content"]/div/div[@class="node-list"]'
 

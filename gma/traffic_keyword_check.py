@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
 	for article in json_articles:
 		for keyword in traffic_keywords_list:
-			if keyword in str(article.get('title',default=' ')).lower():
+			if keyword in str(article.get('title', ' ')).lower():
 				article['link'] = DOMAIN_NAME + article.get('link')
 				print article['link']
 				traffic_article_list.append(article)
