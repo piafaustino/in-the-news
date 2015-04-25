@@ -8,17 +8,19 @@ import string
 import re
 from pprint import pprint
 
-DIRECTORY_PATH = '<>'
-CSV_OUTPUT_PATH = '<>'
-COMMON_ENGLISH_WORDS_PATH = '<>'
 
-ENGLISH_KEYWORDS = 'for relevance ranking'
-ENGLISH_KEYWORDS_2ND = 'for relevance_ranking'
-TAGALOG_KEYWORDS = 'for relevance_ranking'
+DIRECTORY_PATH = 'directory of input json files'
+CSV_OUTPUT_PATH = 'for creating csv output'
+COMMON_ENGLISH_WORDS_PATH = 'for english check function'
 
-ENGLISH_MISHAP = 'for casualty count check'
-TAGALOG_MISHAP = 'for casualty count check'
-TAGALOG_NUM = 'for casualty count check'
+ENGLISH_KEYWORDS = 'for relevance ranking function'
+ENGLISH_KEYWORDS_2ND = 'for relevance_ranking function'
+TAGALOG_KEYWORDS = 'for relevance_ranking function'
+
+ENGLISH_MISHAP = 'for casualty count check function'
+TAGALOG_MISHAP = 'for casualty count check function'
+TAGALOG_NUM = 'for casualty count check function'
+MONTH_DICT = 'for uniform date function'
 try:
 	from local_keywords_and_paths import *
 except ImportError:
@@ -79,7 +81,7 @@ def create_csv(json_input_list,csv_name):
 					else:
 						row_list.append(i.get(x).encode('utf-8'))
 				else:
-					row_list.append(' ')
+					row_list.append('-')
 			csvfile.writerow(row_list)
 	print 'csv creation successful'
 
@@ -99,7 +101,7 @@ def language_check(s,common_english_keywords):
 	if len(set(first_sent_words).intersection(common_english_words)):
 		return 'english'
 	else:
-		return ' '
+		return 'tagalog'
 
 def open_keywords(path):
 	'''
@@ -197,6 +199,44 @@ def accident_check(s,english_keywords,tagalog_keywords,tagalog_num):
 
 	return result_string
 
+def uniform_date(date_string, source, month_dict):
+	if 'abs-cbnnews' == source:
+		date = re.findall(r'([0-9]{2}/[0-9]{2}/[0-9]{4}) ',date_string)
+		if date:
+			date_list = date[0].split('/')
+			date_string = '-'.join([date_list[2],date_list[0],date_list[1]])
+
+	if 'gmanetwork' == source:
+		tokenizer = RegexpTokenizer(r'\w+')
+		subject_words = tokenizer.tokenize(date_string)
+
+		for i in month_dict.keys():
+			if i in subject_words:
+				i_index = subject_words.index(i)
+				month = month_dict.get(i)
+				day = subject_words[i_index+1]
+				if len(day) == 1:
+					day = '0' + day
+				year = subject_words[i_index+2]
+				date_string = '-'.join([year,month,day])
+
+	if 'inquirer' == source:
+		tokenizer = RegexpTokenizer(r'\w+')
+		subject_words = tokenizer.tokenize(date_string)
+
+		for i in month_dict.keys():
+			if i in subject_words:
+				i_index = subject_words.index(i)
+				month = month_dict.get(i)
+				day = subject_words[i_index+1]
+				day = day[:-2]
+				if len(day) == 1:
+					day = '0' + day
+				year = subject_words[i_index+2]
+				date_string = '-'.join([year,month,day])
+
+	return date_string
+
 if __name__ == "__main__":
 	json_pathnames = [os.path.join(DIRECTORY_PATH, i) for i in os.listdir(DIRECTORY_PATH)]
 	json_list = []
@@ -226,6 +266,15 @@ if __name__ == "__main__":
 
 	for i in json_list:
 		i['accident count'] = accident_check(i.get('title',' '),ENGLISH_MISHAP,TAGALOG_MISHAP,TAGALOG_NUM)
+
+	for i in json_list:
+		if i['source'] == 'abs-cbnnews' or i['source'] == 'gmanetwork':
+			date = uniform_date(i.get('date',' '),i['source'], MONTH_DICT)
+			i['date'] = date
+		else:
+			if i['source'] == 'inquirer':
+				date = uniform_date(i.get('byline',' '),i['source'], MONTH_DICT)
+				i['date'] = date
 
 	create_csv(json_list, CSV_OUTPUT_PATH)
 
