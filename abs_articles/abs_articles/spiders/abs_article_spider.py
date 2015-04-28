@@ -26,7 +26,8 @@ def location_from_article(s):
 
 	for location in location_keywords:
 		if location in s.lower():
-			location = location.strip()
+			for i in (' ',',','.',':',';'):
+				location = location.strip(i)
 			loc_tag.append(location)
 
 	# to remove false matches of the Quezon Province in the article
@@ -37,7 +38,7 @@ def location_from_article(s):
 		if quezon_city_count == quezon_count:
 			loc_tag.remove('quezon')
 
-	return loc_tag
+	return set(loc_tag)
 
 def ascii_or_remove(s):
 	return s.encode('ascii',errors='ignore')

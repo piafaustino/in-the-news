@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
 	for video in json_videos:
 		for keyword in traffic_keywords_list:
-			if keyword in video.get('title', default=' ').lower():
+			if keyword in video.get('title', ' ').lower():
 				video['link'] = DOMAIN_NAME + video.get('link')
 				print video['link']
 				traffic_video_list.append(video)
