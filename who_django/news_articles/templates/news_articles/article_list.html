@@ -1,0 +1,14 @@
+{% extends 'news_articles/base.html' %}
+
+{% block content %}
+	{% for article in articles %}
+	    <div class="post">
+	        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
+	        <p>published: {{ article.date }}</p>
+	        <p>relevance score: {{ article.relevance_ranking }}</p>
+	        <p>source: {{ article.source }}</p>
+	        <p>link: <a href="{{ article.link }}">{{ article.link }}</a></p>
+	    	<hr>
+	    </div>
+	{% endfor %}
+{% endblock content %}

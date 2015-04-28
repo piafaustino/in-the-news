@@ -1,0 +1,19 @@
+{% extends 'news_articles/base.html' %}
+{% block content %}
+<div class="post">
+    <p>{{ article.title }}</p>
+    <p>relevance score: {{ article.relevance_ranking }}</p>
+    <p>date: {{ article.date }}</p>
+    <p>source: {{ article.source }}</p>
+    <p>link: {{ article.link}}</p>
+    <p>article: {{ article.article }}</p>
+    <p>author: {{ article.author }}</p>
+    <p>location: {{ article.location }}</p>
+    <p>accident_count: {{ article.accident_count }}</p>
+    <p>byline: {{ article.byline }}</p>
+    <p>language: {{ article.language }}</p>
+    <p>kicker: {{ article.kicker }}</p>
+
+</div>
+{% endblock content %}
+
