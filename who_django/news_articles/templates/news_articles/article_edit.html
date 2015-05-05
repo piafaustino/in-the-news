@@ -5,6 +5,7 @@
     {% if article.news_type == "text" %}
 	    <div class="post">
 		    <p>{{ article.title }}</p>
+		    <p><strong>primary key: </strong>{{ article.pk }}</p>
 		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
 		    <p><strong>date: </strong>{{ article.date }}</p>
 		    <p><strong>source: </strong>{{ article.source }}</p>
@@ -21,6 +22,7 @@
 	{% elif article.news_type == "video" %}
 		<div class="post">
 		    <p>{{ article.title }}</p>
+		    <p><strong>primary key: </strong>{{ article.pk }}</p>
 		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
 		    <p><strong>date: </strong>{{ article.date }}</p>
 		    <p><strong>source: </strong>{{ article.source }}</p>

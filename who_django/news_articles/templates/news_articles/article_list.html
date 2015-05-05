@@ -4,6 +4,7 @@
 	{% for article in articles %}
 	    <div class="post">
 	        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
+	        <p><strong>primary key: </strong>{{ article.pk }}
 	        <p><strong>published: </strong>{{ article.date }}</p>
 	        <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
 	        <p><strong>source: </strong>{{ article.source }}</p>
