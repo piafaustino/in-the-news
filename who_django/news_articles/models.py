@@ -56,6 +56,10 @@ class NewsArticle(models.Model):
 	tone = models.CharField(max_length=1000,blank=True,null=True)
 	completed = models.CharField(max_length=1000,blank=True,null=True)
 
+	region = models.CharField(max_length=1000, blank=True,null=True)
+	city_municipality = models.CharField(max_length=1000, blank=True,null=True)
+	specific_location = models.CharField(max_length=1000, blank=True,null=True)
+
 	def __str__(self):
 		return self.title
 # Create your models here

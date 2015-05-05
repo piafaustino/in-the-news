@@ -39,7 +39,12 @@
 	<h1>Article Survey</h1>
     <form method="POST" class="post-form">
     	{% csrf_token %}
-        {{ form.as_p }}
+    	{% for field in form %}
+    		{% if "region" in field.label %}
+    			<p><strong>10. What's the location of the road crash?</strong></p>
+    		{% endif %}
+    		<p><strong>{{ field.label}}</strong> {{ field }}</p>
+    	{% endfor %}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
 {% endblock %}

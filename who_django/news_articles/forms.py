@@ -107,6 +107,15 @@ class NewsArticleForm(forms.Form):
 		choices=potential_cause_choices,
 		widget=forms.CheckboxSelectMultiple(),required=False)
 
+	region_label = "region"
+	region = forms.CharField(label=region_label, max_length=100,required=False)
+
+	city_municipality_label = "city/municipality"
+	city_municipality = forms.CharField(label=city_municipality_label, max_length=100,required=False)
+
+	specific_location_label = "specific location"
+	specific_location = forms.CharField(label=specific_location_label, max_length=100,required=False)
+
 	larger_context_label = "11. Does the report relate the accident to a broader cause or mention a larger context?"
 	larger_context_choices = (
 		('-','-'),
@@ -196,3 +205,5 @@ class NewsArticleForm(forms.Form):
 	tone = forms.ChoiceField(label=tone_label,choices=tone_choices,required=False)
 
 	completed = forms.ChoiceField(label='Survey Finished?',choices=(('-','-'),('Yes','Yes'),('No','No')),required=False)
+
+

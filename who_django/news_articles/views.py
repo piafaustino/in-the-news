@@ -91,20 +91,18 @@ def article_edit(request, pk):
 	if request.method == "POST":
 		form = NewsArticleForm(request.POST)
 		if form.is_valid():
+			print "CLEANED DATA"
 			print form.cleaned_data
 			NewsArticle.objects.filter(pk=pk).update(**form.cleaned_data)
 			return redirect('news_articles.views.article_list')
 	else:
 		article_dict = to_dict(article)
-		print article_dict
 		article_dict = string_to_list(article_dict)
-		print article_dict
+		print "OUTPUT DATA"
+		pprint(article_dict)
 
 		form = NewsArticleForm(article_dict)
 	return render(request, 'news_articles/article_edit.html', {'form': form, 'article':article})
-
-
-
 '''
 def get_name(request):
 	# if this is a POST request we need to process the form data
