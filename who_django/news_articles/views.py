@@ -82,6 +82,37 @@ def article_text_list(request):
 
 	return render(request, 'news_articles/article_list.html',{'articles': articles})
 
+def article_exclude_list(request):
+	articles_list = NewsArticle.objects.filter(exclude__startswith="Yes")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles})
+
+
+def article_include_list(request):
+	articles_list = NewsArticle.objects.exclude(exclude__startswith="Yes")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles})
+
 def article_detail(request,pk):
 	article = get_object_or_404(NewsArticle, pk=pk)
 	return render(request, 'news_articles/article_detail.html', {'article':article})

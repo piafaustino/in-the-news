@@ -17,6 +17,12 @@ class NewsArticleForm(forms.Form):
 	kicker = forms.CharField(max_length=300,required=False)
 	'''
 
+	exclude_choices = [
+		('Yes','Yes'),
+		]
+	exclude_label = 'EXCLUDE?'
+	exclude = forms.MultipleChoiceField(label=exclude_label, choices=exclude_choices, widget=forms.CheckboxSelectMultiple(),required=False)
+
 	report_type_choices = (
 		('-','-'),
 		('Straight News','Straight News'),
@@ -205,5 +211,4 @@ class NewsArticleForm(forms.Form):
 	tone = forms.ChoiceField(label=tone_label,choices=tone_choices,required=False)
 
 	completed = forms.ChoiceField(label='Survey Finished?',choices=(('-','-'),('Yes','Yes'),('No','No')),required=False)
-
 

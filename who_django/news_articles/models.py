@@ -60,6 +60,8 @@ class NewsArticle(models.Model):
 	city_municipality = models.CharField(max_length=1000, blank=True,null=True)
 	specific_location = models.CharField(max_length=1000, blank=True,null=True)
 
+	exclude = models.CharField(max_length=1000, blank=True, null=True)
+
 	def __str__(self):
 		return self.title
 # Create your models here
