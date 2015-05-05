@@ -16,10 +16,11 @@ def json_loader(filename):
 	return json_entries
 
 def add_article(title, relevance_ranking, date, source, link, article='',
-			    author='', location='',accident_count='',byline='',language='',kicker=''):
+			    author='', location='',accident_count='',byline='',language='',kicker='',
+			    news_type='text'):
 
 	n = NewsArticle.objects.get_or_create(title=title,
-										  relevance_ranking=relevance_ranking,\
+										  relevance_ranking=relevance_ranking,
 										  date=date,
 										  source=source,
 										  link=link,
@@ -29,7 +30,8 @@ def add_article(title, relevance_ranking, date, source, link, article='',
 										  accident_count=accident_count,
 										  byline=byline,
 										  language=language,
-										  kicker=kicker
+										  kicker=kicker,
+										  news_type=news_type
 										  )[0]
 	n.save()
 	return n

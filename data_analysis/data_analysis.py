@@ -11,6 +11,7 @@ from pprint import pprint
 
 DIRECTORY_PATH = 'directory of input json files'
 CSV_OUTPUT_PATH = 'for creating csv output'
+JSON_OUTPUT_PATH = 'for creating a json file'
 COMMON_ENGLISH_WORDS_PATH = 'for english check function'
 
 ENGLISH_KEYWORDS = 'for relevance ranking function'
@@ -276,5 +277,8 @@ if __name__ == "__main__":
 				date = uniform_date(i.get('byline',' '),i['source'], MONTH_DICT)
 				i['date'] = date
 
-	create_csv(json_list, CSV_OUTPUT_PATH)
+	with open(JSON_OUTPUT_PATH, 'w') as outfile:
+		json.dump(json_list, outfile)
+
+#	create_csv(json_list, CSV_OUTPUT_PATH)
 
