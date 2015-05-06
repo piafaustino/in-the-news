@@ -76,7 +76,7 @@ class NewsArticleForm(forms.Form):
 	road_crash_vehicles = forms.IntegerField(label=road_crash_vehicles_label,required=False)
 
 	vehicle_cat_label = "5a. What categories of transportation are involved in the incident?"
-	vechicle_cat_choices = (
+	vehicle_cat_choices = (
 		('Private use vehicle','Private use vehicle'),
 		('Commercial use','Commercial use'),
 		('Government use vehicle','Government use vehicle'),
@@ -86,7 +86,7 @@ class NewsArticleForm(forms.Form):
 	vehicle_cat = forms.MultipleChoiceField(label=vehicle_cat_label, choices=vehicle_cat_choices, widget=forms.CheckboxSelectMultiple(),required=False)
 	vehicle_cat_others = forms.CharField(label="Others", max_length=100, required=False)
 
-	vehicle_type_label = "5b. What type of vehicles are involved in the incident?")
+	vehicle_type_label = ("5b. What type of vehicles are involved in the incident?")
 	vehicle_type_choices = (
 		('bicycle','bicycle'),
 		('motorcycle','motorcycle'),
