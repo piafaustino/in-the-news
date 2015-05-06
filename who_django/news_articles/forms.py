@@ -75,27 +75,40 @@ class NewsArticleForm(forms.Form):
 	road_crash_vehicles_label = "4. If a report about a road crash (a), how many vehicles were involved?"
 	road_crash_vehicles = forms.IntegerField(label=road_crash_vehicles_label,required=False)
 
-
-	vehicle_cat_label = "5. What categories of transportation are mentioned involved in the incident? (tick all that apply)"
-	vehicle_cat_choices = (
-		('car','car'),
-		('van','van'),
-		('motorcycle','motorcycle'),
-		('bicycle','bicycle'),
-		('delivery trucks','delivery trucks'),
-		('jeepneys','jeepneys'),
-		('tricycles','tricycles'),
-		('school service','school service'),
-		('armored vehicles','armored vehicles'),
-		('ambulance','ambulance'),
-		('garbage truck','garbage truck'),
-		('tow trucks','tow trucks'),
-		(' government vehicles',' government vehicles'),
-		('bus','bus'),
+	vehicle_cat_label = "5a. What categories of transportation are involved in the incident?"
+	vechicle_cat_choices = (
+		('Private use vehicle','Private use vehicle'),
+		('Commercial use','Commercial use'),
+		('Government use vehicle','Government use vehicle'),
+		('Public utility vehicle','Public utility vehicle'),
 		('Others','Others')
 		)
 	vehicle_cat = forms.MultipleChoiceField(label=vehicle_cat_label, choices=vehicle_cat_choices, widget=forms.CheckboxSelectMultiple(),required=False)
 	vehicle_cat_others = forms.CharField(label="Others", max_length=100, required=False)
+
+	vehicle_type_label = "5b. What type of vehicles are involved in the incident?")
+	vehicle_type_choices = (
+		('bicycle','bicycle'),
+		('motorcycle','motorcycle'),
+		('habal-habal','habal-habal'),
+		('pedicab','pedicab'),
+		('tricycle','tricycle'),
+		('kuliglig','kuliglig'),
+		('car','car'),
+		('van','van'),
+		('truck','truck'),
+		('jeepney','jeepney'),
+		('multi-cab','multi-cab'),
+		('school bus','school bus'),
+		('armored vehicle','armored vehicle'),
+		('ambulance','ambulance'),
+		('taxi','taxi'),
+		('bus','bus'),
+		('Asian Utility Vehicle (FX)','Asian Utility Vehicle (FX)'),
+		('Others','Others')
+		)
+	vehicle_type = forms.MultipleChoiceField(label=vehicle_type_label, choices=vehicle_type_choices, widget=forms.CheckboxSelectMultiple(),required=False)
+	vehicle_type_others = forms.CharField(label="Others", max_length=100, required=False)
 
 	killed = forms.IntegerField(label="6a. How many victims were involved? (killed)",required=False)
 	killed_reported = forms.IntegerField(label="6b. How many were victims were identified/reported about in further detail? (killed)",required=False)

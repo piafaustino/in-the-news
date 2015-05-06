@@ -58,6 +58,7 @@ class NewsArticle(models.Model):
 	resp_group = models.CharField(max_length=1000,blank=True,null=True)
 	tone = models.CharField(max_length=1000,blank=True,null=True)
 	completed = models.CharField(max_length=1000,blank=True,null=True)
+	vehicle_type = models.CharField(max_length=1000,blank=True,null=True)
 
 	region = models.CharField(max_length=1000, blank=True,null=True)
 	city_municipality = models.CharField(max_length=1000, blank=True,null=True)
@@ -73,6 +74,7 @@ class NewsArticle(models.Model):
 	stat_scope_others = models.CharField(max_length=1000, blank=True, null=True)
 	orgs_others = models.CharField(max_length=1000, blank=True, null=True)
 	resp_group_others = models.CharField(max_length=1000, blank=True, null=True)
+	vehicle_type_others = models.CharField(max_length=1000, blank=True, null=True)
 
 	def __str__(self):
 		return self.title
