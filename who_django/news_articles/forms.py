@@ -28,10 +28,11 @@ class NewsArticleForm(forms.Form):
 
 
 	exclude_choices = [
+		('-','-'),
 		('Yes','Yes'),
 		]
 	exclude_label = 'EXCLUDE?'
-	exclude = forms.MultipleChoiceField(label=exclude_label, choices=exclude_choices, widget=forms.CheckboxSelectMultiple(),required=False)
+	exclude = forms.ChoiceField(label=exclude_label, choices=exclude_choices,required=False)
 
 	report_type_choices = (
 		('-','-'),
