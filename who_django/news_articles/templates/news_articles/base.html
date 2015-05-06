@@ -7,10 +7,49 @@
         <link rel="stylesheet" href="{% static 'css/news_articles.css' %}">
     </head>
 	<body>
+
 	    <div class="page-header">
 	        <h1><a href="/">News Articles</a></h1>
-	    	<p><a href="{%url 'article_text_list' %}">text</a> / <a href="{% url 'article_video_list' %}">video</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{%url 'article_include_list' %}">included</a> / <a href="{%url 'article_exclude_list' %}">excluded</a></p>
+	    	<p><a href="{% url 'article_text_list' %}">text</a> / <a href="{% url 'article_video_list' %}">video</a> | <a href="{% url 'article_include_list' %}">included</a> / <a href="{%url 'article_exclude_list' %}">excluded</a></p>
+
+		{% if complete_yes %}
+	    	<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'article_list' %}"><strong>Yes</strong></a> / <a href="{% url 'article_complete_no_list' %}">No</a></p>
+	    {% elif complete_no %}
+	    	<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'article_list' %}">Yes</a> / <a href="{% url 'article_list' %}"><strong>No</strong></a></p>
+
+	    {% elif mavie %}
+			<p>rater: <a href="{% url 'article_list' %}"><strong>Mavie</strong></a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'mavie_complete_yes_list' %}">Yes</a> / <a href="{% url 'mavie_complete_no_list' %}">No</a></p>
+
+	    {% elif mavie_complete_yes %}
+			<p>rater: <a href="{% url 'article_list' %}"><strong>Mavie</strong></a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'mavie_list' %}"><strong>Yes</strong></a> / <a href="{% url 'mavie_complete_no_list' %}">No</a></p>
+
+	    {% elif mavie_complete_no %}
+			<p>rater: <a href="{% url 'article_list' %}"><strong>Mavie</strong></a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'mavie_complete_yes_list' %}">Yes</a> / <a href="{% url 'mavie_list' %}"><strong>No</strong></a></p>
+
+		{% elif candice %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'article_list' %}"><strong>Candice</strong></a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'candice_complete_yes_list' %}">Yes</a> / <a href="{% url 'candice_complete_no_list' %}">No</a></p>
+
+		{% elif candice_complete_yes %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'article_list' %}"><strong>Candice</strong></a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'candice_list' %}"><strong>Yes</strong></a> / <a href="{% url 'candice_complete_no_list' %}">No</a></p>
+
+		{% elif candice_complete_no %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'article_list' %}"><strong>Candice</strong></a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'candice_complete_yes_list' %}">Yes</a> / <a href="{% url 'candice_list' %}"><strong>No</strong></a></p>
+
+
+		{% elif pia %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'article_list' %}"><strong>Pia</strong></a> | completed: <a href="{% url 'pia_complete_yes_list' %}">Yes</a> / <a href="{% url 'pia_complete_no_list' %}">No</a></p>
+
+		{% elif pia_complete_yes %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'article_list' %}"><strong>Pia</strong></a> | completed: <a href="{% url 'pia_list' %}"><strong>Yes</strong></a> / <a href="{% url 'pia_complete_no_list' %}">No</a></p>
+
+		{% elif pia_complete_no %}
+			<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'article_list' %}"><strong>Pia</strong></a> | completed: <a href="{% url 'pia_complete_yes_list' %}">Yes</a> / <a href="{% url 'pia_list' %}"><strong>No</strong></a></p>
+
+	    {% else %}
+	    	<p>rater: <a href="{% url 'mavie_list' %}">Mavie</a> / <a href="{% url 'candice_list' %}">Candice</a> / <a href="{% url 'pia_list' %}">Pia</a> | completed: <a href="{% url 'article_complete_yes_list' %}">Yes</a> / <a href="{% url 'article_complete_no_list' %}">No</a></p>
+	   	{% endif %}
 	    </div>
+
 	    <div class="content container">
 	        <div class="row">
 	            <div class="col-md-8">

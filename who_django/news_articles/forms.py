@@ -17,6 +17,16 @@ class NewsArticleForm(forms.Form):
 	kicker = forms.CharField(max_length=300,required=False)
 	'''
 
+	rater_choices = [
+		('-','-'),
+		('mavie','mavie'),
+		('candice','candice'),
+		('pia','pia'),
+		]
+	rater_label = 'Rater:'
+	rater = forms.ChoiceField(label=rater_label,choices=rater_choices)
+
+
 	exclude_choices = [
 		('Yes','Yes'),
 		]

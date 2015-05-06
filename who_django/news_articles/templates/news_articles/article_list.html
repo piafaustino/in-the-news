@@ -3,6 +3,7 @@
 {% block content %}
 	{% for article in articles %}
 	    <div class="post">
+	        <p><strong>rater: </strong>{{ article.rater }}</p>
 	        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
 	        <p><strong>primary key: </strong>{{ article.pk }}
 	        <p><strong>published: </strong>{{ article.date }}</p>
@@ -20,15 +21,14 @@
 		<span class="step-links">
 			{% if articles.has_previous %}
 				<a href="?page={{ articles.previous_page_number }}">previous</a>
-			{% else %}
-				previous
 			{% endif %}
 			<span clas="current">
-				Page {{ articles.number }} of {{ articles.paginator.num_pages }}
+				{{ articles.number }} of {{ articles.paginator.num_pages }}
 			</span>
 			{% if articles.has_next %}
 				<a href="?page={{ articles.next_page_number }}">next</a>
 			{% endif %}
 		</span>
 	</strong></div>
+
 {% endblock content %}

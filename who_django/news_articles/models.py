@@ -35,6 +35,9 @@ class NewsArticle(models.Model):
 	#type of news (video or article)
 	news_type = models.CharField(max_length=300, blank=True, null=True)
 
+	#rater
+	rater = models.CharField(max_length=300, blank=True, null=True)
+
 	#survey questions:
 	report_type = models.CharField(max_length=1000,blank=True,null=True)
 	dominant_topic = models.CharField(max_length=1000,blank=True,null=True)

@@ -7,7 +7,8 @@ from django.db.models.fields.related import ManyToManyField
 from pprint import pprint
 import ast
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-
+from itertools import chain
+from django.http import HttpResponse
 
 #from .forms import NameForm
 def to_dict(instance):
@@ -123,7 +124,7 @@ def article_edit(request, pk):
 		form = NewsArticleForm(request.POST)
 		if form.is_valid():
 			print "CLEANED DATA"
-			print form.cleaned_data
+			pprint(form.cleaned_data)
 			NewsArticle.objects.filter(pk=pk).update(**form.cleaned_data)
 			return redirect('news_articles.views.article_list')
 	else:
@@ -151,3 +152,173 @@ def get_name(request):
 		name = ''
 	return render(request, 'news_articles/name.html',{'form':form,'current_name': 'dog','name':name})
 '''
+def article_complete_yes_list(request):
+	articles_list = NewsArticle.objects.filter(completed__startswith="Yes")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'complete_yes':1})
+
+def article_complete_no_list(request):
+	articles_list = NewsArticle.objects.exclude(completed__startswith="Yes")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'complete_no':1})
+
+def mavie_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="mavie")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'mavie':1})
+
+def mavie_complete_yes_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="mavie")\
+					.filter(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'mavie_complete_yes':1})
+
+def mavie_complete_no_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="mavie")\
+					.exclude(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'mavie_complete_no':1})
+
+def candice_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="candice")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'candice':1})
+
+def candice_complete_yes_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="candice")\
+					.filter(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'candice_complete_yes':1})
+
+def candice_complete_no_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="candice")\
+					.exclude(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'candice_complete_no':1})
+
+def pia_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="pia")\
+					.order_by('relevance_ranking').reverse()
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'pia':1})
+
+def pia_complete_yes_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="pia")\
+					.filter(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'pia_complete_yes':1})
+
+def pia_complete_no_list(request):
+	articles_list = NewsArticle.objects.filter(rater__startswith="pia")\
+					.exclude(completed__startswith="Yes").order_by('relevance_ranking').reverse()
+
+	paginator = Paginator(articles_list, 10)
+
+	page = request.GET.get('page')
+	try:
+		articles = paginator.page(page)
+	except PageNotAnInteger:
+		articles = paginator.page(1)
+	except EmptyPage:
+		articles = paginator.page(paginator.num_pages)
+
+	return render(request, 'news_articles/article_list.html', {'articles': articles,'pia_complete_no':1})
