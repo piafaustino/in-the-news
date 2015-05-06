@@ -65,6 +65,15 @@ class NewsArticle(models.Model):
 
 	exclude = models.CharField(max_length=1000, blank=True, null=True)
 
+	report_type_others = models.CharField(max_length=1000, blank=True, null=True)
+	dominant_topic_others = models.CharField(max_length=1000, blank=True, null=True)
+	vehicle_cat_others = models.CharField(max_length=1000, blank=True, null=True)
+	potential_cause_others = models.CharField(max_length=1000, blank=True, null=True)
+	solutions_others = models.CharField(max_length=1000, blank=True, null=True)
+	stat_scope_others = models.CharField(max_length=1000, blank=True, null=True)
+	orgs_others = models.CharField(max_length=1000, blank=True, null=True)
+	resp_group_others = models.CharField(max_length=1000, blank=True, null=True)
+
 	def __str__(self):
 		return self.title
 # Create your models here

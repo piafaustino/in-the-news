@@ -45,7 +45,12 @@
     		{% if "region" in field.label %}
     			<p><strong>10. What's the location of the road crash?</strong></p>
     		{% endif %}
-    		<p><strong>{{ field.label}}</strong> {{ field }}</p>
+
+    		{% if field.label == "Others" %}
+    			<ul><li><strong>{{ field.label }}</strong> {{ field }}</li></ul>
+    		{% else %}
+    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
+    		{% endif %}
     	{% endfor %}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
