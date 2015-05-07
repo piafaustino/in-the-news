@@ -11,6 +11,7 @@ urlpatterns = [
 	url(r'^exclude/$',views.article_exclude_list, name="article_exclude_list"),
 	url(r'^complete_yes/$',views.article_complete_yes_list, name="article_complete_yes_list"),
 	url(r'^complete_no/$', views.article_complete_no_list, name="article_complete_no_list"),
+
 	url(r'^mavie/$', views.mavie_list, name="mavie_list"),
 	url(r'^mavie/complete_yes/$', views.mavie_complete_yes_list, name="mavie_complete_yes_list"),
 	url(r'^mavie/complete_no/$', views.mavie_complete_no_list, name="mavie_complete_no_list"),

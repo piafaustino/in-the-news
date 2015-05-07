@@ -38,7 +38,7 @@ def string_to_list(input_dict):
 	return test_dict
 
 def article_list(request):
-	articles_list = NewsArticle.objects.order_by('relevance_ranking').reverse()
+	articles_list = NewsArticle.objects.order_by('order_id')
 	paginator = Paginator(articles_list, 10) # show 10 contacts per page
 
 	page = request.GET.get('page') #still have to check what this does.
@@ -133,8 +133,28 @@ def article_edit(request, pk):
 		print "OUTPUT DATA"
 		pprint(article_dict)
 
+		news_type = article.news_type
+
 		form = NewsArticleForm(article_dict)
-	return render(request, 'news_articles/article_edit.html', {'form': form, 'article':article})
+
+		try:
+			prev_article_pk = NewsArticle.objects.filter(order_id__lt=article.order_id).order_by('order_id')[0].pk
+		except Exception, e:
+			print e
+			prev_article_pk = article.pk
+
+		try:
+			next_article_pk = NewsArticle.objects.filter(order_id__gt=article.order_id).order_by('order_id')[0].pk
+		except Exception, e:
+			print e
+			next_article_pk = article.pk
+
+	return render(request, 'news_articles/article_edit.html', {'form': form,
+															   'article':article,
+															   'prev_article_pk':prev_article_pk,
+															   'next_article_pk':next_article_pk
+															   })
+
 '''
 def get_name(request):
 	# if this is a POST request we need to process the form data

@@ -5,7 +5,7 @@
     {% if article.news_type == "text" %}
 	    <div class="post">
 		    <p>{{ article.title }}</p>
-		    <p><strong>primary key: </strong>{{ article.pk }}</p>
+		    <p><strong>order id: </strong>{{ article.order_id }}
 		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
 		    <p><strong>date: </strong>{{ article.date }}</p>
 		    <p><strong>source: </strong>{{ article.source }}</p>
@@ -22,7 +22,7 @@
 	{% elif article.news_type == "video" %}
 		<div class="post">
 		    <p>{{ article.title }}</p>
-		    <p><strong>primary key: </strong>{{ article.pk }}</p>
+		    <p><strong>order id: </strong>{{ article.order_id }}
 		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
 		    <p><strong>date: </strong>{{ article.date }}</p>
 		    <p><strong>source: </strong>{{ article.source }}</p>
@@ -39,7 +39,9 @@
 		</div>
 	{% endif %}
 	<h1>Article Survey</h1>
-    <form method="POST" class="post-form">
+
+    <form method="POST">
+    <div class="form-group">
     	{% csrf_token %}
     	{% for field in form %}
     		{% if "region" in field.label %}
@@ -52,6 +54,17 @@
     			<p><strong>{{ field.label }}</strong> {{ field }}</p>
     		{% endif %}
     	{% endfor %}
-        <button type="submit" class="save btn btn-default">Save</button>
+        <button type="submit" class="btn btn-default">Save</button>
+    </div>
     </form>
+
+<ul class="pager">
+<li class="previous"><button type="button" class="btn btn-default">
+  <a href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+</button></li>
+
+<li class="next"><button type="button" class="btn btn-default">
+  <a href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+</button></li>
+</ul>
 {% endblock %}

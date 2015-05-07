@@ -15,9 +15,11 @@ class NewsArticle(models.Model):
 	byline = models.CharField(max_length=300, blank=True,null=True)
 	language = models.CharField(max_length=20, blank=True,null=True)
 	kicker = models.CharField(max_length=300,blank=True,null=True)
+	order_id = models.IntegerField(blank=True, null=True)
 
 	#video article fields
 	view_count = models.IntegerField(blank=True, null=True)
+#	order_id = models.IntegerField(blank=True, null=True)
 #	relevance_ranking = models.FloatField()
 #	language = models.CharField(max_length=20, blank=True,null=True)
 #	title = models.CharField(max_length=300,null=True, blank=True) -
