@@ -54,9 +54,16 @@
     			<p><strong>{{ field.label }}</strong> {{ field }}</p>
     		{% endif %}
     	{% endfor %}
-        <button type="submit" class="btn btn-default">Save</button>
+        <button id="show_button" type="submit" class="btn btn-default">Save</button>
+        <p id="show_message">Saved!</p>
     </div>
     </form>
+
+    <script>
+		$( "#show_button" ).click(function() {
+		  $( "#show_message" ).show( "slow" );
+		});
+	</script>
 
 <ul class="pager">
 <li class="previous"><button type="button" class="btn btn-default">

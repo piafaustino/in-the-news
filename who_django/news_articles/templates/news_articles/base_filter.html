@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Traffic Articles</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/news_articles.css' %}">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+    {% block content %}
+    {% endblock %}
+	</body>
+</html>

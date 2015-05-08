@@ -1,6 +1,9 @@
 from django import forms
 from .models import NewsArticle
 
+class ListFiltersForm(forms.Form):
+	pass
+
 class NewsArticleForm(forms.Form):
 	'''
 	title = forms.CharField(max_length=300)

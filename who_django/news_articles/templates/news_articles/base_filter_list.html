@@ -1,0 +1,48 @@
+{% extends 'news_articles/base_filter.html' %}
+{% block content %}
+	<div class="page-header">
+		<h1><a href="/main/">News Articles</a></h1>
+
+		<form method="POST" action="{% url 'base_filter' %}">
+			<div class="form-group">
+			{% csrf_token %}
+    			<p>rater: <input id="mavie_0" name="mavie" type="checkbox" value='1' {{ mavie_checked }}/> Mavie <input id="candice_0" name="candice" type="checkbox" value="1" {{ candice_checked }}/> Candice <input id="pia_0" name="pia" type="checkbox" value="1" {{ pia_checked }}/> Pia | completed: <input id="complete_yes_0" name="complete_yes" type="checkbox" value="1" {{ complete_yes_checked }}/> yes <input id="complete_no_0" name="complete_no" type="checkbox" value="1" {{ complete_no_checked }}/> no | news type: <input id="text_0" name="text" type="checkbox" value='1' {{ text_checked }}/> text <input id="video_0" name="video" type="checkbox" value="1" {{ video_checked }}/> video | exclude: <input id="exclude_yes_0" name="exclude_yes" type="checkbox" value="1" {{ exclude_yes_checked }}/> Yes <input id="exclude_no_0" name="exclude_no" type="checkbox" value="1" {{ exclude_no_checked }}/> No &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-default btn-xs"><strong>Go</strong></button></p>
+    		</div>
+    	</form>
+
+	</div>
+
+	<div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+		    	{% for article in articles %}
+			        <p><strong>rater: </strong>{{ article.rater }}</p>
+			        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
+			        <p><strong>order id: </strong>{{ article.order_id }}
+			        <p><strong>published: </strong>{{ article.date }}</p>
+			        <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
+			        <p><strong>source: </strong>{{ article.source }}</p>
+			        <p><strong>link: </strong><a href="{{ article.link }}">{{ article.link }}</a></p>
+			        <p><strong>type: </strong>{{ article.news_type }}</p>
+			    	<p><strong>completed: </strong>{{ article.completed }}</p>
+			    	<p><strong>excluded: </strong>{{ article.exclude }}</p>
+		    	{% endfor %}
+
+				<div class="pagination"><strong>
+					<span class="step-links">
+						{% if articles.has_previous %}
+							<a href="?page={{ articles.previous_page_number }}">previous</a>
+						{% endif %}
+						<span clas="current">
+							{{ articles.number }} of {{ articles.paginator.num_pages }}
+						</span>
+						{% if articles.has_next %}
+							<a href="?page={{ articles.next_page_number }}">next</a>
+						{% endif %}
+					</span>
+				</strong></div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
