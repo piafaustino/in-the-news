@@ -3,12 +3,32 @@
 {% block content %}
 	{% for article in articles %}
 	    <div class="post">
+	        <p><strong>rater: </strong>{{ article.rater }}</p>
 	        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
-	        <p>published: {{ article.date }}</p>
-	        <p>relevance score: {{ article.relevance_ranking }}</p>
-	        <p>source: {{ article.source }}</p>
-	        <p>link: <a href="{{ article.link }}">{{ article.link }}</a></p>
+	        <p><strong>order id: </strong>{{ article.order_id }}
+	        <p><strong>published: </strong>{{ article.date }}</p>
+	        <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
+	        <p><strong>source: </strong>{{ article.source }}</p>
+	        <p><strong>link: </strong><a href="{{ article.link }}">{{ article.link }}</a></p>
+	        <p><strong>type: </strong>{{ article.news_type }}</p>
+	    	<p><strong>completed: </strong>{{ article.completed }}</p>
+	    	<p><strong>excluded: </strong>{{ article.exclude }}</p>
 	    	<hr>
 	    </div>
 	{% endfor %}
+
+	<div class="pagination"><strong>
+		<span class="step-links">
+			{% if articles.has_previous %}
+				<a href="?page={{ articles.previous_page_number }}">previous</a>
+			{% endif %}
+			<span clas="current">
+				{{ articles.number }} of {{ articles.paginator.num_pages }}
+			</span>
+			{% if articles.has_next %}
+				<a href="?page={{ articles.next_page_number }}">next</a>
+			{% endif %}
+		</span>
+	</strong></div>
+
 {% endblock content %}

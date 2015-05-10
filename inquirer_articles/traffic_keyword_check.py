@@ -12,9 +12,10 @@ TRAFFIC_KEYWORDS = './keywords_and_urls/traffic_keywords'
 DOMAIN_NAME = 'http://newsinfo.inquirer.net'
 
 #filename for the output.
-FILE_NAME = './keywords_and_urls/traffic_urls'
+FILE_NAME = './keywords_and_urls/2014_article_urls'
 
 if __name__ == "__main__":
+
 	with open(TRAFFIC_KEYWORDS, 'r') as f:
 		traffic_keywords = [str(x).strip().lower() for x in f.read().splitlines()]
 

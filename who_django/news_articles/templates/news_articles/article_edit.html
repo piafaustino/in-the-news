@@ -1,10 +1,77 @@
 {% extends 'news_articles/base.html' %}
 
 {% block content %}
-    <h1>Article Survey</h1>
-    <form method="POST" class="post-form">
+    <h1>Article Details</h1>
+    {% if article.news_type == "text" %}
+	    <div class="post">
+		    <p>{{ article.title }}</p>
+		    <p><strong>order id: </strong>{{ article.order_id }}
+		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
+		    <p><strong>date: </strong>{{ article.date }}</p>
+		    <p><strong>source: </strong>{{ article.source }}</p>
+		    <p><strong>link: </strong><a href = "{{ article.link }}">{{ article.link }}</a></p>
+		    <p><strong>article:</strong> {{ article.article|linebreaks }}</p>
+		    <p><strong>author: </strong>{{ article.author }}</p>
+		    <p><strong>location: </strong>{{ article.location }}</p>
+		    <p><strong>accident_count: </strong>{{ article.accident_count }}</p>
+		    <p><strong>byline: </strong>{{ article.byline }}</p>
+		    <p><strong>language: </strong>{{ article.language }}</p>
+		    <p><strong>kicker: </strong>{{ article.kicker }}</p>
+		    <hr>
+		</div>
+	{% elif article.news_type == "video" %}
+		<div class="post">
+		    <p>{{ article.title }}</p>
+		    <p><strong>order id: </strong>{{ article.order_id }}
+		    <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
+		    <p><strong>date: </strong>{{ article.date }}</p>
+		    <p><strong>source: </strong>{{ article.source }}</p>
+		    <p><strong>link: </strong><a href = "{{ article.link }}">{{ article.link }}</a></p>
+		    <p><strong>accident_count: </strong>{{ article.accident_count }}</p>
+		    <p><strong>language: </strong>{{ article.language }}</p>
+		    <p><strong>duration: </strong>{{ article.duration }}</p>
+		    <p><strong>view count: </strong>{{ article.view_count }}</p>
+		    <p><strong>like count: </strong>{{ article.like_count }}</p>
+		    <p><strong>comment count: </strong>{{ article.comment_count }}</p>
+		    <p><strong>favorite count: </strong>{{ article.favorite_count }}</p>
+		    <p><strong>dislike count: </strong>{{ article.dislike_count }}</p>
+		    <hr>
+		</div>
+	{% endif %}
+	<h1>Article Survey</h1>
+
+    <form method="POST">
+    <div class="form-group">
     	{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
+    	{% for field in form %}
+    		{% if "region" in field.label %}
+    			<p><strong>10. What's the location of the road crash?</strong></p>
+    		{% endif %}
+
+    		{% if field.label == "Others" %}
+    			<ul><li><strong>{{ field.label }}</strong> {{ field }}</li></ul>
+    		{% else %}
+    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
+    		{% endif %}
+    	{% endfor %}
+        <button id="show_button" type="submit" class="btn btn-default">Save</button>
+        <p id="show_message">Saved!</p>
+    </div>
     </form>
+
+    <script>
+		$( "#show_button" ).click(function() {
+		  $( "#show_message" ).show( "slow" );
+		});
+	</script>
+
+<ul class="pager">
+<li class="previous"><button type="button" class="btn btn-default">
+  <a href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+</button></li>
+
+<li class="next"><button type="button" class="btn btn-default">
+  <a href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+</button></li>
+</ul>
 {% endblock %}

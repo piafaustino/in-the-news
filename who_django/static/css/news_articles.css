@@ -1,5 +1,16 @@
 body {
     padding-left: 15px;
 }
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.glyphicon-chevron-left {
+	float: left;
+}
 
 
+.glyphicon-chevron-right {
+	float: right;
+}

@@ -104,7 +104,7 @@ def location_from_content(json_input, location_keywords_path):
 			location_keywords.remove('')
 
 	location_keywords = set([x.strip().lower() for x in location_keywords])
-	location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
+#	location_keywords = [' ' + x + punct for x in location_keywords for punct in ('',' ',',','.',':',';')]
 
 	loc_tag = []
 
@@ -130,7 +130,7 @@ def location_from_content(json_input, location_keywords_path):
 		if metro_manila_count == manila_count:
 			loc_tag.remove('manila')
 
-	return list(set(loc_tag))
+	return list(set(loc_tag)).join(', ')
 
 if __name__ == "__main__":
 	with open(TRAFFIC_KEYWORDS_PATH, 'r') as outfile:
@@ -159,13 +159,15 @@ if __name__ == "__main__":
 			i['relevance_score'] = relevance_score(i['article'], traffic_keywords)
 		else:
 			i['relevance_score'] = 0.0
+
+'''
 	count = 0
 	for i in json_list:
 		if location_from_content(i,LOCATION_KEYWORDS_PATH) == []:
 			count += 1
 	print count
-
 '''
+
 	#sorting with the highest relevance score
 	top_relevant = sort_relevance(json_list)
 
@@ -175,4 +177,4 @@ if __name__ == "__main__":
 
 	#part where we create csv
 	create_csv(top_relevant, CSV_OUTPUT)
-'''
+
