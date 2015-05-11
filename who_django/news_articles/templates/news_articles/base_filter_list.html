@@ -14,7 +14,27 @@
 
 	<div class="content container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
+
+				<div class="pagination"><strong>
+					<span class="step-links">
+						{% if articles.has_previous %}
+							<a class="btn btn-default" href="?page={{ articles.previous_page_number }}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% else %}
+							<a class="btn btn-default" disabled="disabled"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						<span clas="current">
+						{% endif %}
+							{{ articles.number }} of {{ articles.paginator.num_pages }}
+						</span>
+						{% if articles.has_next %}
+						    <a class="btn btn-default" href="?page={{ articles.next_page_number }}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% else %}
+						    <a class="btn btn-default" href="?page={{ articles.next_page_number }}" disabled><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% endif %}
+					</span>
+					<hr>
+				</strong></div>
+
 		    	{% for article in articles %}
 			        <p><strong>rater: </strong>{{ article.rater }}</p>
 			        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
@@ -26,20 +46,26 @@
 			        <p><strong>type: </strong>{{ article.news_type }}</p>
 			    	<p><strong>completed: </strong>{{ article.completed }}</p>
 			    	<p><strong>excluded: </strong>{{ article.exclude }}</p>
+			    	<hr>
 		    	{% endfor %}
 
 				<div class="pagination"><strong>
 					<span class="step-links">
 						{% if articles.has_previous %}
-							<a href="?page={{ articles.previous_page_number }}">previous</a>
-						{% endif %}
+							<a class="btn btn-default" href="?page={{ articles.previous_page_number }}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% else %}
+							<a class="btn btn-default" disabled="disabled"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
 						<span clas="current">
+						{% endif %}
 							{{ articles.number }} of {{ articles.paginator.num_pages }}
 						</span>
 						{% if articles.has_next %}
-							<a href="?page={{ articles.next_page_number }}">next</a>
+						    <a class="btn btn-default" href="?page={{ articles.next_page_number }}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% else %}
+						    <a class="btn btn-default" href="?page={{ articles.next_page_number }}" disabled><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
 						{% endif %}
 					</span>
+					<hr>
 				</strong></div>
 
             </div>

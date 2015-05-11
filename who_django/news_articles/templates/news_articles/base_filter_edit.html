@@ -7,21 +7,26 @@
 
 	<div class="content container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
 
             	{% if save_message %}
-            	<p class="text-center">{{ save_message }}</p>
+            	<p id="save_message" style="display:None;" class="text-center">{{ save_message }}</p>
 				{% endif %}
 
-				<ul class="pager">
-				<li class="previous"><button type="button" class="btn btn-default">
-				  <a href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
-				</button></li>
-
-				<li class="next"><button type="button" class="btn btn-default">
-				  <a href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
-				</button></li>
-				</ul>
+				<div class="pagination"><strong>
+						{% if prev_article_pk != article.pk %}
+							<a class="btn btn-default" href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% else %}
+							<a class="btn btn-default" disabled="disabled"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% endif %}
+						{% if next_article_pk != article.pk %}
+						    <a class="btn btn-default" href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% else %}
+						    <a class="btn btn-default" disabled><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% endif %}
+					</span>
+					<hr>
+				</strong></div>
 
 			    <h1>Article Details</h1>
 			    {% if article.news_type == "text" %}
@@ -92,20 +97,26 @@
 			    </form>
 
 			    <script>
-					$( "#show_button" ).click(function() {
-					  $( "#show_message" ).show( "slow" );
+					$( document ).ready(function() {
+					  $( "#save_message" ).show( "slow" );
 					});
 				</script>
 
-				<ul class="pager">
-				<li class="previous"><button type="button" class="btn btn-default">
-				  <a href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
-				</button></li>
+				<div class="pagination"><strong>
+						{% if prev_article_pk != article.pk %}
+							<a class="btn btn-default" href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% else %}
+							<a class="btn btn-default" disabled="disabled"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+						{% endif %}
+						{% if next_article_pk != article.pk %}
+						    <a class="btn btn-default" href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% else %}
+						    <a class="btn btn-default" disabled><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></button>
+						{% endif %}
+					</span>
+					<hr>
+				</strong></div>
 
-				<li class="next"><button type="button" class="btn btn-default">
-				  <a href="{% url 'article_edit' pk=next_article_pk %}"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
-				</button></li>
-				</ul>
             </div>
         </div>
     </div>

@@ -213,7 +213,6 @@ class NewsArticleForm(forms.Form):
 
 	stat_scope_label = "15. What scope of statistics on road safety are used?"
 	stat_scope_choices = (
-		('-','-'),
 		('City or municipality wide','City or municipality wide'),
 		('Regional','Regional'),
 		('National','National'),

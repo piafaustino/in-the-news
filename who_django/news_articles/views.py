@@ -140,14 +140,16 @@ def article_edit(request, pk):
 	#this part is for the page navigator
 	try:
 		prev_article_pk = NewsArticle.objects.filter(order_id__lt=article.order_id).order_by('order_id')[0].pk
+		print 'prev_article_pk', prev_article_pk
 	except Exception, e:
-		print e
+		print 'article_edit error:', e
 		prev_article_pk = article.pk
 
 	try:
 		next_article_pk = NewsArticle.objects.filter(order_id__gt=article.order_id).order_by('order_id')[0].pk
+		print 'next_article_pk', next_article_pk
 	except Exception, e:
-		print e
+		print 'article_edit error:', e
 		next_article_pk = article.pk
 
 	return render(request, 'news_articles/base_filter_edit.html', {'form': form,
