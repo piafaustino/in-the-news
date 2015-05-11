@@ -116,8 +116,8 @@ class NewsArticleForm(forms.Form):
 	killed = forms.IntegerField(label="6a. How many victims were killed in the car crash? (killed)",required=False)
 	killed_reported = forms.CharField(label="6b. How many of the fatalities were described in further detail and how?", widget=forms.Textarea, required=False)
 
-	injured = forms.IntegerField(label="7a. How many victims were involved? (injured)",required=False)
-	injured_reported = forms.IntegerField(label="7b. How many were victims were identified/reported about in further detail? (injured)",required=False)
+	injured = forms.IntegerField(label="How many victims were injured in the car crash?",required=False)
+	injured_reported = forms.CharField(label="7b. How many of the injured were described in further detail and how?", widget=forms.Textarea, required=False)
 
 	ongoing_coverage_label = "8. Is this article part of ongoing or follow-up coverage of a single incident?"
 	ongoing_coverage = forms.CharField(label=ongoing_coverage_label, max_length=100,required=False)
