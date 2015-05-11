@@ -170,7 +170,7 @@ class NewsArticleForm(forms.Form):
 	larger_context = forms.ChoiceField(label=larger_context_label,
 		choices=larger_context_choices,required=False)
 
-	solutions_choices = (
+	solutions_choices_deprecated = (
 		('Laws','Laws'),
 		('Improvement of Driver Education','Improvement of Driver Education'),
 		('Improvement of Pedestrian Education','Improvement of Pedestrian Education'),
@@ -190,6 +190,15 @@ class NewsArticleForm(forms.Form):
 		('Automotive industry standards or new tech','Automotive industry standards or new tech'),
 		('Others','Others')
 		)
+
+	solutions_choices = (
+		('Safer road management','Safer road management'),
+		('Safer road infrastructure','Safer road infrastructure'),
+		('Safer vehicles','Safer vehicles'),
+		('Safer road users','Safer road users'),
+		('Better post-crash response','Better post-crash response')
+		)
+
 	solutions_label = "13. What solutions are discussed? (tick all that apply)"
 	solutions = forms.MultipleChoiceField(label=solutions_label,choices=solutions_choices,widget=forms.CheckboxSelectMultiple(),required=False)
 	solutions_others = forms.CharField(label="Others", max_length=100, required=False)
