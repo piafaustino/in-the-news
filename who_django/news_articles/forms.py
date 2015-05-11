@@ -147,7 +147,7 @@ class NewsArticleForm(forms.Form):
 		widget=forms.CheckboxSelectMultiple(),required=False)
 	potential_cause_others = forms.CharField(label="Others", max_length=100, required=False)
 
-	region_label = "region"
+	region_label = "province"
 	region = forms.CharField(label=region_label, max_length=100,required=False)
 
 	city_municipality_label = "city/municipality"
