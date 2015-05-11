@@ -285,6 +285,16 @@ def base_filter(request):
 		except EmptyPage:
 			articles = paginator.page(paginator.num_pages)
 
+		request.session['mavie_checked'] = mavie_checked
+		request.session['candice_checked'] = candice_checked
+		request.session['pia_checked'] = pia_checked
+		request.session['complete_yes_checked'] = complete_yes_checked
+		request.session['complete_no_checked'] = complete_no_checked
+		request.session['exclude_yes_checked'] = exclude_yes_checked
+		request.session['exclude_no_checked'] = exclude_no_checked
+		request.session['video_checked'] = video_checked
+		request.session['text_checked'] = text_checked
+
 		return render(request, 'news_articles/base_filter_list.html',{'articles':articles,
 																 'mavie_checked':mavie_checked,
 																 'candice_checked':candice_checked,
@@ -300,6 +310,7 @@ def base_filter(request):
 	else:
 		articles = default_articles
 
+		#paginator
 		paginator = Paginator(articles, 10)
 		page = request.GET.get('page')
 		try:
@@ -309,7 +320,27 @@ def base_filter(request):
 		except EmptyPage:
 			articles = paginator.page(paginator.num_pages)
 
-		return render(request,'news_articles/base_filter_list.html', {'articles':articles})
+		mavie_checked = request.session.get('mavie_checked','')
+		candice_checked = request.session.get('candice_checked','')
+		pia_checked = request.session.get('pia_checked','')
+		complete_yes_checked = request.session.get('complete_yes_checked','')
+		complete_no_checked = request.session.get('complete_no_checked','')
+		exclude_yes_checked = request.session.get('exclude_yes_checked','')
+		exclude_no_checked = request.session.get('exclude_no_checked','')
+		video_checked = request.session.get('video_checked','')
+		text_checked = request.session.get('text_checked','')
+
+		return render(request, 'news_articles/base_filter_list.html',{'articles':articles,
+																 'mavie_checked':mavie_checked,
+																 'candice_checked':candice_checked,
+																 'pia_checked': pia_checked,
+																 'complete_yes_checked':complete_yes_checked,
+																 'complete_no_checked':complete_no_checked,
+																 'exclude_yes_checked':exclude_yes_checked,
+																 'exclude_no_checked':exclude_no_checked,
+																 'video_checked':video_checked,
+																 'text_checked':text_checked,
+																})
 
 def testing_post_view(request):
 	if request.method == "POST":
