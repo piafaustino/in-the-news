@@ -66,7 +66,7 @@
 			    <div class="form-group">
 			    	{% csrf_token %}
 			    	{% for field in form %}
-			    		{% if "region" in field.label %}
+			    		{% if "province" in field.label %}
 			    			<p><strong>10. What's the location of the road crash?</strong></p>
 			    		{% endif %}
 
@@ -82,7 +82,7 @@
 			    		    <textarea cols="75" id="id_injured_reported" name="injured_reported" rows="7" placeholder="Place details here."></textarea></p>
 
 			    		{% else %}
-			    			<p><strong>{{ field.label }}</strong>{{ field }}</p>
+			    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
 			    		{% endif %}
 
 			    	{% endfor %}

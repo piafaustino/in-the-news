@@ -16,6 +16,7 @@ class NewsArticle(models.Model):
 	language = models.CharField(max_length=20, blank=True,null=True)
 	kicker = models.CharField(max_length=300,blank=True,null=True)
 	order_id = models.IntegerField(blank=True, null=True)
+	accident_time_of_day = models.CharField(max_length=300,blank=True,null=True)
 
 	#video article fields
 	view_count = models.IntegerField(blank=True, null=True)
@@ -33,6 +34,9 @@ class NewsArticle(models.Model):
 	youtube_id = models.CharField(max_length=20,null=True)
 	dislike_count = models.IntegerField(blank=True, null=True)
 	link = models.CharField(max_length=300,null=True)
+#	order_id = models.IntegerField(blank=True, null=True)
+#	accident_time_of_day = models.CharField(max_length=300,blank=True,null=True)
+
 
 	#type of news (video or article)
 	news_type = models.CharField(max_length=300, blank=True, null=True)

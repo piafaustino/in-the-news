@@ -147,6 +147,8 @@ class NewsArticleForm(forms.Form):
 		widget=forms.CheckboxSelectMultiple(),required=False)
 	potential_cause_others = forms.CharField(label="Others", max_length=100, required=False)
 
+	#the question on item 11 is on the html template.
+
 	region_label = "province"
 	region = forms.CharField(label=region_label, max_length=100,required=False)
 
@@ -156,7 +158,10 @@ class NewsArticleForm(forms.Form):
 	specific_location_label = "specific location"
 	specific_location = forms.CharField(label=specific_location_label, max_length=100,required=False)
 
-	larger_context_label = "11. Does the report relate the accident to a broader cause or mention a larger context?"
+	accident_time_of_day_label = "11. What time of day did the accident take place?"
+	accident_time_of_day = forms.CharField(label=accident_time_of_day_label, max_length=100,required=False)
+
+	larger_context_label = "12. Does the report relate the accident to a broader cause or mention a larger context?"
 	larger_context_choices = (
 		('-','-'),
 		('Yes','Yes'),
