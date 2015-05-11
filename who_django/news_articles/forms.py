@@ -206,7 +206,7 @@ class NewsArticleForm(forms.Form):
 		('International','International'),
 		('Others','Others')
 		)
-	stat_scope = forms.ChoiceField(label=stat_scope_label,choices=stat_scope_choices,required=False)
+	stat_scope = forms.MultipleChoiceField(label=stat_scope_label,choices=stat_scope_choices,widget=forms.CheckboxSelectMultiple(),required=False)
 	stat_scope_others = forms.CharField(label="Others", max_length=100, required=False)
 
 	orgs_choices = (
