@@ -72,9 +72,15 @@
 
 			    		{% if field.label == "Others" %}
 			    			<ul><li><strong>{{ field.label }}</strong> {{ field }}</li></ul>
+
+			    		{% elif field.label == "6b. How many of the fatalities were described in further detail and how?" %}
+			    			<p><strong>{{ field.label }}</strong><br/>
+			    			<textarea cols="75" id="id_killed_reported" name="killed_reported" rows="7" placeholder="Place details here."></textarea></p>
+
 			    		{% else %}
-			    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
+			    			<p><strong>{{ field.label }}</strong>{{ field }}</p>
 			    		{% endif %}
+
 			    	{% endfor %}
 			        <button id="show_button" type="submit" class="btn btn-default">Save</button>
 			        <p id="show_message" style="display:None;">Saved!</p>
