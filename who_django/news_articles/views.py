@@ -163,6 +163,7 @@ def base_filter(request):
 	if request.method == "POST":
 		clean = request.POST
 		pprint(clean)
+		object_caller_list = []
 
 		checked_dict = {}
 		list_of_lists = [default_articles]
@@ -170,6 +171,8 @@ def base_filter(request):
 		if request.POST.get('mavie'):
 			rater_count = 1
 			mavie_list = NewsArticle.objects.filter(rater__startswith="mavie")
+			object_caller_list.append('mavie_list')
+			object_caller_list.append('rater_count')
 			mavie_checked = 'checked'
 		else:
 			mavie_list = []
@@ -177,6 +180,8 @@ def base_filter(request):
 		if request.POST.get('candice'):
 			rater_count = 1
 			candice_list = NewsArticle.objects.filter(rater__startswith="candice")
+			object_caller_list.append('candice_list')
+			object_caller_list.append('rater_count')
 			candice_checked = 'checked'
 		else:
 			candice_list = []
@@ -184,6 +189,8 @@ def base_filter(request):
 		if request.POST.get('pia'):
 			rater_count = 1
 			pia_list = NewsArticle.objects.filter(rater__startswith="pia")
+			object_caller_list.append('pia_list')
+			object_caller_list.append('rater_count')
 			pia_checked = 'checked'
 		else:
 			pia_list = []
@@ -200,6 +207,8 @@ def base_filter(request):
 		if request.POST.get('complete_yes'):
 			complete_count = 1
 			complete_yes = NewsArticle.objects.filter(completed__startswith="Yes")
+			object_caller_list.append('complete_yes')
+			object_caller_list.append('complete_count')
 			complete_yes_checked = 'checked'
 		else:
 			complete_yes = []
@@ -207,6 +216,8 @@ def base_filter(request):
 		if request.POST.get('complete_no'):
 			complete_count = 1
 			complete_no = NewsArticle.objects.exclude(completed__startswith="Yes")
+			object_caller_list.append('complete_no')
+			object_caller_list.append('complete_count')
 			complete_no_checked = 'checked'
 		else:
 			complete_no = []
@@ -223,6 +234,8 @@ def base_filter(request):
 		if request.POST.get('exclude_yes'):
 			exclude_count = 1
 			exclude_yes = NewsArticle.objects.filter(exclude__startswith="Yes")
+			object_caller_list.append('exclude_yes')
+			object_caller_list.append('exclude_count')
 			exclude_yes_checked = 'checked'
 		else:
 			exclude_yes = []
@@ -230,6 +243,8 @@ def base_filter(request):
 		if request.POST.get('exclude_no'):
 			exclude_count = 1
 			exclude_no = NewsArticle.objects.exclude(exclude__startswith="Yes")
+			object_caller_list.append('exclude_no')
+			object_caller_list.append('exclude_count')
 			exclude_no_checked = 'checked'
 		else:
 			exclude_no = []
@@ -246,6 +261,8 @@ def base_filter(request):
 		if request.POST.get('video'):
 			video_count = 1
 			video = NewsArticle.objects.filter(news_type__startswith="video")
+			object_caller_list.append('video')
+			object_caller_list.append('video_count')
 			video_checked = 'checked'
 		else:
 			video = []
@@ -262,6 +279,8 @@ def base_filter(request):
 		if request.POST.get('text'):
 			text_count = 1
 			text = NewsArticle.objects.filter(news_type__startswith="text")
+			object_caller_list.append('text')
+			object_caller_list.append('text_count')
 			text_checked = 'checked'
 		else:
 			text = []
@@ -274,9 +293,13 @@ def base_filter(request):
 		except Exception, e:
 				print e
 
+
 		#to get the intersection
 		articles = set.intersection(*map(set, list_of_lists))
 		articles = sorted(articles, key=lambda article: article.order_id) #to sort the list in an ascending order based on the order_id
+
+		object_caller_list = list(set(object_caller_list))
+		articles = object_caller(object_caller_list)
 
 		paginator = Paginator(articles, 10)
 		page = request.GET.get('page')
@@ -287,6 +310,7 @@ def base_filter(request):
 		except EmptyPage:
 			articles = paginator.page(paginator.num_pages)
 
+		request.session['session_search_list'] = object_caller_list
 		request.session['mavie_checked'] = mavie_checked
 		request.session['candice_checked'] = candice_checked
 		request.session['pia_checked'] = pia_checked
@@ -296,6 +320,7 @@ def base_filter(request):
 		request.session['exclude_no_checked'] = exclude_no_checked
 		request.session['video_checked'] = video_checked
 		request.session['text_checked'] = text_checked
+
 
 		return render(request, 'news_articles/base_filter_list.html',{'articles':articles,
 																 'mavie_checked':mavie_checked,
@@ -310,7 +335,11 @@ def base_filter(request):
 																})
 
 	else:
-		articles = default_articles
+
+		if request.session.get('session_search_list'):
+			articles = object_caller(request.session.get('session_search_list'))
+		else:
+			articles = default_articles
 
 		#paginator
 		paginator = Paginator(articles, 10)
@@ -343,6 +372,75 @@ def base_filter(request):
 																 'video_checked':video_checked,
 																 'text_checked':text_checked,
 																})
+
+def object_caller(filter_list):
+	master_list = []
+	#rater filter
+	if 'rater_count' in filter_list:
+		if 'mavie_list' in filter_list:
+			mavie_list = NewsArticle.objects.filter(rater__startswith="mavie")
+		else:
+			mavie_list = []
+		if 'candice_list' in filter_list:
+			candice_list = NewsArticle.objects.filter(rater__startswith="candice")
+		else:
+			candice_list = []
+		if 'pia_list' in filter_list:
+			pia_list = NewsArticle.objects.filter(rater__startswith="pia")
+		else:
+			pia_list = []
+		rater_list = list(chain(mavie_list, candice_list, pia_list))
+		master_list.append(rater_list)
+
+	#completed filter
+	if 'complete_count' in filter_list:
+		if 'complete_yes' in filter_list:
+			complete_yes = NewsArticle.objects.filter(completed__startswith="Yes")
+		else:
+			complete_yes = []
+		if 'complete_no' in filter_list:
+			complete_no = NewsArticle.objects.exclude(completed__startswith="Yes")
+		else:
+			complete_no = []
+		complete_list = list(chain(complete_yes, complete_no))
+		master_list.append(complete_list)
+
+	#exclusion filter
+	if 'exclude_count' in filter_list:
+		if 'exclude_yes' in filter_list:
+			exclude_yes = NewsArticle.objects.filter(exclude__startswith="Yes")
+		else:
+			exclude_yes = []
+		if 'exclude_no' in filter_list:
+			exclude_no = NewsArticle.objects.exclude(exclude__startswith="Yes")
+		else:
+			exclude_no = []
+		exclude_list = list(chain(exclude_yes, exclude_no))
+		master_list.append(exclude_list)
+
+	#video filter
+	if 'video_count' in filter_list:
+		if 'video' in filter_list:
+			video = NewsArticle.objects.filter(news_type__startswith="video")
+		else:
+			video = []
+		video_list = list(chain(video))
+		master_list.append(video_list)
+
+	#text filter
+	if 'text_count' in filter_list:
+		if 'text' in filter_list:
+			text = NewsArticle.objects.filter(news_type__startswith="text")
+		else:
+			text = []
+		text_list = list(chain(text))
+		master_list.append(text_list)
+
+	articles = set.intersection(*map(set, master_list))
+	articles = sorted(articles, key=lambda article: article.order_id)
+
+	return articles
+
 
 def testing_post_view(request):
 	if request.method == "POST":
