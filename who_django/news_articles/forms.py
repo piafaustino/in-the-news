@@ -5,20 +5,6 @@ class ListFiltersForm(forms.Form):
 	pass
 
 class NewsArticleForm(forms.Form):
-	'''
-	title = forms.CharField(max_length=300)
-	relevance_ranking = forms.FloatField()
-	date = forms.DateField()
-	source = forms.CharField(max_length=20)
-	link = forms.CharField(max_length=300)
-	article = forms.CharField(widget=forms.Textarea,required=False)
-	author = forms.CharField(max_length=300,required=False)
-	location = forms.CharField(max_length=300,required=False)
-	accident_count = forms.CharField(max_length=300,required=False)
-	byline = forms.CharField(max_length=300,required=False)
-	language = forms.CharField(max_length=20,required=False)
-	kicker = forms.CharField(max_length=300,required=False)
-	'''
 
 	rater_choices = [
 		('-','-'),
@@ -64,6 +50,7 @@ class NewsArticleForm(forms.Form):
 		('Seatbelt use','Seatbelt use'),
 		('Others','Others')
 		)
+
 	dominant_topic = forms.MultipleChoiceField(label = dominant_topic_label, choices=dominant_topic_choices, widget=forms.CheckboxSelectMultiple(),required=False)
 	dominant_topic_others = forms.CharField(label="Others", max_length=100, required=False)
 
@@ -170,33 +157,30 @@ class NewsArticleForm(forms.Form):
 	larger_context = forms.ChoiceField(label=larger_context_label,
 		choices=larger_context_choices,required=False)
 
-	solutions_choices_deprecated = (
-		('Laws','Laws'),
-		('Improvement of Driver Education','Improvement of Driver Education'),
-		('Improvement of Pedestrian Education','Improvement of Pedestrian Education'),
-		('Change in individual habits','Change in individual habits'),
-		('Improvement of infrastructure','Improvement of infrastructure'),
-		('Construction of new roads','Construction of new roads'),
-		('Improvement of traffic management','Improvement of traffic management'),
-		('Improvement of public transport','Improvement of public transport'),
-		('Stricter process for getting a drivers license','Stricter process for getting a drivers license'),
-		('Stricter process for getting a public transport franchise','Stricter process for getting a public transport franchise'),
-		('Stricter process of vehicle registration','Stricter process of vehicle registration'),
-		('Improved vehicle maintenance','Improved vehicle maintenance'),
-		('Improvement of working conditions in transport sector','Improvement of working conditions in transport sector'),
-		('Use of helmet or seat belts','Use of helmet or seat belts'),
-		('Implementation of speed limits and other local ordinances','Implementation of speed limits and other local ordinances'),
-		('Routine safety inspection','Routine safety inspection'),
-		('Automotive industry standards or new tech','Automotive industry standards or new tech'),
-		('Others','Others')
-		)
-
 	solutions_choices = (
-		('Safer road management','Safer road management'),
-		('Safer road infrastructure','Safer road infrastructure'),
-		('Safer vehicles','Safer vehicles'),
-		('Safer road users','Safer road users'),
-		('Better post-crash response','Better post-crash response')
+		('Enforcment of speed limits', 'Enforcement of speed limits'),
+		('Reduction of speed limits', 'Reduction of speed limits'),
+		('Improvement of traffic enforcement', 'Improvement of traffic enforcement'),
+		('Stricter drivers license regulation', 'Stricter drivers license regulation'),
+		('Stricter public transport franchise regulation','Stricter public transport franchise regulation'),
+		('Improvement of working conditions in transport sector','Improvement of working conditions in transport sector'),
+		('Implementation of safety inspections on public transport','Implementation of safety inspections on public transport'),
+		('Improvement of road infrastructure','Improvement of road infrastructure'),
+		('Improvement of infrastructure for pedestrians','Improvement of infrastructure for pedestrians'),
+		('Improvement of infrastructure for cyclists','Improvement of infrastructure for cyclists'),
+		('Improvement of mass public transport infrastructure','Improvement of mass public transport infrastructure'),
+		('Installation of road signs','Installation of road signs'),
+		('Improved visibility or accuracy of road signs','Improved visibility or accuracy of road signs'),
+		('Stricter automotive industry standards','Stricter automotive industry standards'),
+		('Safer vehicle technology','Safer vehicle technology'),
+		('Improved vehicle maintenance','Improved vehicle maintenance'),
+		('Road user education','Road user education'),
+		('Use of helmets','Use of helmets'),
+		('Use of seat belts','Use of seat belts'),
+		('Avoiding mobile use while driving','Avoiding mobile use while driving'),
+		('Use of child restraints','Use of child restraints'),
+		('Improvement of post-crash emergency response','Improvement of post-crash emergency response'),
+		('Others','Others')
 		)
 
 	solutions_label = "13. What solutions are discussed? (tick all that apply)"
