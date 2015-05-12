@@ -13,6 +13,7 @@
             	<p id="save_message" style="display:None;" class="text-center">{{ save_message }}</p>
 				{% endif %}
 
+				<!--
 				<div class="pagination"><strong>
 						{% if prev_article_pk != article.pk %}
 							<a class="btn btn-default" href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
@@ -27,6 +28,7 @@
 					</span>
 					<hr>
 				</strong></div>
+				-->
 
 			    <h1>Article Details</h1>
 			    {% if article.news_type == "text" %}
@@ -102,6 +104,7 @@
 					});
 				</script>
 
+				<!--
 				<div class="pagination"><strong>
 						{% if prev_article_pk != article.pk %}
 							<a class="btn btn-default" href="{% url 'article_edit' pk=prev_article_pk %}"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
@@ -116,7 +119,7 @@
 					</span>
 					<hr>
 				</strong></div>
-
+				-->
             </div>
         </div>
     </div>

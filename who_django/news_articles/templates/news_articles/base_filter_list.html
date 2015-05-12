@@ -37,7 +37,7 @@
 
 		    	{% for article in articles %}
 			        <p><strong>rater: </strong>{{ article.rater }}</p>
-			        <h3><a href="{% url 'article_edit' pk=article.pk %}">{{ article.title }}</a></h3>
+			        <h3><a href="{% url 'article_edit' pk=article.pk %}" target="_blank">{{ article.title }}</a></h3>
 			        <p><strong>order id: </strong>{{ article.order_id }}
 			        <p><strong>published: </strong>{{ article.date }}</p>
 			        <p><strong>relevance score: </strong>{{ article.relevance_ranking }}</p>
