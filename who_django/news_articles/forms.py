@@ -245,5 +245,7 @@ class NewsArticleForm(forms.Form):
 	tone_label = "18. What's the tone of the report?"
 	tone = forms.ChoiceField(label=tone_label,choices=tone_choices,required=False)
 
+	rater_notes = forms.CharField(label="Rater's Notes", max_length=1000, widget=forms.Textarea, required=False)
+
 	completed = forms.ChoiceField(label='Survey Finished?',choices=(('-','-'),('Yes','Yes'),('No','No')),required=False)
 

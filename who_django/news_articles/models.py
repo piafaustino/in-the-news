@@ -17,6 +17,7 @@ class NewsArticle(models.Model):
 	kicker = models.CharField(max_length=300,blank=True,null=True)
 	order_id = models.IntegerField(blank=True, null=True)
 	accident_time_of_day = models.CharField(max_length=300,blank=True,null=True)
+	rater_notes =  models.CharField(max_length=1000,blank=True,null=True)
 
 	#video article fields
 	view_count = models.IntegerField(blank=True, null=True)

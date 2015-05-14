@@ -26,10 +26,8 @@ def to_dict(instance):
 
 def string_to_list(input_dict):
 	test_dict = input_dict
-	print test_dict.keys()
 	for key in test_dict.keys():
 		dict_val = test_dict[key]
-		print type(dict_val), dict_val
 		try:
 			dict_val = ast.literal_eval(dict_val)
 			test_dict[key] = dict_val
@@ -121,6 +119,7 @@ def article_detail(request,pk):
 def article_edit(request, pk):
 	article = get_object_or_404(NewsArticle, pk=pk)
 	save_message = None
+
 	if request.method == "POST":
 		form = NewsArticleForm(request.POST)
 		if form.is_valid():
@@ -130,9 +129,12 @@ def article_edit(request, pk):
 
 			article = get_object_or_404(NewsArticle, pk=pk)
 			save_message = "Survey successfully saved."
+
 	article_dict = to_dict(article)
 	article_dict = string_to_list(article_dict)
+
 	print "OUTPUT DATA"
+	print type(article_dict)
 	pprint(article_dict)
 
 	form = NewsArticleForm(article_dict)
@@ -140,16 +142,12 @@ def article_edit(request, pk):
 	#this part is for the page navigator
 	try:
 		prev_article_pk = NewsArticle.objects.filter(order_id__lt=article.order_id).order_by('order_id')[0].pk
-		print 'prev_article_pk', prev_article_pk
 	except Exception, e:
-		print 'article_edit error:', e
 		prev_article_pk = article.pk
 
 	try:
 		next_article_pk = NewsArticle.objects.filter(order_id__gt=article.order_id).order_by('order_id')[0].pk
-		print 'next_article_pk', next_article_pk
 	except Exception, e:
-		print 'article_edit error:', e
 		next_article_pk = article.pk
 
 	return render(request, 'news_articles/base_filter_edit.html', {'form': form,
@@ -462,23 +460,6 @@ def testing_post_view(request):
 
 		return render(request, 'news_articles/base_filter.html')
 
-'''
-def get_name(request):
-	# if this is a POST request we need to process the form data
-	if request.method == 'POST':
-		# create a form instance and populate it with data from the request:
-		form = NameForm(request.POST)
-		# check whether its valid:
-		if form.is_valid():
-			# process the data in form.cleaned_data as required.
-			# ...
-			# redirect to a new URL:
-			name = form.cleaned_data['your_name']
-	else:
-		form = NameForm()
-		name = ''
-	return render(request, 'news_articles/name.html',{'form':form,'current_name': 'dog','name':name})
-'''
 def article_complete_yes_list(request):
 	articles_list = NewsArticle.objects.filter(completed__startswith="Yes")\
 					.order_by('relevance_ranking').reverse()
