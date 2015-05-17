@@ -138,7 +138,8 @@ def article_edit(request, pk):
 	pprint(article_dict)
 
 	form = NewsArticleForm(article_dict)
-
+	print "FORM"
+	print form
 	#this part is for the page navigator
 	try:
 		prev_article_pk = NewsArticle.objects.filter(order_id__lt=article.order_id).order_by('order_id')[0].pk
@@ -152,6 +153,7 @@ def article_edit(request, pk):
 
 	return render(request, 'news_articles/base_filter_edit.html', {'form': form,
 															   'article':article,
+															   'article_dict':article_dict,
 															   'prev_article_pk':prev_article_pk,
 															   'next_article_pk':next_article_pk,
 															   'save_message':save_message})

@@ -82,13 +82,13 @@
 
 			    		{% elif field.label == "6b. How many of the fatalities were described in further detail and how?" %}
 			    			<p><strong>{{ field.label }}</strong><br/>
-			    			<textarea cols="75" id="id_killed_reported" name="killed_reported" rows="7" placeholder="Place details here."></textarea></p>
+			    			<textarea cols="75" id="id_killed_reported" name="killed_reported" rows="7" placeholder="Place details here.">{{ article_dict.killed_reported }}</textarea></p>
 
 			    		{% elif field.label == "7b. How many of the injured were described in further detail and how?" %}
 			    		    <p><strong>{{ field.label }}</strong><br/>
-			    		    <textarea cols="75" id="id_injured_reported" name="injured_reported" rows="7" placeholder="Place details here."></textarea></p>
+			    		    <textarea cols="75" id="id_injured_reported" name="injured_reported" rows="7" placeholder="Place details here.">{{ article_dict.injured_reported }}</textarea></p>
 
-			    		{% elif field.label == "Rater's Notes" %}
+			    		{% elif field.label == "Raters Notes" %}
 			    			<p><strong>{{ field.label }}</strong><br/>
 			    			<textarea cols="75" id="id_rater_notes" name="rater_notes" rows="7"
 			    			placeholder="Place details here."></textarea></p>
