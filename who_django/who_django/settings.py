@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '1w^i%#j(1gu2qv_4u0s22b!mh!@p2tvfq9q74veo7gm!n@8*p&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
@@ -89,7 +89,7 @@ DATABASES['default'] = dj_database_url.config()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ALLOWED_HOSTS = ['*']
 STATIC_ROOT = 'staticfiles'
-DEBUG = False
+DEBUG = True
 
 try:
     from .local_settings import *
@@ -99,3 +99,5 @@ except ImportError:
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+

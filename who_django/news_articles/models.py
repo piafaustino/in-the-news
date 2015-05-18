@@ -17,7 +17,7 @@ class NewsArticle(models.Model):
 	kicker = models.CharField(max_length=300,blank=True,null=True)
 	order_id = models.IntegerField(blank=True, null=True)
 	accident_time_of_day = models.CharField(max_length=300,blank=True,null=True)
-	rater_notes =  models.CharField(max_length=1000,blank=True,null=True)
+
 
 	#video article fields
 	view_count = models.IntegerField(blank=True, null=True)
@@ -52,9 +52,9 @@ class NewsArticle(models.Model):
 	road_crash_vehicles = models.CharField(max_length=1000,blank=True,null=True)
 	vehicle_cat = models.CharField(max_length=1000,blank=True,null=True)
 	killed = models.IntegerField(blank=True,null=True)
-	killed_reported = models.CharField(max_length=1000,blank=True,null=True)
+	killed_reported = models.TextField(blank=True,null=True)
 	injured = models.IntegerField(blank=True,null=True)
-	injured_reported = models.CharField(max_length=1000,blank=True,null=True)
+	injured_reported = models.TextField(blank=True,null=True)
 	ongoing_coverage = models.CharField(max_length=1000,blank=True,null=True)
 	potential_cause = models.CharField(max_length=1000,blank=True,null=True)
 	larger_context = models.CharField(max_length=1000,blank=True,null=True)
@@ -73,15 +73,16 @@ class NewsArticle(models.Model):
 
 	exclude = models.CharField(max_length=1000, blank=True, null=True)
 
-	report_type_others = models.CharField(max_length=1000, blank=True, null=True)
-	dominant_topic_others = models.CharField(max_length=1000, blank=True, null=True)
-	vehicle_cat_others = models.CharField(max_length=1000, blank=True, null=True)
-	potential_cause_others = models.CharField(max_length=1000, blank=True, null=True)
-	solutions_others = models.CharField(max_length=1000, blank=True, null=True)
-	stat_scope_others = models.CharField(max_length=1000, blank=True, null=True)
-	orgs_others = models.CharField(max_length=1000, blank=True, null=True)
-	resp_group_others = models.CharField(max_length=1000, blank=True, null=True)
-	vehicle_type_others = models.CharField(max_length=1000, blank=True, null=True)
+	report_type_others = models.TextField(blank=True, null=True)
+	dominant_topic_others = models.TextField(blank=True, null=True)
+	vehicle_cat_others = models.TextField(blank=True, null=True)
+	potential_cause_others = models.TextField(blank=True, null=True)
+	solutions_others = models.TextField(blank=True, null=True)
+	stat_scope_others = models.TextField(blank=True, null=True)
+	orgs_others = models.TextField(blank=True, null=True)
+	resp_group_others = models.TextField(blank=True, null=True)
+	vehicle_type_others = models.TextField(blank=True, null=True)
+	rater_notes =  models.TextField(blank=True,null=True)
 
 	def __str__(self):
 		return self.title

@@ -123,8 +123,10 @@ def article_edit(request, pk):
 	if request.method == "POST":
 		form = NewsArticleForm(request.POST)
 		if form.is_valid():
+			'''
 			print "CLEANED DATA"
 			pprint(form.cleaned_data)
+			'''
 			NewsArticle.objects.filter(pk=pk).update(**form.cleaned_data)
 
 			article = get_object_or_404(NewsArticle, pk=pk)
@@ -132,14 +134,17 @@ def article_edit(request, pk):
 
 	article_dict = to_dict(article)
 	article_dict = string_to_list(article_dict)
-
+	'''
 	print "OUTPUT DATA"
 	print type(article_dict)
-	pprint(article_dict)
 
+	pprint(article_dict)
+	'''
 	form = NewsArticleForm(article_dict)
+	'''
 	print "FORM"
 	print form
+	'''
 	#this part is for the page navigator
 	try:
 		prev_article_pk = NewsArticle.objects.filter(order_id__lt=article.order_id).order_by('order_id')[0].pk
@@ -162,7 +167,9 @@ def base_filter(request):
 	default_articles = NewsArticle.objects.order_by('order_id')
 	if request.method == "POST":
 		clean = request.POST
+		'''
 		pprint(clean)
+		'''
 		object_caller_list = []
 
 		checked_dict = {}

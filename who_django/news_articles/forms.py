@@ -32,7 +32,7 @@ class NewsArticleForm(forms.Form):
 		('Others','Others')
 		)
 	report_type = forms.ChoiceField(label = "1. What type of report is it?", choices=report_type_choices,required=False)
-	report_type_others = forms.CharField(label="Others", max_length=100, required=False)
+	report_type_others = forms.CharField(label="Others", required=False)
 
 	dominant_topic_label = "2. What is the dominant topic of the report? (tick all that apply)"
 	dominant_topic_choices = (
@@ -52,7 +52,7 @@ class NewsArticleForm(forms.Form):
 		)
 
 	dominant_topic = forms.MultipleChoiceField(label = dominant_topic_label, choices=dominant_topic_choices, widget=forms.CheckboxSelectMultiple(),required=False)
-	dominant_topic_others = forms.CharField(label="Others", max_length=100, required=False)
+	dominant_topic_others = forms.CharField(label="Others", required=False)
 
 	road_crash_label = "3. Is this story about a specific road crash incident?"
 	road_crash_choices = (
@@ -74,7 +74,7 @@ class NewsArticleForm(forms.Form):
 		('Others','Others')
 		)
 	vehicle_cat = forms.MultipleChoiceField(label=vehicle_cat_label, choices=vehicle_cat_choices, widget=forms.CheckboxSelectMultiple(),required=False)
-	vehicle_cat_others = forms.CharField(label="Others", max_length=100, required=False)
+	vehicle_cat_others = forms.CharField(label="Others", required=False)
 
 	vehicle_type_label = ("5b. What type of vehicles are involved in the incident?")
 	vehicle_type_choices = (
@@ -98,7 +98,7 @@ class NewsArticleForm(forms.Form):
 		('Others','Others')
 		)
 	vehicle_type = forms.MultipleChoiceField(label=vehicle_type_label, choices=vehicle_type_choices, widget=forms.CheckboxSelectMultiple(),required=False)
-	vehicle_type_others = forms.CharField(label="Others", max_length=100, required=False)
+	vehicle_type_others = forms.CharField(label="Others", required=False)
 
 	killed = forms.IntegerField(label="6a. How many victims were killed in the car crash? (killed)",required=False)
 	killed_reported = forms.CharField(label="6b. How many of the fatalities were described in further detail and how?", widget=forms.Textarea, required=False)
@@ -132,7 +132,7 @@ class NewsArticleForm(forms.Form):
 	potential_cause = forms.MultipleChoiceField(label=potential_cause_label,
 		choices=potential_cause_choices,
 		widget=forms.CheckboxSelectMultiple(),required=False)
-	potential_cause_others = forms.CharField(label="Others", max_length=100, required=False)
+	potential_cause_others = forms.CharField(label="Others", required=False)
 
 	#the question on item 11 is on the html template.
 
@@ -185,7 +185,7 @@ class NewsArticleForm(forms.Form):
 
 	solutions_label = "13. What solutions are discussed? (tick all that apply)"
 	solutions = forms.MultipleChoiceField(label=solutions_label,choices=solutions_choices,widget=forms.CheckboxSelectMultiple(),required=False)
-	solutions_others = forms.CharField(label="Others", max_length=100, required=False)
+	solutions_others = forms.CharField(label="Others", required=False)
 
 	statistics_choices = (
 		('-','-'),
@@ -204,7 +204,7 @@ class NewsArticleForm(forms.Form):
 		('Others','Others')
 		)
 	stat_scope = forms.MultipleChoiceField(label=stat_scope_label,choices=stat_scope_choices,widget=forms.CheckboxSelectMultiple(),required=False)
-	stat_scope_others = forms.CharField(label="Others", max_length=100, required=False)
+	stat_scope_others = forms.CharField(label="Others", required=False)
 
 	orgs_choices = (
 		('Word Health Organization','Word Health Organization'),
@@ -222,7 +222,7 @@ class NewsArticleForm(forms.Form):
 		)
 	orgs_label = "16. Who are some of the institutions or organizations cited as sources in the report?"
 	orgs = forms.MultipleChoiceField(label=orgs_label,choices=orgs_choices,widget=forms.CheckboxSelectMultiple(),required=False)
-	orgs_others = forms.CharField(label="Others", max_length=100, required=False)
+	orgs_others = forms.CharField(label="Others", required=False)
 
 	resp_group_choices = (
 		('Vehicle users','Vehicle users'),
@@ -235,7 +235,7 @@ class NewsArticleForm(forms.Form):
 		)
 	resp_group_label = "17. Does the report mention any agency/group as bearing responsibility for road accidents/improving road safety? (tick all that apply)"
 	resp_group = forms.MultipleChoiceField(label=resp_group_label,choices=resp_group_choices,widget=forms.CheckboxSelectMultiple(),required=False)
-	resp_group_others = forms.CharField(label="Others", max_length=100, required=False)
+	resp_group_others = forms.CharField(label="Others", required=False)
 
 	tone_choices = (
 		('-','-'),
@@ -248,7 +248,7 @@ class NewsArticleForm(forms.Form):
 	tone_label = "18. What's the tone of the report?"
 	tone = forms.ChoiceField(label=tone_label,choices=tone_choices,required=False)
 
-	rater_notes = forms.CharField(label="Raters Notes", max_length=1000, widget=forms.Textarea, required=False)
+	rater_notes = forms.CharField(label="Raters Notes", widget=forms.Textarea, required=False)
 
 	completed = forms.ChoiceField(label='Survey Finished?',choices=(('-','-'),('Yes','Yes'),('No','No')),required=False)
 
