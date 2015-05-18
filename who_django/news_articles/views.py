@@ -299,7 +299,11 @@ def base_filter(request):
 		articles = sorted(articles, key=lambda article: article.order_id) #to sort the list in an ascending order based on the order_id
 
 		object_caller_list = list(set(object_caller_list))
-		articles = object_caller(object_caller_list)
+		try:
+			articles = object_caller(object_caller_list)
+		except TypeError:
+			articles = default_articles
+			request.session.flush()
 
 		paginator = Paginator(articles, 10)
 		page = request.GET.get('page')
@@ -340,6 +344,7 @@ def base_filter(request):
 			articles = object_caller(request.session.get('session_search_list'))
 		else:
 			articles = default_articles
+			request.session.flush()
 
 		#paginator
 		paginator = Paginator(articles, 10)
