@@ -91,7 +91,7 @@
 			    		{% elif field.label == "Raters Notes" %}
 			    			<p><strong>{{ field.label }}</strong><br/>
 			    			<textarea cols="75" id="id_rater_notes" name="rater_notes" rows="7"
-			    			placeholder="Place details here."></textarea></p>
+			    			placeholder="Place details here.">{{ article_dict.rater_notes }}</textarea></p>
 
 			    		{% else %}
 			    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
