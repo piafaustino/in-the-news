@@ -82,7 +82,8 @@ class NewsArticle(models.Model):
 	orgs_others = models.TextField(blank=True, null=True)
 	resp_group_others = models.TextField(blank=True, null=True)
 	vehicle_type_others = models.TextField(blank=True, null=True)
-	rater_notes =  models.TextField(blank=True,null=True)
+	rater_notes =  models.TextField(blank=True, null=True)
+	road_crash_liable = models.TextField(blank=True, null=True)
 
 	def __str__(self):
 		return self.title

@@ -250,5 +250,7 @@ class NewsArticleForm(forms.Form):
 
 	rater_notes = forms.CharField(label="Raters Notes", widget=forms.Textarea, required=False)
 
+	road_crash_liable = forms.CharField(label="Who is being held liable for the road crash?", widget=forms.Textarea, required=False)
+
 	completed = forms.ChoiceField(label='Survey Finished?',choices=(('-','-'),('Yes','Yes'),('No','No')),required=False)
 

@@ -93,6 +93,11 @@
 			    			<textarea cols="75" id="id_rater_notes" name="rater_notes" rows="7"
 			    			placeholder="Place details here.">{{ article_dict.rater_notes }}</textarea></p>
 
+			    		{% elif field.label == "Who is being held liable for the road crash?" %}
+			    			<p><strong>{{ field.label }}</strong><br/>
+			    			<textarea cols="75" id="id_road_crash_liable" name="road_crash_liable" rows="7"
+			    			placeholder="Place details here.">{{ article_dict.road_crash_liable }}</textarea></p>
+
 			    		{% else %}
 			    			<p><strong>{{ field.label }}</strong> {{ field }}</p>
 			    		{% endif %}
