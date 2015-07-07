@@ -1,0 +1,868 @@
+pk,injured_number,injured_specific,killed_number,killed_specific,other,Legal action
+821,0.00,,0.00,,,
+1878,0.00,,0.00,,,
+793,1.00,"ridergroup: SUV driver; age: adult; gender: male; injury: broken knee, facial injuries; others: intoxicated; /",0.00,,,
+988,2.00,ridergroup: truck driver; name: Sonny Bernabe; profession: truck driver; injury: bruises; status: fled the scene; /,0.00,,,
+2559,2.00,ridergroup: driver; injury: minor injury/ ridergroup: driver; injury: minor injury/,0.00,,,
+1258,4.00,"name: Roman Campita; profession: photographer; gender: male; age: adult; injury: shoulder injury; ridergroup: passenger; hospital: in Manila; /
+name: Sgt. Danilo Tamo; ridergroup: SUV driver; ridergroup: military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /
+name: Sgt. Alexander Sicat; profession: military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /
+name: Corp. Alexander Solis; profession: corporal in military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /",0.00,,,
+271,11.00,name: Carlo Arancilla; ridergroup: driver /,0.00,,,
+944,18.00,"name: Jerry Daloyan, ridergroup: jeepney driver, condition: lost consciousness, gender: male, age: adult; / name: Rexie Go, ridergroup: jeepney driver, gender: male, age: adult; /
+gender: female, ridergroup: passenger, condition: 4 months pregnant, age: adult; /
+age: child, ridergroup: jeepney passenger; / 
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; / 
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",0.00,,,
+1975,,,0.00,,,
+563,1.00,name: Mary Joy Socorro; ridergroup: motorcycle driver; /,1.00,"name: Espartero; ridergroup: motorcycle passenger; gender: female; /
+",,
+564,1.00,ridergroup: van passenger; profession: helper; /,1.00,ridergroup: van driver; condition: dead on arrival; gender: male; /,,
+1785,1.00,ridergroup: truck passenger; age: 17; injury: minor; /,1.00,ridergroup: truck driver; name: Wilfredo Reyes; age: 51; gender: male; condition: dead on arrival; hospital: Quirino Memorial Medical Center; /,,
+2144,1.00,name: Reuben George Robles; ridergroup: car driver; /,1.00,name: Engelbert Piol; ridergroup: motorcycle driver; condition: dead on spot; injury: thrown off motorcycle; /,,
+2288,1.00,name: Edmund Balderan; age: 31; ridergroup: motorcycle rider; gender: male; profession: chef; hospital: San Juan de Dios Hospital; / ,1.00,"name: Edgardo Sagun; residence: Barangay Carmona, Makati; gender: male; ridergroup: pedestrian; /",,
+113,2.00,"name: Mary Joy Henon; gender: female; ridergroup: motorcycle passenger; injury: wounded; condition: brought to hospital; /
+name: Melanie Sia; gender: female; ridergroup: motorcycle passenger; injury: wounded; condition: brought to hospital; /",1.00,name: Jean Mart Henon; gender: male; ridergroup: motorcycle rider; causeofdeath: pinned under truck after vehicle collision; condition: dead on the spot; /,,
+1157,2.00,"name: Jesmar Legario; age: 24; gender: male; hospital: Western Visayas Medical Center/
+name: Benjamin Nava; age: 45; gender: male; hospital: Western Visayas Medical Center/",1.00,name: Oscar Hembra; age: 61; gender: male; condition: dead on arrival; hospital:  Western Visayas Sanitarium; /,,
+2003,2.00,ridergroup: motorcycle rider; natureofinjury: vehicle collision; hospital: Quezon City General Hospital; /,1.00,ridergroup: motorcycle rider; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Quezon City General Hospital; /,,
+2229,2.00,"name: Danilo Bumagat; age: 41; gender: male; ridergroup: bystander; natureofinjury: run over by truck with faulty brakes; injury: multiple fractures in his arms and legs; hospital: Rizal Medical Center; /
+name: Nerissa Montefero; age: 66; gender: female; profession: eatery owner; ridergroup: bystander; natureofinjury: run over by truck with faulty brakes; injury: minor bruises; /",1.00,name: Joeylyn Beraa; age: 5; gender: female; ridergroup: bystander; causeofdeath: run over by truck with faulty brakes; condition: dead on the spot due to head injuries; hospital: Immaculate Conception Hospital; /,,
+2263,2.00,ridergroup: taxi driver / ridergroup: passenger / ,1.00,name: Alfonso Mallari; age: 73; gender: male; profession: Bureau of Customs Officer; ridergroup: driver; causeofdeath: severe head injury from crash; /,,
+2275,2.00,ridergroup: passengers; natureofinjury: motorcycle crash; condition: rushed to hospital,1.00,name: Marianee Relatibo; age: 17; gender: female; ridergroup: motorcycle rider; causeofdeath: motorcycle crash; condition: dead on the spot; /,,
+168,3.00,"name: Jansen (Francisco); gender: male; ridergroup: bystander; age: child; residence: Taytay, Rizal; /
+name: Angelo (Francisco); gender: male; ridergroup: bystander; age: child; residence: Taytay, Rizal; /
+name: Marian (Francisco); gender: female; ridergroup: bystander; age: child; residence: Taytay, Rizal; /",1.00,name: Jun Francisco; age: adult; gender: male; ridergroup: bystander; others: father; /,,
+1408,3.00,"name: Muslimin Sema; gender: male; profession: MNLF chairman; others: flown in to a hospital in Davao City; /
+name: Nords Dimasangkay; gender: male; profession: security escort; /
+name: Samad Tasil; gender: male, profession: security escort; /",1.00,name: Bandon Ampatuan; gender: male; profession: security escort; /,,
+427,4.00,,1.00,ridergroup: bystander; age: 53; /,,
+594,4.00,"ridergroup: passenger; injury: minor; hospital: Ospital ng Makati; /
+ridergroup: driver; injury: minor; hospital: Ospital ng Makati; /",1.00,name: Richard Parado; gender: male; ridergroup: passenger; causeofdeath: trapped in burning truck; /,,
+1071,4.00,"name: Mark Anthony Limpat; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /
+name: Cecil Rizo; gender: female; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /
+name: Justin Rafael Rizo; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital;/
+name: Neil Robinson; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /",1.00,"name: Juan Carlos Adajar; age: 31; gender: male; ridergroup: driver, causeofdeath: car slammed into a gutter; /",,
+1120,4.00,"ridergroup: welding shop employee; natureofinjury: truck ran over shop; /
+ridergroup: welding shop customer; natureofinjury: truck ran over shop; /
+ridergroup: tricycle driver; natureofinjury: soil from truck pinned tricycle; /
+ridergroup: tricycle passenger; age: minor; natureofinjury: soil from truck pinned tricycle; / ",1.00,ridergroup: tricycle passenger; causeofdeath: pinned by soil from the truck; /,,
+2307,4.00,"name: Zenaida Gonzaga; age: 47; gender: female; ridergroup: jeepney passenger; residence: Calamba City; natureofinjury: vehicle collision; /
+name: Christian Mendoza; age:34; gender: male; ridergroup: jeepney passenger; residence: Calamba City; natureofinjury: vehicle collision; /
+name: Filipina Benedicto; age: 33; gender: female; ridergroup: jeepney passenger; residence: Rosario, Batangas; natureofinjury: vehicle collision; /
+name: Maria Corazon Adarlo; age: 25; gender: female; ridergroup: jeepney; natureofinjury: vehicle collision passenger; residence: Batangas City; /",1.00,"name: Abegail San Pablo; age: 16; gender: female; ridergroup: jeepney passenger; residence: Barangay Puting Lupa, Calamba City; causeofdeath: jeepney was hit by a truck; /",,
+327,5.00,"name: Diomedez Madrelejos; age: 51; gender: male; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /
+name: Emelyn Divana; age: 35; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /
+name: Catherine Divina; age: 11; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /
+name: Kirby Divina; age: 8 months; gender: male; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /
+name: Lorna Esperas Otario; age: 42; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /",1.00,"name: Antonio Madrelejos; age: 82; gender: male; residence: Barangay Mambajog, Matnog, Sorsogon; ridergroup: bystander; condition: dead on spot; /",,
+551,5.00,"name: Noreto Fernandez; ridergroup: car driver; /
+name: Noel Repoyo; ridergroup: car passenger; /
+name: Garry Gromio; ridergroup: car passenger; /
+name: Crisanto Flores; ridergroup: car passenger; / 
+name: Jonathan Mina; ridergroup: car passenger; /",1.00,name: Max Manzano; ridergroup: car passenger; /,,
+1030,5.00,"name: Reneboy Fabe; age: 20; gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: truck overturned; /
+name: Tomasito Cabatas Salundagit.  gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: truck overturned; /
+name: Jose Estecomin; gender: male; profession: Department of Public Works and Highways employee; /
+name: Joemarie Sumalinog; profession: Department of Public Works and Highways employee; /
+name: Simon Arnaiz; gender: male; profession: Department of Public Works and Highways employee; /",1.00,name: Wilfredo Mahilum; gender: male; ridergroup: truck driver; causeofdeath: truck overturned; /,,
+1745,5.00,"injury: head wounds; hospital: Rizal Medical Center, The Medical City; /",1.00,,,
+2421,5.00,"name: Jerry Sanama; ridergroup: truck driver; /
+name: Darwin Dayao; ridergroup: truck passenger; /
+name: Esmael Anda; ridergroup: truck passenger; /
+name: Jobel Serdan ridergroup: truck passenger; /
+name: Alex Lorgonio; ridergroup: truck passenger; /",1.00,name: Felix Lorgonio; ridergroup: truck passenger; /,,
+2533,5.00,"name: Diomedez Altarejos Madrelejos; age: 51; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /
+name: Emelyn Banagbanag Divana; age: 35; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /
+name: Catherine Banagbanag Divana; age: 11; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /
+name: Lorna Esperas Otario age: 42; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /
+name: Kirby Banagbanag Divana; age: 8 months; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /",1.00,name: Antonio Altarejos Madrelejos; age: 82; gender: male; causeofdeath: vehicle collision; condition: dead on the spot; /,,
+378,6.00,"ridergroup: driver; condition: critical; gender: male /
+ridergroup: passenger; gender: female; profession: mother /",1.00,ridergroup: passenger; age: 1.5; gender: male; profession: son of driver; /,,
+640,6.00,"ridergroup: jeepyney passenger; /
+ridergroup: jeepyney passenger; /
+ridergroup: jeepyney passenger; /
+ridergroup: jeepyney passenger; /
+ridergroup: jeepyney passenger; /
+ridergroup: jeepyney passenger; /
+",1.00,ridergroup: jeepyney passenger; /,,
+2502,6.00,,1.00,name: Quelvin Pugal; age: 40; gender: male; profession: Dominion bus conductor; condition: dead on arrival; /,,
+722,7.00,"ridergroup: jeepney passenger; condition: critical; hospital: Ospital ng Sampaloc; /
+ridergroup: jeepney passenger; condition: critical; hospital: Ospital ng Sampaloc; /
+ridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /
+ridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /
+ridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /
+ridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /
+name: Ronald Valdez; ridergroup: jeepney driver; hospital: Ospital ng Sampaloc; /",1.00,name: Reynaldo Macapagal; gender: male; age: 56; profession: cigarette vendor; ridergroup: jeepney passenger; condition: dead on arrival; hospital: Ospital ng Sampaloc; /,,
+1720,7.00,"name: Leonida Carigutan; gender: female; ridergroup: bus passenger; /
+name: Ivy Marie Angog; gender: female; ridergroup: bus passenger; /
+name: Nieves Caceres; gender: male; ridergroup: bus passenger; /
+name: Melanie Arizgado; gender: female; ridergroup: bus passenger; /
+name: Visitacion Dagome; gender: female; ridergroup: bus passenger; /
+name: Catherine Resus; gender: female; ridergroup: bus passenger; /
+name: Lanie Casugao; gender: female; ridergroup: bus passenger; /",1.00,"ridergroup: motorcycle driver; name: Verni Locete; residence: Sipocot, Camarines Sur; condition: dead on spot; /",,
+1879,10.00,,1.00,name: Gertrudes Batanes; gender: female; ridergroup: tricycle passenger; others: thrown from vehicle and run over by car; /,,
+265,13.00,"name: Anna Rose Valdez; age: 17; ridergroup: bystander; /
+name: Marian Salles; age: 2; ridergroup: bystander; /
+name: CJ Salles; age: 8; ridergroup: bystander; /
+name: Glenda Salles; age: 26; ridergroup: bystander; /
+name: Nicole Salles; age: 5; ridergroup: bystander; /
+name: Johnric Salles; age: 6; ridergroup: bystander; /
+name: Angelo Francisco; age: 28; ridergroup: bystander; /
+name: Marisa Francisco; age: 68; ridergroup: bystander; /
+name: Diane Abenon; age: 13; ridergroup: bystander; /
+name: John Lester Eustaquio; age: 6; ridergroup: bystander; /
+name: John Lenon Eustaquio; age: 4; ridergroup: bystander; /
+name: Eleanor Eustaquio; age: 33; ridergroup: bystander; /
+name: John Michael Eustaquio; age: 33; ridergroup: bystander; /",1.00,name: Domingo Francisco; age: 68; ridergroup: bystander; condition: dead on arrival; hospital: Taytay Emergency Medical Center; /,,
+311,13.00,"ridergroup: pedestrian; hospital: Philippine General Hospital * 13; /
+",1.00,name: Corazon Catambe; gender: female; age: adult; ridergroup: pedestrian; /,,
+673,16.00,"ridergroup: van passenger; age: child; /
+ridergroup: van passenger; age: child; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; /
+ridergroup: van passenger; / ",1.00,name: John Vincent Guillermo Florendo; residence: La Union; ridergroup: van passenger; /,,
+1358,16.00,"name: Jhon Paul Lagmay; age: 8; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Snooky Lagmay; age: 29; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Edilyn Rivera; age: 18; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Melvin Rimando; age: 26; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Mary Jane Licudine, age: 28; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Romy Pertudo; age: 48;  gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Sara Leen Joy Layoso; age: 19; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Limuel Marquez; age: 27; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Herbert Yao; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Cathlyn Velocora; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Angelica Escaltron; age: 29; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / 
+name: Elynita de Paz; age: 26; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / 
+name: Devina Estepa Pajara; age: 36; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / 
+name: Mark Darren Querol; age: 39; gender: male; ridergroup: passenger; hospital: Benguet General Hospital; / 
+name: Paul Estepa; age: 11; gender: male; ridergroup: passenger; hospital: Benguet General Hospital; / 
+name: Christina Estepa; age: 44; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; /",1.00,,,
+2305,28.00,"name: Renato Fajardo; gender: male; ridergroup: bus driver; injury: right leg amputated; condition: critical; others: leg had to be cut off so that he could be extricated from the bus; /
+name: Salvador Encarnacion; gender: female; ridergroup: bus passenger; others: said driver was sleepy; /",1.00,name: Benedict Dipad; gender: male; profession: bus conductor; ridergroup: bus passenger; causeofdeath: vehicle collision; condition: dead on the spot; /,,
+15,,,1.00,name: Paul Joseph Ignacio; gender: male; ridergroup: motorcycle rider; causeofdeath: fell off his motorcycle after being sideswiped by a trailer truck; condition: dead on the spot; others: not wearing helmet; /,,
+84,,,1.00,,,
+309,,ridergroup: passenger * 4/,1.00,ridergroup: passenger; gender: male; age: adult; hospital: Macabalat District Hospital; /,,
+570,,,1.00,name: Eboy; gender: male; ridergroup: truck passenger; /,,
+809,,,1.00,name: Randy Pattaui; profession: farmer; residence: Barangay Gosi Norte; age: 34; ridergroup: pedestrian; condition: dead on arrival; hospital: People's General Hospital; /,,
+825,,,1.00,name: Alejo Arconsensil; ridergroup: motorcycle driver; age: 49; residence: Pandacan; condition: dead on arrival; hospital: Sta. Ana District Hospital; /,,
+844,,,1.00,name: Rolindo Undagan; gender: male; profession: policeman; ridergroup: motorcycle driver; causeofdeath: thrown off motorcycle then ran over by dump truck; /,,
+1121,,,1.00,name: Richard Seoron; profession: traffic enforcer; residence: Manila; ridergroup: motorcycle driver; /,,
+1156,,,1.00,ridergroup: motorcycle driver; profession: policeman; /,,
+1165,,,1.00,name: Ryan Ragas; age: 29; profession: security guard; ridergroup: motorcycle driver; residence: Bulacan; hospital: Mandaluyong City Medical Center; /,,
+1193,,,1.00,"name: Juanito Luardo; age: 53; gender: male; profession: Quezon City police officer; residence: Barangay Bagong Silang, Caloocan City; ridergroup: motorcycle driver; /",injury: pinned under vehicle and run over by right wheel; ,
+1212,,,1.00,name: Joel Acanto; profession: MMDA traffic enforcer; ridergroup: motorcycle driver; /,,
+1214,,,1.00,name: Wally Reyes; profession: police; /,,
+1217,,,1.00,ridergroup:tricycle driver; gender: male; age: adult; name: Eric Paringit; others: alcohol; injury: severe head wounds; /,,
+1259,,,1.00,name: Sonny Acosta; condition: died after days in coma; /,,
+1285,,"name: Alfie Sulatan; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; others: possibly intoxicated; /
+name: Robert John Fernandez; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; others: possibly intoxicated; /",1.00,"name: Sonny Escolano; age: 22; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; /",others: possibly intoxicated/,
+1321,,,1.00,name: Godofredo delos Angeles; age: 21; condition: dead on arrival; injury: head injuries; /,,
+1395,,,1.00,name: Aldrin Carmona; ridergroup: motorcycle driver; condition: dead on spot; gender: male; /,others: pinned between vehicles; ,
+1431,,,1.00,name: Bertinio Bismonte; injury: severe head injuries; ridergroup: pedestrian; age: 71; gender: male; /,,
+1522,,,1.00,ridergroup: bicycle rider; gender: male; age: adult; hospital: Quezon City General Hospital; condition: died before receiving care; /,,
+1546,,,1.00,name: Johnny Balasa; age: 23; gender: male; ridergroup: cyclist; causeofdeath: hit by dislodged wheels from truck; /,,
+1647,,,1.00,name: Carlos Pamintuan Jr.; profession: City Engineer's Office employee; ridergroup: motorcycle driver; condition: dead on arrival; hospital: Fairview General Hospital; /,,
+1651,,,1.00,name: Giovanni Azucena Fuentes; ridergroup: motorcycle driver; /,,
+1667,,,1.00,name: Gilven Ferrer; age: 23; ridergroup: motorcycle driver; /,,
+1737,,,1.00,name: Juanito Luardo; age: 53; gender: male; profession: policeman; ridergroup: motorcycle rider; causeofdeath: hit while on a motorcycle by the truck he flagged down; /,,
+1813,,,1.00,name: Denmark Volpane; age: 7; gender: male; profession: Grade 2 student; causeofdeath: run over by speeding SUV; condition: dead on the spot; /,,
+1936,,ridergroup: passengers; injury: bruises and contusions; /,1.00,name: Carlos Pamintuan Jr.; age: 53; gender: male; ridergroup: motorcycle rider; profession: employee of the Quezon City Government Engineering Department; residence: Barangay Ramon Magsaysay; causeofdeath: motorcycle was hit by bus; condition: dead on arrival; hospital: Fairview General Hospital; /,,
+2026,,,1.00,profession: policeman; ridergroup: motorcycle driver; condition: dead on arrival; hospital: Los Baños Doctors Hospital and Medical Center; /,,
+2102,,,1.00,name: Pablo Martinez; profession: Air Force master sergeant; ridergroup: bicycle rider;  gender: male; age: adult; /,"others: implicated in 1983 assassination of Ninoy Aquino, Jr.",
+2274,,,1.00,name: Taul Santiano; gender: male; ridergroup: motorcycle rider; causeofdeath: vehicle collision; condition: dead on the spot; /,,
+2282,,,1.00,"name: Gerardo Garcia; age: 37; gender: male; profession: driver at Maynilad Water Services, Inc.; injury: skull crushed; /",,
+2378,,,1.00,name: Gino Martin Hercules Contreras II; age: 45; gender: male; ridergroup: motorcycle driver; causeofdeath: run over by truck; /,,
+2412,,,1.00,name: Cezar Dominguez; ridergroup: pickup truck driver; condition: dead on arrival; /,,
+2463,,,1.00,name: Jun Rasul; age: 57; ridergroup: motorcycle driver; age: gender; profession: engineer; /,,
+2504,,,1.00,name: Rendell Espartero; gender: female; ridergroup: motorcycle passenger; causeofdeath: head injury; /,,
+2547,,,1.00,ridergroup: motorcycle rider; /,,
+2593,,,1.00,gender: male; ridergroup: bystander; age: adult; /,"others: gone under bus while stationary; physical: 5'7"" height, slim build, wearing blue shirt and pants",
+1574,1.00,ridergroup: motorcycle passenger; gender: female; condition: seriously injured; /,2.00,"ridergroup: motorcycle driver; gender: female; condition: dead on spot; /
+ridergroup: motorcycle passenger; gender: female; condition: dead on spot; /",,
+828,2.00,"name: Rey-ann Terible; age: 29; ridergroup: truck passenger; natureofinjury: truck fell into ravine; hospital: Malay Baptist Hospital; / 
+name: Elmer Prodente; age: 20; ridergroup: truck passenger; natureofinjury: truck fell into ravine; hospital: Malay Baptist Hospital; /",2.00,"name: Peter Paul Palma; age: 46; gender: male; ridergroup: truck driver; causeofdeath: truck fell into ravine, dead on spot; /
+name: Arnel Epilepcia; age: 25; gender: male; ridergroup: truck passenger; causeofdeath: truck fell into ravine; /",,
+1145,2.00,name: Johnny Bangsoy; gender: male; ridergroup: passenger / name: Felix Gonatisie; gender: male; ridergroup: passenger /,2.00,name: Bryan Gahol; gender: male; profession: former basketball player; ridergroup: driver; causeofdeath: road crash; / name: Rosemarie Manalo; gender: female; ridergroup: passenger; causeofdeath: road crash; /,,
+2074,2.00,"name: Roel Cadiz; age: 33; gender: male; ridergroup: pedestrian; natureofinjury: hit by car on the sidewalk; residence: Camotes Island, Cebu /
+name: Danny Vale; age: 37; gender: male; ridergroup: pedestrian; natureofinjury: hit by car on the sidewalk; residence: Cebu City /",2.00,"name: Gaudeoso Bontilao; gender: male; profession: casino employee; residence: Barangay Guba, Cebu City; ridergroup: motorcycle rider; causeofdeath: thrown of motorcycle; condition: died on the spot; /
+name: Joselito Lopez; age: 43; gender: male; profession: casino employee; residence: of Capitol Site, Cebu City; ridergroup: motorcycle rider; causeofdeath: thrown of motorcycle; condition: died on the spot; /",,
+901,3.00,,2.00,"name: Bryan Gahol; age: 36; gender: male; profession: former PBA player; causeofdeath: vehicle collision; condition: dead on arrival; /
+name: Rosemarie Manalo; gender: female; causeofdeath: vehicle collision; condition: dead on arrival; /",,
+1392,3.00,"name: Jamil Romeo Uy; gender: male; ridergroup: SUV driver; natureofinjury: vehicle fell off bridge; condition: severely injured; /
+name: Felomena Tulali; gender: female; ridergroup: SUV passenger; natureofinjury: vehicle fell off bridge; condition: severely injured; /
+name: Romeo Pecson; gender: male; ridergroup: SUV passenger; natureofinjury: vehicle fell off bridge; condition: severely injured; /",2.00,"name: Rosendo Ruiz Jr; gender: male; profession: Santo Nio councilor; ridergroup: SUV passenger; causeofdeath: vehicle fell off a bridge; condition: dead on arrival; hospital: St Paul's Hospital
+name: Orlando Campano; gender: male; profession: Santo Nio councilor; ridergroup: SUV passenger; causeofdeath: vehicle fell off a bridge; condition: dead on arrival; hospital: St Paul's Hospital",,
+1536,3.00,"name: John Carlo Mariano; age: 19; gender: male; ridergroup: driver/
+name: Jayme Pardinas; age: 19; gender: male; ridergroup: passenger/
+name: Robert Roa; age: 19; gender: male; ridergroup: passenger/",2.00,,,
+520,6.00,"ridergroup: car passenger; hospital: The Medical City; /
+ridergroup: car passenger: hospital: Quirino Memorial Medical Center; /",2.00,"ridergroup: car driver; /
+ridergroup: car passenger; /",,
+2122,6.00,"name: Joanne Marie Romero; age: 16; profession: student; condition: critical; ridergroup: car passenger; /
+name: Melissa Mendez; age: 14; profession: student; condition: critical; ridergroup: car passenger;  /
+name: Kynth Marie Mendez; age: 14; profession: student; condition: critical; ridergroup: car passenger; /
+name: Nice Ancheta; age: 15; profession: student; condition: critical; ridergroup: car passenger; /
+name: Al-Dhinier Sanaani; age: 26; profession: medical representative; ridergroup: car driver; condition: minor injury; /
+name: Kristine Joyce Batucan; age: 26; profession: medical representative; ridergroup: car driver; condition: minor injury; /",2.00,"name: Judy Ann Lomera; age: 17; residence: Barangay Poblacion, Boljoon; profession: student; condition: dead on spot; /
+name: Christy Marie Estella; age: 18; profession: student; /",,
+130,9.00,"name: Rodrigo Murillo; gender: male, ridergroup: motorcycle driver; age: grandfather; /
+name: Joey Salvador, gender: male, ridergroup: truck driver; /",2.00,"name: Aliza Daza, gender: female, age: 10, causeofdeath: thrown from motorcycle and run over by truck, ridergroup: motorcycle passenger; /
+name: Michael Pante, gender: male; /",,
+2354,13.00,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",2.00,"name: Precious Denise Siruma; ridergroup: bus passenger; gender: female; age: 3; residence: Valenzuela City; /
+name: Niel Tabuzo; ridergroup: bus passenger; gender: male; age: 25; residence: Camarines Sur; /",,
+1613,24.00,"ridergroup: jeepney passenger; * 23/
+ridergroup: jeepney driver; name: Arturo Ramirez; gender: male; age: adult; /",2.00,"name: Miguel Kotol; ridergroup: jeep passenger; gender: male; condition: dead on arrival; /
+name: Luning Dayana; ridergroup: jeep passenger; gender: female; condition: dead on arrival; /",,
+1188,47.00,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",2.00,"ridergroup: bus rider; /
+ridergroup: bus rider; /",,
+2036,47.00,name: Lorenzo Karingal; profession: bus driver; ridergroup: bus driver; age: 44; hospital: Mary Mediatrix Hospital/,2.00,"name: Arniel Diaz; profession: bus conductor; ridergroup: bus passenger; /
+name: Jade Anthony Malibot; ridergroup: bus passenger; / ",,
+81,,,2.00,"name: Bryan Gahol; gender: male; profession: former professional basketball player; ridergroup: driver; /
+name: Rosemarie Manalo; gender: female; ridergroup: passenger; causeofdeath: vehicular impact; /",,liableparty: cargo jeepney driver; name: Alfredo Abe; liability: charges of reckless imprudence resulting in multiple homicide/
+361,,,2.00,"name: Joseph Quiban; age: 32; gender: male; ridergroup: motorcycle driver; causeofdeath: explosion after vehicle collision; /
+name: Lyndon Ordanez; age: 18; gender: male; ridergroup: motorcycle driver; causeofdeath: explosion after vehicle collision; /",,
+581,,,2.00,"name: Bryan Gahol; profession: basketball player; ridergroup: van driver; condition: dead on arrival; /
+ridergroup: van passenger; condition: dead on arrival; /",,
+1013,,,2.00,"name: Dennis Romero; gender: male; ridergroup: motorcycle driver; causeofdeath: motorcycle collided with SUV; /
+name: Mark Jerrel Adelantar; gender: male; ridergroup: motorcycle passenger; causeofdeath: motorcycle collided with SUV; /",,
+1455,,,2.00,"name: Hermoso Sorsano; age: 60; ridergroup: motorcycle driver; condition: dead on arrival; hospital: West Visayas State University Medical Center; /
+name: Roberto Provido; age: 51; ridergroup: motorcycle rider; condition: dead on arrival; hospital: West Visayas State University Medical Center; /",,
+1480,,,2.00,"name: John Michael Andrade; age: 8; gender: male; profession: student; ridergroup: pedestrian; /
+name: Pedronilo Mandal, Jr.; profession: barangay tanod; age: adult; gender: male; ridergroup: pedestrian; /",,
+2125,,"name: Robert Roa; ridergroup: car rider; hospital: Taguig-Pateros District hospital; gender: male; /
+name: John Carlo Mariano; ridergroup: car rider; hospital: Taguig-Pateros District hospital; gender: male; /
+name: Jayme Pardinas; ridergroup: car rider; hospital: Taguig-Pateros District hospital; /",2.00,"ridergroup: car rider; condition: dead on spot; /
+ridergroup: car rider; condition: dead on spot; /",,
+2221,,,2.00,"name: Mary Rosa Arosa; gender: female; ridergroup: pedestrian; causeofdeath: hit by a truck; profession: mother; / 
+ridergroup: pedestrian; age: 6 months; causeofdeath: hit by a truck; /",,
+2325,,,2.00,"ridergroup: motorcycle driver; name: Ricardo Potenoza; /
+ridergroup: motorycle rider; /",,
+2373,,,2.00,"name: Rowel Salon; ridergroup: motorcycle driver; condition: dead on arrival; /
+name: Kirok Dantan; ridergroup: motorcycle passenger; condition: dead on arrival; /
+",,
+1899,1.00,ridergroup: motorcycle passenger; /,3.00,"name: Dondon Tayao; ridergroup: motorcycle driver; /
+name: Julito Galles; ridergroup: motorcycle driver; / 
+name: Vanessa Gocotano; ridergroup: motorcycle passenger; /",,
+425,2.00,"ridergroup: truck driver; / 
+ridergroup: truck driver; / ",3.00,"ridergroup: bystander; gender: female; profession: mother; /
+ridergroup: motorcycle passenger; gender: female; /
+ridergroup: motorcycle driver; gender: male; /",,
+1133,3.00,"name: Jamil Uy; profession: town councilor; ridergroup: car driver; condition: critical; /
+name: Felomena Tulali; profession: town councilor; ridergroup: car passenger; condition: critical; /
+name: Romeo Pecsonand; profession: town councilor; ridergroup: car passenger; condition: critical; /
+name: Robin Evangelista; ridergroup: car passenger; condition: critical; /",3.00,"name: Orlando Campano; profession: town councilor; ridergroup: car passenger; condition: dead on spot; /
+name: Rosendo Ruiz; profession: town councilor; ridergroup: car passenger; condition: dead on spot; /
+name: Zenaida de Leon; ridergroup: car passenger; /",,
+1738,3.00,,3.00,,,
+1199,4.00,"name: Lovely May Castillo; age: 5; /
+name: Dianne Bolima; age:16; /
+name: Jomar Sanchez; age: 21; /
+name: Nina Gariando; /",3.00,"name: Ferdinand Uy; condition: dead on arrival; /
+name: Glenn Mias; condition: dead on arrival; / 
+name: Bernie Supnit; age: 35; condition: dead on arrival; /",,
+2005,4.00,"name: Luis Orillaza Asistio III; gender: male; ridergroup: Montero driver / 
+name: Jacklyn Mae Terrado; gender: female; ridergroup: passenger /
+name: Bubles Lapu-os; gender: female; ridergroup: passenger /
+name: Ryan Lester Yadao; gender: male; ridergroup: passenger / ",3.00,"name: Lyn Pascua; gender: female; profession: nurse; ridergroup: passenger; /
+name: Rose Ann Oquendo; gender: female; profession: nurse; ridergroup: passenger; /
+name: Janine Ray Manzanida; gender: female; profession: nurse; ridergroup: passenger; /",,liableparty: Montero driver; name: Luis Orillaza Asistio III; liability: charges of reckless imprudence resulting in multiple homicide with multiple physical injuries and damage to property /
+951,10.00,"ridergroup: van passenger; others: PWD * 9/
+ridergroup: van driver; name: Jose Ramil Entice; gender: male/
+",3.00,"name: Guillera Belandres; age: 35; residence: Dalaguete; gender: female; ridergroup: van passenger; condition: dead on arrival; others: was escorting PWD relative in van; hospital: Kintanar Memorial Hospital in Argao, Cebu; /
+name: Rosalinda Laurente age: 42; residence: Oslob; gender: female; ridergroup: van passenger; condition: dead on arrival; others: was escorting PWD relative in van; hospital: Kintanar Memorial Hospital in Argao, Cebu; /
+name:Diether Caracol; age: 10; residence: Oslob; gender: male; ridergroup: van passenger; condition: died in hospital; hospital: Kintanar Memorial Hospital in Argao, Cebu; /
+
+",,
+2621,10.00,ridergroup: van driver; /,3.00,"name: Guillerma Belandres; age: 35; condition: dead on arrival; ridergroup: van passenger;  /
+name: Rosalinda Laurente; age: 42; condition: dead on arrival; ridergroup: van passenger; /
+ridergroup: van passenger; age: 10; gender: male; /",,
+354,22.00,ridergroup: jeepney passenger; * 22; /,3.00,"name: Loren Mayo; age: 43; gender: female; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on spot; /
+name: Evangeline; gender: female; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on spot; /
+name: Helen Fernandez; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on arrival; /",,
+434,24.00,"ridergroup: bus passenger; hospital: Liwag Medical Clinic in Tiaong, St. Peter and Paul Hospital in Candelaria, United Doctors Hospital in Candelaria; * 24/",3.00,"name: Eden Montiano Sangrones; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: died at hospital; injury: head and body traume; hospital: Sts. Peter and Paul Hospital in Candelaria; /
+name: Remedios Montiano Sangrones; age: 65; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: dead on spot; /
+name: Alyssa Rosanne Singayan; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: dead on spot; /",,
+2369,1.00,ridergroup: trailer truck porter; hospital: St. Dominic Hospital; /,4.00,ridergroup: trailer truck driver; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; / ridergroup: delivery van driver; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; / ridergroup: delivery van passengers * 2; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; /,,
+2265,2.00,"name: Kevin Villamonte; age: 25; ridergroup: driver / 
+name: Rosalyn Tuason; age: 25; profession: nurse; ridergroup: passenger /",4.00,"name: Jhed Marvin de Guzman; age: 12; ridergroup: passenger; condition: dead on arrival; / 
+name: Matthew de Leon; age: 13; ridergroup: passenger; condition: dead on arrival; /
+name: Riza Antonette Asansa; age: 25; profession: nurse; ridergroup: passenger; condition: dead on arrival; / 
+ridergroup: passenger; gender: male; condition: dead on arrival; /",,
+6,5.00,ridergroup: passenger; profession: marine; age: adult * 5; hospital: San Lorenzo Hospital; /,4.00,"ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: truck driver; profession: truck driver; age: adult; /",,
+1248,6.00,"name: Domingo Arsulacia; gender: male; ridergroup: truck driver; natureofinjury: truck fell into a ravine; /
+ridergroup: truck passenger; natureofinjury: truck fell into a ravine; *5;  /",4.00,"ridergroup: truck passengers; causeofdeath: truck fell into a ravine; condition: dead on spot; *2 /
+ridergroup: truck passengers; causeofdeath: truck fell into a ravine; condition: dead on arrival; *2 /",,
+1617,29.00,,4.00,,,
+758,30.00,,4.00,profession: teacher; age: 26; /,,
+1885,,,4.00,"name: Joan Toledo; gender: female; ridergroup: car driver; causeofdeath: vehicle collision; condition: dead on the spot; residence: Cavite; others: wrecked faces, almost unidentifiable; /
+name: Lowie Alcaraz; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Noveleta, Cavite; others: wrecked faces, almost unidentifiable; /
+name: Rogelio Santos, Jr; gender: male; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Imus City, Cavite; others: wrecked faces, almost unidentifiable; /
+name: Armando San Pedro III; gender: male; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Tagaytay City; others: wrecked faces, almost unidentifiable; /",,
+1931,,,4.00,"name: Joan Toledo; ridergroup: car driver; /
+name: Lui Alcaraz; ridergroup: car passenger; /
+name: Rogelio Santos Jr.; ridergroup: car passenger; /
+name: Armando San Pedro; ridergroup: car passenger; /",,
+1540,15.00,ridergroup: bus passenger; * 15/,5.00,"name: Alexander Belen; residence: Albay; gender: male; ridergroup: bus passenger; /
+name: Jason Purita; age: 23; residence: Albay; gender: male; ridergroup: passenger; /
+name: Cindy Garcia; age: 17; residence: Marikina; gender: female; ridergroup: bus passenger; /
+name: Arnelli Dacullo; gender: male; residence: San Jose del Monte in Bulacan; others: father; ridergroup: bus passenger; /
+name: Marc Dacullo; age: 2; gender: male; residence: San Jose del Monte in Bulacan; ridergroup: bus passenger; /",,
+714,16.00,"name: Niel Lumigue; ridergroup: jeepney passenger; gender: male; /
+name: Perlita Labial; ridergroup: jeepney passenger; gender: female; /
+name: Jimmy Mancia; ridergroup: jeepney passenger; gender: male; /
+name: Arnel Paano; ridergroup: jeepney passenger; gender: male; /
+name: Arnold Paano; ridergroup: jeepney passenger; gender: male; /
+name: Arken Paano; ridergroup: jeepney passenger; gender: male; /
+name: Jojie Mae Allera; ridergroup: jeepney passenger; gender: female; /
+name: Samantha Fe Allera; ridergroup: jeepney passenger; gender: female; /
+name: Luvilla Namulan; ridergroup: jeepney passenger; gender: female; /
+name: Irish Melody Namulan, ridergroup: jeepney passenger; gender: female; /
+name: Leah Mae Napay: ridergroup: jeepney passenger; gender: female; /
+name: Florencio Sabogaa; ridergroup: jeepney passenger; gender: female; /
+name: Emma Sabogaa; ridergroup: jeepney passenger; gender: female; /
+name: Manuel Babeda: ridergroup: jeepney passenger; gender: female; /
+name: Renz Napay; ridergroup: jeepney passenger; gender: female; /
+name: Eva Mae Naamulan; ridergroup: jeepney passenger; gender: female; /",5.00,"name: Ricardo Napay; ridergroup: jeepney passenger; gender: male; /
+name: Irish Mae Napay; ridergroup: jeepney passenger; gender: female; /
+name: Eleanor Talaroc; ridergroup: jeepney passenger; gender: female; /
+name: Ethel Talaroc; ridergroup: jeepney passenger; gender: female; /
+name: Blessel Corita; ridergroup: jeepney passenger; gender: female; /",,
+1653,17.00,"ridergroup: jeepney passengers; natureofinjury: jeepney fell into a roadside canal; hospital: Abra Christian Hospital, Seares Memorial Hospital; /",5.00,"name: Melba Millare; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: dead on arrival; /
+name: Slomen Colangan; gender: male; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /
+name: Veronica Tucio; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /
+name: Noreen Tugadi; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /
+name: Dimple Tugadi; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /",,
+1587,21.00,,5.00,,,
+741,30.00,ridergroup: passenger * 30/,5.00,"name: Jobaida Abdulhawab; age: 50; ridergroup: passenger; /
+name: Talutawan Kungan; age: 60; ridergroup: passenger; /
+name: Guiamela Talutawan; age: 50; ridergroup: passenger; /
+name: Rebecca Litugan; age: 40; ridergroup: passenger; /
+name: Juhanel Bansuan; age: 29; ridergroup: jeepney driver; /",,
+660,,,5.00,"ridergroup: jeepney passenger; gender: female; /
+ridergroup: jeepney passenger; gender: female; /
+ridergroup: jeepney passenger; gender: female; /
+ridergroup: jeepney passenger; gender: female; /
+ridergroup: jeepney passenger; gender: male; /",,
+2499,1.00,ridergroup: driver; hospital: Carcar Provincial Hospital / ridergroup: passenger; hospital: Carcar Provincial Hospital /,6.00,ridergroup: truck passenger; condition: dead on spot; /,,
+2255,2.00,,6.00,"ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+",,
+477,14.00,ridergroup: truck passenger * 14/,7.00,"ridergroup: truck passenger; condition: dead on spot; * 4/
+ridergroup: truck passenger; condition: died at hospital; * 3/",,
+1549,38.00,,7.00,,,
+1315,4.00,"name: Reyshan Latuwed; age: 18; gender: female; ridergroup: passenger; hospital: Baguio General Hospital Medical Center; /
+name: Charre Bestre; age: 15; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Jamerose Bankin; age: 15; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /
+name: Elejoy Agyapas; age: 17; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /",12.00,"name: Efren Dalisdis; gender: male; /
+name: Jera Flair Mayao; age: 15; gender: male; ridergroup: passenger; condition: dead on spot; /
+name: Maricel Basatan; age: 13; gender: female; ridergroup: passenger; condition: dead on spot; /
+name: Jera Madiano; age: 15; gender: male; ridergroup: passenger; condition: dead on spot; /
+name: Jeribeth Simeon; age: 12; gender: female; ridergroup: passenger; condition: dead on spot; /
+name: Jasmin Lestino; age: 15; gender: female; ridergroup: passenger; condition: dead on spot; /
+name: Nenerva Menzi; age: 16; gender: female; ridergroup: passenger; condition: dead on spot; /
+name: Angie Aguien; age: 15; gender: female; ridergroup: passenger; condition: dead on spot; /
+name: Meljoy Agustin; age: 15; gender: female; ridergroup: passenger; condition: dead on arrival; /
+name: Ivonne Bestre; age: 13; gender: female; ridergroup: passenger; condition: dead on arrival; /
+name: John Ray Dalisdis; age: 16; gender: male; ridergroup: passenger; condition: dead on arrival; /
+name: Mari Faith Lamsis; age: 16; gender: female; ridergroup: passenger; condition: dead on arrival; /",,
+2056,3.00,"name: Jamerose Bankin; age: 15; gender: female; ridergroup: passenger; injury: broken left foot; hospital: Baguio General Hospital and Medical Center/
+name: Reyshan Latuwed; age: 18; gender: female; ridergroup: passenger; injury: head injury; hospital: Baguio General Hospital and Medical Center/
+name: Elejoy Agyapas; age: 17; gender: female; ridergroup: passenger; hospital: Abatan Lutheran Hospital/",13.00,"name: Efren Dalisdis; age: 45; gender: male; ridergroup: driver; causeofdeath: jeep fell into a deep ravine; condition: dead on spot; /
+name: John Ray Dalisdis; age: 16; gender: male; ridergroup: passenger;  causeofdeath: jeep fell into a deep ravine; condition: dead on the way to hospital; /
+name: Charee Bestre; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; condition: died in hospital; hospital: Baguio General Hospital and Medical Center; /
+name: Jeribeth Simeon; age: 12; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Maricel Basatan; age: 13; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Ivonne Bestre; age: 13; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Jera Flair Mayao; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Jera Madiano; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Jasmin Lestino; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Angie Aguien; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Meljoy Agustin; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Nenerva Menzi; age: 16; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /
+name: Mari Faith Lamsis; age: 16; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /",,
+431,,,13.00,,,
+264,32.00,name: Edgar Renon; gender: male; profession: bus driver; medicalcondition: recuperating at a hospital / ,14.00,,,liable party: bus driver; name: Edgar Renon; liability: multiple homicide and physical injuries; status: facing charges / 
+369,32.00,,15.00,,,
+1028,32.00,ridergroup: bus passenger; * 13/,15.00,"name: Arvin Tado Jimenez; ridergroup: passenger; profession: artist; /
+name: Gerard Baja; ridergroup: bus passenger; profession: artist; /
+name: David Sicam; ridergroup: bus passenger; profession: musician; /",,
+141,,,15.00,"name: David Sicam; gender: male; profession: artist; /
+name: Arvin Tado Jimenez; gender: male; profession: artist; /",,
+320,,,15.00,"ridergroup: bus passenger; profession: artist; name: Arvin Tado Jimenez; age: adult; gender: male; /
+ridergroup: bus passengers * 14/",,
+2,24.00,ridergroup: passenger * 24/,21.00,"ridergroup: driver; /
+ridergroup: passenger; * 23/",,
+46,1.00,ridergroup: motorcycle rider; /,,,,
+282,1.00,ridergroup: driver; gender: male; natureofinjury: truck crashed into a wall; hospital: Taguig-Pateros District Hospital/,,,,
+350,1.00,name: Ricky Reyes; gender: male; ridergroup: truck driver; natureofinjury: stuck in the crushed front end of the truck/,,,,
+377,1.00,ridergroup: bus conductor; /,,,,
+407,1.00,name: Roger Borres; age: 28; gender: male; profession: MMDA traffic aide; ridergroup: motorcycle rider; natureofinjury: suffered bruises after being bumped by bus from behind /,,,,
+456,1.00,name: Thomas Alvarez; age: 28; gender: male; ridergroup: driver; injury: fracture on right arm; natureofinjury: hand was pinned under steering wheel; condition: brought to hospital; others: son of Palawan congressman/,,,,
+522,1.00,name: John Rey Dorde; gender: male; profession: Grade 4 student; natureofinjury: ran over by pickup truck; condition: critical; hospital: private; others: student of Dawis Elementary School/,,,,
+576,1.00,ridergroup: driver/,,,,
+615,1.00,name: Leonardo Berba; gender: male; ridergroup: van driver; hospital: Far Eastern University hospital/,,,,
+684,1.00,name: Rolly de Leon; ridergroup: truck driver; hospital: National Orthopedic Hospital; /,,,,
+781,1.00,name: Clark Macasadi; ridergroup: motorcycle driver; hospital: Ospital ng Makati; /,,,,
+1111,1.00,name: Jay-ar Abrera; ridergroup: passenger; injury: bruises; gender: male; /,,,,
+1153,1.00,name: Bayani Alberto; gender: male; ridergroup: truck passenger; natureofinjury: truck fell on its side/,,,,
+1359,1.00,name: Yakatay Sebastian; age: 80; gender: male; ridergroup: cyclist; natureofinjury: hit by motorcycle; medicalcondition: may go blind and recuperating /,,,,
+1454,1.00,"name: Jess Chaves Boyles; age: 33; residence: Tala, Caloocan City; ridergroup: motorcycle driver; hospital: East Avenue Medical Center; / ",,,,
+1588,1.00,name: Michael John Arcillas; gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: foot was pinned inside the truck/,,,,
+1600,1.00,name: Sonny Acosta; gender: male; profession: MMDA traffic enforcer; natureofinjury: dragged and run over by vehicle; injury: serious injuries in the head and body; condition: critical; hospital: St Lukes Medical Center Quezon City/,,,,
+1682,1.00,"name: Nathan Dancel; gender: male; profession: traffic enforcer, ridergroup: pedestrian; natureofinjury: run over by apprehended motorcycle; others: damaged pants and lost cellphone; /",,,,
+1705,1.00,ridergroup: pedestrian; injury: head injury; age: 20+; gender: male; /,,,,
+1735,1.00,name: Sonny Acosta; profession: MMDA traffic constable; injury: run over by vehicle; ridergroup: traffic enforcer or bystander; hospital: St. Luke's Medical Center; age: adult; gender: male; condition: critical; /,,,,
+1816,1.00,name: Feliciano Bayeta; gender: male; ridergroup: truck driver; natureofinjury: trapped inside the truck after colliding with another truck; /,,,,liableparty: truck driver; name: Feliciano Bayeta; /
+2031,1.00,name: Roberto delos Santos; ridergroup: van driver; hospital: Pasig City General Hospital; /,,,,
+2046,1.00,name: Jerome Brieva; age: 36; gender: male; profession: project coordinator of a construction company; natureofinjury: car was hit by train; injury: head injury; /,,,,
+2396,1.00,name: Sonny Acosta; ridergroup: traffic enforcer; profession: MMDA traffic constable; condition: critical; injury: dragged by SUV; hospital: St. Luke's Medical Center; age: 38; gender: male; /,,"others: family breadwinner, father of three, husband, hardworking, perfect attendance at work, hospitalization costs covered by MMDA; /",,
+2519,1.00,name: Romeo Cahilig Jr; profession: buko vendor; /,,,,
+2587,1.00,ridergroup: truck passenger; natureofinjury: truck rammed into a concrete post and turned on its side; injury: serious head injury/,,,,
+48,2.00,"nationality: Korean; ridergroup: driver; gender: male; age: adult; /
+ridergroup: AUV passenger; name: Sheryl Sabio; gender: female; /",,"others: possibly intoxicated; /
+",,
+326,2.00,"name: Heherson Alvarez; age: 75; gender: male; profession: Climate Change Commissioner; ridergroup: SUV passenger; natureofinjury: vehicle collision; injury: in need of oxygen and may have internal bleeding; hospital: Pablo O. Torre Medical Center/
+name: Bernadette Felix; age: 50; gender: female; profession: secretary; ridergroup: SUV passenger; natureofinjury: vehicle collision; injury: bump in the head, back and bleeding lip; hospital: Pablo O. Torre Medical Center/",,,,
+330,2.00,"name: Nio Valencia; ridergroup: motorcycle driver; /
+name: Teipal Singh; ridergroup: motorcycle driver; nationality: Indian; /",,,,
+420,2.00,ridergroup: motorcycle rider; profession: security guard; medicalcondition: brought to hospital / ridergroup: motorcycle rider; profession: security guard; medicalcondition: brought to hospital / ,,,,
+475,2.00,"name: Heherson Cabuenas; gender: male; ridergroup: driver; injury: minor/
+ridergroup: passenger; gender: female; injury: minor; others: wife of driver/",,,,
+699,2.00,,,,,
+968,2.00,"ridergroup: truck driver; name: Joland Dela Cruz; age: adult; gender: male; /
+ridergroup: truck passenger; /",,,,
+1069,2.00,ridergroup: bystander; natureofinjury: truck fell into their house from the expressway; hospital: Alabang Medical Center; others: couple/,,,,
+1307,2.00,ridergroup: passenger; injury: neck injury / ridergroup: passenger; injury: difficulty walking /,,,,
+1377,2.00,ridergroup: truck driver / ridergroup: truck helper /,,,,
+1448,2.00,,,,,
+1688,2.00,name: Allan Nopal; gender: male; ridergroup: driver / name: Rax John Erese; gender: male; ridergroup: driver / ,,,,liableparty: driver; name: Rax John Erese; status: may face charges / 
+1694,2.00,"name: Juanito Nocos; ridergroup: car driver; age: 74; profession: TV executive at Basketball TV; gender: male; liability: reckless imprudence resulting in multiple damage to property; hospital: Cardinal Santos Hospital; injury: bruises to chest; /
+ridergroup: car driver; others: father of three children; injury: foot injuries; /",,,"others: heart condition caused blackout, saved by car airbag;",
+1877,2.00,"name: Randolph Acua; ridergroup: car driver; /
+ridergroup: car passenger; /",,,,
+1951,2.00,"ridergroup: truck driver; /
+ridergroup: truck passenger; /",,,,
+2356,2.00,"name: Ronnie Villaganta; gender: male; ridergroup: truck driver; natureofinjury: vehicle collision; injury: minor /
+name: Marlon dela Vega; gender: male; ridergroup: truck driver; natureofinjury: vehicle collision; injury: minor /",,,,
+2364,2.00,hospital: Far Eastern University Hospital * 2/,,,,
+253,3.00,"name: Antonio Engue; gender: male; ridergroup: motorcycle driver; natureofinjury: vehicle collision; injury: abrasions and bruises; hospital: Ospital ng Makati/
+name: Madeline Engua; gender: female; ridergroup: motorcycle passenger; natureofinjury: vehicle collision; injury: abrasions and bruises; hospital: Ospital ng Makati/",,,,
+1127,3.00,injury: minor * 3/,,,,
+1618,3.00,ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ,,,,
+1757,3.00,"name: Pedro Dublin, gender: male, profession: driver, ridergroup: AUV driver, medicalcondition: minor injuries, others: resident of Barangay Subongdaku in Mandaue City /
+name: Henson Go, age: 58, gender: male, ridergroup: passenger; medicalcondition: minor injuries, others: employer of Pedro Dublin and husband of Norma Go /
+name: Norma Go, gender: female, ridergroup: passenger; medicalcondition: minor injuries, others: wife of Henson Go /",,,,
+2262,3.00,"ridergroup: truck passenger; /
+ridergroup: truck passenger; /
+ridergroup: truck passenger; /",,,,
+2273,3.00,medicalcondition: slightly injured,,,,
+2403,3.00,,,,,
+2409,3.00,"ridergroup: truck driver; /
+ridergroup: truck driver; /
+ridergroup: truck passenger; profession: porter; /
+",,,,
+62,4.00,"name: Akilan Mangansakan; ridergroup: truck driver; gender: male; age: adult; /
+ridergroup: truck passenger; /
+ridergroup: truck passenger; /
+ridergroup: truck passenger; /",,,,
+270,4.00,"ridergroup: delivery truck driver, medicalcondition: rushed to the hospital/
+ridergroup: delivery truck passenger, medicalcondition: rushed to the hospital/
+ridergroup: van driver; medicalcondition: rushed to the hospital/
+ridergroup: unknown; medicalcondition: rushed to the hospital/",,,,
+398,4.00,ridergroup: driver; medicalcondition: minor injuries / ridergroup: passenger; medicalcondition: minor injuries /,,,,
+921,4.00,"name: Alexus Cahimat; ridergroup: car driver; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Luis Viola Amano; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Kristine Singzon; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Francisco Achilles; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /",,,,
+1365,4.00,"name: Tito Cerrado; gender: male; ridergroup: motorcycle rider; others: father of a family of four aboard motorcycle /
+name: Eloisa Ortegera; gender: female; ridergroup: motorcycle passenger; others: mother of family of four aboard motorcycle /
+name: Trisha Cerrado; age: 8; gender: female; ridergroup: motorcycle passenger; others: daughter of driver /
+name: Tristan Cerrado; age: 6; gender: male; ridergroup: motorcycle passenger; others: son of driver /",,,,
+1748,4.00,"name: TSgt. Jovito Mendez; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: SSgt. Alberto Herami; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: SSgt. Gaspar Sabara; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: TSgt. Salvador Roma; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /",,,,
+1863,4.00,"name: Johans Uy; ridergroup: car driver; /
+ridergroup: taxi driver; /
+ridergroup: bystander; profession: construction worker; / 
+ridergroup: bystander; profession: construction worker; /",,,,
+2304,4.00,ridergroup: passenger; gender: female; * 4/,,,,
+2483,4.00,"name: Ruby Jabanag; age: 42; ridergroup: bystander; /
+name: Alvin Jabanag; age: 20; ridergroup: bystander; /
+name: Ana Mae Jabanag; age: 18; ridergroup: bystander; /
+name: Andy Boy Jabanag; age: 16; ridergroup: bystander; /",,,,
+1892,5.00,"ridergroup: motorcycle rider; medicalcondition: brought to hospital/
+ridergroup: unspecified; medicalcondition: brought to East Avenue Medical Center/",,,,
+2367,5.00,"ridergroup: passenger; age: child; profession: student; * 3/
+ridergroup: passenger; age: 7; name: Calix Andres:  injury: scratches and head bump; /
+ridergroup: passenger; name: Cristina Go; /",,,others: son of Dennis Trillo and Carlene Aguilar; / Cristina Go: mother of grade 2 student,
+1407,6.00,ridergroup: jeepney passenger * 6/,,,,
+2398,6.00,,,,,
+2536,6.00,"hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: East Avenue Medical Center; /",,,,
+1087,7.00,"name: Ramil Tapia; age: 46; gender: male; medicalcondition: minor injuries /
+name: Lolita Castro; age: 66; gender: female; medicalcondition: minor injuries /
+name: Marissa Aliling; age: 41; gender: female; medicalcondition: minor injuries /
+name: John Paul Edrian Aliling; age: 12; gender: male; medicalcondition: minor injuries /
+name: Wilfredo R Contemplo; age: 62; gender: male; medicalcondition: minor injuries /
+name: Joel Pascual; age: 57; gender: male; ridergroup: driver; medicalcondition: minor injuries /
+name: Doroteo Cabalejo; age: 41; gender: male; ridergroup: driver; medicalcondition: minor injuries /",,,,
+1325,7.00,"condition: minor injury; /
+condition: minor injury; /
+condition: minor injury; /
+condition: minor injury; /
+condition: minor injury; /
+condition: minor injury; / 
+condition: minor injury; /",,,,
+1578,7.00,name: Edgar Arandia; gender: male; ridergroup: driver / name: Johnson Miravales; gender: male; ridergroup: passenger / ,,,,
+2240,7.00,"ridergroup: jeepney driver; injury: bruises and pain; natureofinjury: jeepney overturned after being hit by a bus; hospital: East Avenue Medical Center/
+name: Mary Jane Asbestos; age: 17; gender: female; injury: deep cut or laceration on the face; natureofinjury: jeepney overturned after being hit by a bus; hospital: East Avenue Medical Center/",,,,
+1881,8.00,"gender: female, ridergroup: passenger; medicalcondition: head injury /",,,,
+451,9.00,"ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /",,,,
+1374,9.00,"name: Idelfonso Amoyo; age: 26; ridergroup: bus passenger; /
+name: Nena Miravalles; age: 44; ridergroup: bus passenger; / 
+name: Carlo Roxas; age: 42; ridergroup: bus passenger; / 
+name: Arnold Desillo; age: 26; ridergroup: bus passenger; / 
+name: Dervin Guevarra; age: 17;  ridergroup: bus passenger; / 
+name: Marisse Cereno; age: 29; ridergroup: bus passenger; /
+name: Catthene Cereno; age: 24;  ridergroup: bus passenger; / 
+name: Lailani Roncesvalles; age: 40; ridergroup: bus passenger; / 
+name: Annalyn Namoro; age: 34 ridergroup: bus passenger; /",,,,
+1502,9.00,"ridergroup: pedestrians; profession: elementary school student; age: child * 7; /
+ridergroup: pedestrian; profession: messenger; /",,,kids were walking to school,
+2123,9.00,"ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",,,,
+2311,9.00,"name: Jerry Lito Papa; profession: school service driver; ridergroup: school service driver; age: adult; gender: male; /
+name: Ramsur Padios; profession: school service driver; ridergroup: school service driver; age: adult; gender: male; /
+ridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; others: son of Dennis Trillo and Carlene Aguilar; /
+ridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /
+ridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /
+ridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /
+age: child; profession: student; ridergroup: passenger; school: Ramon Magsaysay High School; hospital: Sta. Teresita Hospital, Quezon City; /
+age: child; profession: student; ridergroup: passenger; school: Esteban Abada High School; hospital:  Sta. Teresita Hospital, Quezon City; /",,,,
+2357,10.00,ridergroup: passenger; natureofinjury: bus rammed into MRT post after hitting another bus; injury: minor; others: brought to MMDA rescue base under Ortigas flyover/,,,,
+1820,11.00,"ridergroup: UV express passenger /
+ridergroup: motorcycle rider; medicalcondition: critical/",,,,
+1255,12.00,"ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",,,,
+1439,12.00,ridergroup: passenger; injury: minor; natureofinjury: bus rammed into an MRT post after hitting another bus; hospital: San Juan Hospital/,,,,
+2370,12.00,ridergroup: passenger * 12/,,,,
+1730,13.00,"ridergoup: passengers hospital: Bulacan Medical Center; * 13 / 
+ridergroup: delivery truck helper; hospital: Bulacan Medical Center /",,,,
+665,14.00,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",,,,
+694,14.00,ridergroup: mini bus passenger; natureofinjury: vehicle collision; hospital: Bataan General Hospital; *14 /,,,,
+1525,14.00,"ridergroup: van passenger;  * 2/
+
+",,,others: pinned for more than 30 minutes in front seats,
+267,15.00,"name: Angelo Paulo Luna; gender: male; ridergroup: car driver; /
+ridergroup: jeepney driver; /
+ridergroup: passengers; hospital: Pasig City General Hospital, Rizal Medical Center; /",,,,
+1430,15.00,"ridergroup: jeepney driver; natureofinjury: jeepney crashed into a street sign after colliding with truck/
+ridergroup: jeepney passengers; natureofinjury: jeepney crashed into a street sign after colliding with truck/",,,,
+2082,15.00,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",,,,
+410,16.00,ridergroup: passenger * 16/,,,,
+1169,16.00,,,,,
+1833,16.00,"ridergroup: jail van passenger; profession: jail guard, inmate * 14; /
+ridergroup: jail van passenger; /",,,,
+2110,16.00,"ridergroup: truck driver; /
+ridergroup: pickup truck driver; /
+ridergroup: pickup truck passengers; profession: BJMP officers, BJMP inmates * 14; /",,,,
+792,17.00,"ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /",,,,
+747,18.00,"ridergroup: jeepney passenger; hospital: Antipolo District Hospital; *12/
+ridergroup: jeepney passenger; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; * 2/
+name: Jhie Convocar; ridergroup: jeepney passenger; profession: tabloid reporter; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; /
+name: Michael Cadinao; ridergroup: jeepney driver; profession: jeepney driver; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; /",,,,
+902,21.00,ridergroup: passenger; medicalcondition: cuts and bruises; hospital: East Avenue Medical Center,,,,
+124,22.00,name: Almarie Camson; injury: severed hand; /,,,,
+1466,23.00,"ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+",,,,
+2471,24.00,"ridergroup: bus driver; age: adult/
+ridergroup: bus passenger; age: child * 2/",,,,
+2494,31.00,"profession: PNP Special Action Forces member; natureofinjury: truck flipped over; hospital: Mindanao Medical Center, Kiamba District Hospital,Tiburcio Hospital/",,,,
+197,45.00,"name: Edgar Lagrimas; gender: male; ridergroup: passenger; medicalcondition: bruised /
+gender: female; ridergroup: passenger; medicalcondition: face scraped; hospital: Bian Doctors Hospital /
+ridergroup: passenger; hospital: Bian Doctors Hospital; *30 /
+gender: female; ridergroup: passenger; medicalcondition: severed hand; hospital: San Jose Hospital and Trauma Center; others: seated behind Edgar Lagrimas /
+ridergroup: passenger; hospital: Perpetual Help Medical Center; *15 /
+ridergroup: passenger; hospital: San Jose Hospital and Trauma Center; *8 / ",,,,
+1017,45.00,"ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Bian Doctors Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: Perpetual Hospital; / 
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /
+ridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /",,,,
+365,50.00,"name: Anthony Malangan; age: 58; gender: male; profession: bus driver; ridergroup: driver; employer: Marikina Auto Line Transit Bus driver/
+name: Clifford Reyes; age: 28; gender: male; profession: bus driver; ridergroup: driver; employer: Safeway bus driver/
+name: Mario Rogelio Jr; age: 27; gender: male; profession: bus driver; ridergroup: driver; employer: Nova Auto Transport Bus driver/
+name: Felix Banigla; age: 57; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roger Zausa; age: 45; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Ronnie Acadera; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Mariano Besana; age: 31; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roberto Isorena; age: 47; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Paul Sia; age: 36; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roderick Caba; age: 34; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Kenneth Losares; age: 22; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Michael Pastor; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Cabrino Patrocinio; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Allan Clima; age: 24; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Arme Rebeno; age: 24; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Petrolle Ario; age: 47; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Kenneth Quisado; age: 24; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rommel Libasura; age: 28; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Francis Guyag; age: 21; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Ronnie Bandoy; age: 33; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Dhonor Boco; age: 27; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: James Juanito; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Rolly Victoria; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Susana dela Torre; age: 53; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Mario Muron; age: 47; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Rio John Laurisia; age: 22; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Roque Carvales; age: 63; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Liza Tunales; age: 40; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Larry Regla; age: 49; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Alex Gomez; age: 44; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Hilma Arde; age: 49; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Jenard Patulay; age: 26; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Aljen Depositas; age: 21; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Melchor Malilay; age: 33; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Merlie Ocasla; age: 29; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Sonny Domina; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Raniel Lopez; age: 50; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Jeffrey Donciapan; age: 28; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Editha Enverga; age: 28; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Alexander Maisa; age: 38; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Darwin Puso; age: 25; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Leonifas Ingine; age: 29; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Wilson Enverga; age: 36; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rodolfo Amores; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Adan Marquez; age: 20; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rogelio Inevado; age: 44; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Benigno Robles; age: 20; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Ben Tacon; age: 37; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+ridergroup: passenger; age: 31; hospital: East Avenue Medical Center/
+ridergroup: passenger; age: 25; gender: male; hospital: East Avenue Medical Center/",,,,
+474,,,,ridergroup: pedestrian; name: Lorenzo Gatmen; others: crossing road; gender: male; /,,
+1533,,"ridergroup: truck driver; name: Ben Helsano; age: adult; gender: male; profession: truck driver; /
+ridergroup: truck passenger; profession: pahinante; * 2/",,,,
