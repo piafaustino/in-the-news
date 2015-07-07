@@ -1,0 +1,680 @@
+event_hashtag,associated_articles,coverage_frequency,incident_date,injured_number,injured_specific,killed_number,killed_specific,location,number_of_vehicles,time,vehicle_types
+"Bus hits delivery truck on SLEx, 2 hurt | Inquirer News",1377.0,1.0,2014-01-02 00:00:00,2.0,ridergroup: truck driver / ridergroup: truck helper /,,,"Laguna, San Pedro, Silangan Exit, SLEX",2.0,7:20 AM,"bus, delivery truck"
+Bus accident disrupts Commonwealth Ave. traffic on 1st workday of 2014 | News | GMA News Online,1149.0,1.0,2014-01-02 00:00:00,,,,,"NCR, Quezon City, Commonwealth Avenue",1.0,Early Morning,bus
+Motorcycle rider dies in EDSA mishap,1165.0,1.0,2014-01-04 00:00:00,,,1.0,name: Ryan Ragas; age: 29; profession: security guard; ridergroup: motorcycle driver; residence: Bulacan; hospital: Mandaluyong City Medical Center; /,"Metro Manila, Mandaluyong, EDSA",2.0,5:40 AM,motorcycle
+2 killed in Pangasinan road accident | Inquirer News,361.0,1.0,2014-01-06 00:00:00,,,2.0,"name: Joseph Quiban; age: 32; gender: male; ridergroup: motorcycle driver; causeofdeath: explosion after vehicle collision; /
+name: Lyndon Ordanez; age: 18; gender: male; ridergroup: motorcycle driver; causeofdeath: explosion after vehicle collision; /","Pangasinan, Urdaneta, National Highway, Barangay Anonas",2.0,4:00 AM,"motorcycle, bus"
+"Customs officer killed, 2 hurt in QC road mishap",2263.0,1.0,2014-01-08 00:00:00,2.0,ridergroup: taxi driver / ridergroup: passenger / ,1.0,name: Alfonso Mallari; age: 73; gender: male; profession: Bureau of Customs Officer; ridergroup: driver; causeofdeath: severe head injury from crash; /,"NCR, Quezon City, Commonwealth Avenue",5.0,Morning,"car, taxi, Asian Utility Vehicle FX, pickup truck"
+16 hurt as jeepney rear-ends bus along Commonwealth Avenue in Quezon City | News | GMA News Online,1169.0,1.0,2014-01-09 00:00:00,16.0,,,,"Quezon City, Tandang Sora portion of Commonwealth",2.0,,"jeepney, bus"
+"1 dead, 7 hurt in CamSur road accident | Inquirer News",1720.0,1.0,2014-01-09 00:00:00,7.0,"name: Leonida Carigutan; gender: female; ridergroup: bus passenger; /
+name: Ivy Marie Angog; gender: female; ridergroup: bus passenger; /
+name: Nieves Caceres; gender: male; ridergroup: bus passenger; /
+name: Melanie Arizgado; gender: female; ridergroup: bus passenger; /
+name: Visitacion Dagome; gender: female; ridergroup: bus passenger; /
+name: Catherine Resus; gender: female; ridergroup: bus passenger; /
+name: Lanie Casugao; gender: female; ridergroup: bus passenger; /",1.0,"ridergroup: motorcycle driver; name: Verni Locete; residence: Sipocot, Camarines Sur; condition: dead on spot; /","Camarines Sur, Sipocot, Andaya Highway, Barangay Gaongan",2.0,6:45 PM,"motorcycle, bus"
+16 hurt in bus-jeep collision in QC,410.0,1.0,2014-01-10 00:00:00,16.0,ridergroup: passenger * 16/,,,"Quezon City, Commonwealth Avenue",2.0,evening,"jeepney, bus"
+Man killed after being run over by bus in EDSA,2593.0,1.0,2014-01-11 00:00:00,,,1.0,gender: male; ridergroup: bystander; age: adult; /,"Mandaluyong, EDSA southbound and Shaw boulevard",1.0,afternoon,bus
+Tanker truck filled with gasoline flips over in Payatas | News | GMA News Online,1802.0,1.0,2014-01-17 00:00:00,,,,,"NCR, Quezon City, Payatas Road",1.0,Afternoon,gas tanker
+Driver dead in accident at Nagtahan Bridge,825.0,1.0,2014-01-19 00:00:00,,,1.0,name: Alejo Arconsensil; ridergroup: motorcycle driver; age: 49; residence: Pandacan; condition: dead on arrival; hospital: Sta. Ana District Hospital; /,"Metro Manila, Manila, Nagtahan Bridge",1.0,,motorcycle
+Man killed in Pasig motorcycle crash,2144.0,1.0,2014-01-23 00:00:00,1.0,name: Reuben George Robles; ridergroup: car driver; /,1.0,name: Engelbert Piol; ridergroup: motorcycle driver; condition: dead on spot; injury: thrown off motorcycle; /,,2.0,,"motorcycle, car"
+Motorcycle rider killed in Pasig hit-and-run accident,2378.0,1.0,2014-01-23 00:00:00,,,1.0,name: Gino Martin Hercules Contreras II; age: 45; gender: male; ridergroup: motorcycle driver; causeofdeath: run over by truck; /,"Pasig City, Barangay Ugong, Southbound lane of the C5",3.0,11:00 PM,"motorcycle, truck"
+Killer Highway latest victim: QC govt worker | Inquirer News,1936.0,1.0,2014-01-28 00:00:00,,ridergroup: passengers; injury: bruises and contusions; /,1.0,name: Carlos Pamintuan Jr.; age: 53; gender: male; ridergroup: motorcycle rider; profession: employee of the Quezon City Government Engineering Department; residence: Barangay Ramon Magsaysay; causeofdeath: motorcycle was hit by bus; condition: dead on arrival; hospital: Fairview General Hospital; /,"NCR, Quezon City, Commonwealth Avenue",6.0,4:00 PM,"motorcycle, tricycle, car, truck, bus"
+3 hurt in Skyway accident in Magallanes,1127.0,1.0,2014-01-27 00:00:00,3.0,injury: minor * 3/,,,"Makati City, Skyway in Magallanes",1.0,1:00 PM,jeepney
+Motorcyle rider dies after bus hits 6 vehicles,1647.0,1.0,2014-01-28 00:00:00,,,1.0,name: Carlos Pamintuan Jr.; profession: City Engineer's Office employee; ridergroup: motorcycle driver; condition: dead on arrival; hospital: Fairview General Hospital; /,"Metro Manila, Quezon City, Commonwealth Avenue",6.0,,"motorcycle, bus"
+Bus catches fire on Skyway; 4 hurt in 3-bus accident near NLEX | News | GMA News Online,398.0,1.0,2014-02-04 00:00:00,4.0,ridergroup: driver; medicalcondition: minor injuries / ridergroup: passenger; medicalcondition: minor injuries /,,,"Camachile Loading Bay, NLEX",3.0,Early Morning,bus
+2 graduating high school students killed as car careens off road in Cebu town | Inquirer News,2122.0,1.0,2014-02-06 00:00:00,6.0,"name: Joanne Marie Romero; age: 16; profession: student; condition: critical; ridergroup: car passenger; /
+name: Melissa Mendez; age: 14; profession: student; condition: critical; ridergroup: car passenger;  /
+name: Kynth Marie Mendez; age: 14; profession: student; condition: critical; ridergroup: car passenger; /
+name: Nice Ancheta; age: 15; profession: student; condition: critical; ridergroup: car passenger; /
+name: Al-Dhinier Sanaani; age: 26; profession: medical representative; ridergroup: car driver; condition: minor injury; /
+name: Kristine Joyce Batucan; age: 26; profession: medical representative; ridergroup: car driver; condition: minor injury; /",2.0,"name: Judy Ann Lomera; age: 17; residence: Barangay Poblacion, Boljoon; profession: student; condition: dead on spot; /
+name: Christy Marie Estella; age: 18; profession: student; /","Cebu, Boljoon, Barangay Poblacion",2.0,afternoon,car
+"1 killed, 4 hurt as car falls from SCTEx bridge | Inquirer News",309.0,1.0,2014-02-06 00:00:00,,ridergroup: passenger * 4/,1.0,ridergroup: passenger; gender: male; age: adult; hospital: Macabalat District Hospital; /,"Pampanga, Porac, SCTEX",1.0,morning,SUV Nissan Frontier
+"Wayward truck leaves 1 dead, 4 injured in Laguna | Inquirer News",2307.0,1.0,2014-02-11 00:00:00,4.0,"name: Zenaida Gonzaga; age: 47; gender: female; ridergroup: jeepney passenger; residence: Calamba City; natureofinjury: vehicle collision; /
+name: Christian Mendoza; age:34; gender: male; ridergroup: jeepney passenger; residence: Calamba City; natureofinjury: vehicle collision; /
+name: Filipina Benedicto; age: 33; gender: female; ridergroup: jeepney passenger; residence: Rosario, Batangas; natureofinjury: vehicle collision; /
+name: Maria Corazon Adarlo; age: 25; gender: female; ridergroup: jeepney; natureofinjury: vehicle collision passenger; residence: Batangas City; /",1.0,"name: Abegail San Pablo; age: 16; gender: female; ridergroup: jeepney passenger; residence: Barangay Puting Lupa, Calamba City; causeofdeath: jeepney was hit by a truck; /","Laguna, Calamba City, National Road, Barangay Turbina",4.0,7:30 AM,"tricycle, truck, jeepney, shuttle bus"
+15 hurt in Ortigas car-jeep crash,267.0,1.0,2014-02-11 00:00:00,15.0,"name: Angelo Paulo Luna; gender: male; ridergroup: car driver; /
+ridergroup: jeepney driver; /
+ridergroup: passengers; hospital: Pasig City General Hospital, Rizal Medical Center; /",,,"NCR, Pasig City , Meralco Avenue corner Julia Vargas ",2.0,Morning,"car, jeepney"
+2 hurt in new bus crash along Commonwealth,2364.0,1.0,2014-02-11 00:00:00,2.0,hospital: Far Eastern University Hospital * 2/,,,"Quezon City, Commonwealth Avenue",3.0,morning,"tricycle, jeepney, bus"
+Man dies after getting hit by motorcycle in Pasay,2288.0,1.0,2014-02-23 00:00:00,1.0,name: Edmund Balderan; age: 31; ridergroup: motorcycle rider; gender: male; profession: chef; hospital: San Juan de Dios Hospital; / ,1.0,"name: Edgardo Sagun; residence: Barangay Carmona, Makati; gender: male; ridergroup: pedestrian; /","Pasay City, Roxas Boulevard",1.0,6:00 AM,motorcycle
+Child hurt in Quezon province road accident dies | News | GMA News Online,378.0,1.0,2014-02-22 00:00:00,6.0,"ridergroup: driver; condition: critical; gender: male /
+ridergroup: passenger; gender: female; profession: mother /",1.0,ridergroup: passenger; age: 1.5; gender: male; profession: son of driver; /,"Quezon, Tagkawayan, Quirino Highway",2.0,predawn,truck
+Truck-related incident snarls traffic in Manila's port area | News | GMA News Online,1266.0,1.0,2014-02-28 00:00:00,,,,,"NCR, Manila, Manila Port Area",1.0,Morning,truck
+"13 hurt in bus, truck collision on NLEX in Bulacan | Inquirer News",1730.0,1.0,2014-03-03 00:00:00,13.0,"ridergoup: passengers hospital: Bulacan Medical Center; * 13 / 
+ridergroup: delivery truck helper; hospital: Bulacan Medical Center /",,,"Bulacan, NLEX",2.0,5:45 AM,"truck, bus"
+Two injured as minibus falls off highway,494.0,1.0,2014-03-02 00:00:00,,,,,"NCR, Paranaque City, Skyway",2.0,,"SUV, minibus"
+2 hurt in AUV-bus collision along EDSA-Guadalupe,48.0,1.0,2014-03-05 00:00:00,2.0,"nationality: Korean; ridergroup: driver; gender: male; age: adult; /
+ridergroup: AUV passenger; name: Sheryl Sabio; gender: female; /",,"others: possibly intoxicated; /
+","Makati, EDSA Guadalupe",2.0,before dawn,"bus, Asian Utility Vehicle FX"
+MNLF chairman safe after truck hits convoy in Maguindanao town | News | GMA News Online,1408.0,1.0,2014-03-07 00:00:00,3.0,"name: Muslimin Sema; gender: male; profession: MNLF chairman; others: flown in to a hospital in Davao City; /
+name: Nords Dimasangkay; gender: male; profession: security escort; /
+name: Samad Tasil; gender: male, profession: security escort; /",1.0,name: Bandon Ampatuan; gender: male; profession: security escort; /,"Maguindanao, Datu Anggal Midtimbang Town",3.0,,"van, truck, SUV"
+Speeding truck rams into 2 other vehicles in QC,1975.0,1.0,2014-03-11 00:00:00,,,0.0,,"Metro Manila, Quezon City, Mindanao Avenue",3.0,morning,"van, truck"
+"1 killed, 4 hurt in Pasig road mishap",1071.0,1.0,2014-03-12 00:00:00,4.0,"name: Mark Anthony Limpat; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /
+name: Cecil Rizo; gender: female; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /
+name: Justin Rafael Rizo; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital;/
+name: Neil Robinson; gender: male; ridergroup: passenger; natureofinjury: car slammed into a gutter; hospital: Pasig City General Hospital; /",1.0,"name: Juan Carlos Adajar; age: 31; gender: male; ridergroup: driver, causeofdeath: car slammed into a gutter; /","NCR, Pasig City, Eastbank Road, Barangay Manggahan",1.0,Before dawn,"car, taxi"
+31 elite cops hurt in Sarangani road accident  police official | News | GMA News Online,2494.0,1.0,2014-03-15 00:00:00,31.0,"profession: PNP Special Action Forces member; natureofinjury: truck flipped over; hospital: Mindanao Medical Center, Kiamba District Hospital,Tiburcio Hospital/",,,"Sarangani, Kiamba Town, National Highway, Barangay Poblacion",1.0,2:50 AM,truck
+6 hurt as trailer truck rams jeepney on Quezon Avenue  | Inquirer News,2536.0,1.0,2014-03-13 00:00:00,6.0,"hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: Capitol Medical Center; /
+hospital: East Avenue Medical Center; /",,,"Metro Manila, Quezon City, Quezon Avenue",3.0,1:50 PM,"car, truck, jeepney"
+VP Binays back-up car falls off road near Banaue; 4 hurt | News | GMA News Online,1258.0,1.0,2014-03-14 00:00:00,4.0,"name: Roman Campita; profession: photographer; gender: male; age: adult; injury: shoulder injury; ridergroup: passenger; hospital: in Manila; /
+name: Sgt. Danilo Tamo; ridergroup: SUV driver; ridergroup: military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /
+name: Sgt. Alexander Sicat; profession: military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /
+name: Corp. Alexander Solis; profession: corporal in military; age: adult; gender: male; hospital: Good News Clinic and Hospital, Banaue; /",0.0,,"Ifugao, Banaue",1.0,,SUV Toyota Fortuner
+Two injured as truck falls off cliff in Antipolo City,988.0,1.0,2014-03-16 00:00:00,2.0,ridergroup: truck driver; name: Sonny Bernabe; profession: truck driver; injury: bruises; status: fled the scene; /,0.0,,"Rizal, Antipolo City, Barangay Dalig, Zigzag Road",1.0,12:00 AM,truck
+"14 wounded in multiple vehicle collision in Limay, Bataan | News | GMA News Online",694.0,1.0,2014-03-20 00:00:00,14.0,ridergroup: mini bus passenger; natureofinjury: vehicle collision; hospital: Bataan General Hospital; *14 /,,,"Bataan, Limay, Roman superhighway",4.0,Afternoon,"van, mini bus, pickup truck"
+50 injured in bus accident on Commonwealth Avenue  | Inquirer News,365.0,1.0,2014-03-22 00:00:00,50.0,"name: Anthony Malangan; age: 58; gender: male; profession: bus driver; ridergroup: driver; employer: Marikina Auto Line Transit Bus driver/
+name: Clifford Reyes; age: 28; gender: male; profession: bus driver; ridergroup: driver; employer: Safeway bus driver/
+name: Mario Rogelio Jr; age: 27; gender: male; profession: bus driver; ridergroup: driver; employer: Nova Auto Transport Bus driver/
+name: Felix Banigla; age: 57; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roger Zausa; age: 45; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Ronnie Acadera; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Mariano Besana; age: 31; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roberto Isorena; age: 47; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Paul Sia; age: 36; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Roderick Caba; age: 34; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Kenneth Losares; age: 22; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Michael Pastor; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Cabrino Patrocinio; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Allan Clima; age: 24; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Arme Rebeno; age: 24; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Petrolle Ario; age: 47; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Kenneth Quisado; age: 24; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rommel Libasura; age: 28; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Francis Guyag; age: 21; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Ronnie Bandoy; age: 33; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Dhonor Boco; age: 27; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: James Juanito; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Rolly Victoria; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Susana dela Torre; age: 53; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Mario Muron; age: 47; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Rio John Laurisia; age: 22; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Roque Carvales; age: 63; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Liza Tunales; age: 40; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Larry Regla; age: 49; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Alex Gomez; age: 44; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Hilma Arde; age: 49; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Jenard Patulay; age: 26; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Aljen Depositas; age: 21; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Melchor Malilay; age: 33; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Merlie Ocasla; age: 29; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Sonny Domina; age: 30; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+name: Raniel Lopez; age: 50; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Jeffrey Donciapan; age: 28; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Editha Enverga; age: 28; gender: female; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Alexander Maisa; age: 38; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Darwin Puso; age: 25; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Leonifas Ingine; age: 29; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Wilson Enverga; age: 36; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rodolfo Amores; age: 32; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Adan Marquez; age: 20; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Rogelio Inevado; age: 44; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/ 
+name: Benigno Robles; age: 20; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center /
+name: Ben Tacon; age: 37; gender: male; ridergroup: passenger; hospital: East Avenue Medical Center/
+ridergroup: passenger; age: 31; hospital: East Avenue Medical Center/
+ridergroup: passenger; age: 25; gender: male; hospital: East Avenue Medical Center/",,,"NCR, Quezon City, Commonwealth Avenue  Westbount side, near Elliptical road ",3.0,5:55 AM,bus
+Driver hurt as SUV slams into bus along EDSA,456.0,1.0,2014-03-22 00:00:00,1.0,name: Thomas Alvarez; age: 28; gender: male; ridergroup: driver; injury: fracture on right arm; natureofinjury: hand was pinned under steering wheel; condition: brought to hospital; others: son of Palawan congressman/,,,"NCR, Makati City, EDSA Magallanes  Southbound",2.0,past 5:00 am,"bus, SUV"
+Container falls off truck in Pasay,876.0,1.0,2014-03-23 00:00:00,,,,,"Pasay City, Nichols Interchange",1.0,,truck
+23 teachers hurt in Nueva Ecija road accident | Inquirer News,1466.0,1.0,2014-03-24 00:00:00,23.0,"ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+ridergroup: jeepney passenger; profession: teacher; /
+",,,"Nueva Ecija, Palayan City, Sta RosaGinalan Road",1.0,,jeepney
+3 Mocha Girls members injured in Edsa car mishap | Inquirer Entertainment,1618.0,1.0,2014-03-29 00:00:00,3.0,ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ridergroup: van passenger; gender: female; profession: Mocha Girls performer; natureofinjury: bus hit their vehicle; injury: minor scratches and bruises; condition: brought to hospital; / ,,,"NCR, Quezon City, EDSA",3.0,2:00 AM,"car, van, bus"
+3 hurt in 12-vehicle smashup on C5,253.0,1.0,2014-04-01 00:00:00,3.0,"name: Antonio Engue; gender: male; ridergroup: motorcycle driver; natureofinjury: vehicle collision; injury: abrasions and bruises; hospital: Ospital ng Makati/
+name: Madeline Engua; gender: female; ridergroup: motorcycle passenger; natureofinjury: vehicle collision; injury: abrasions and bruises; hospital: Ospital ng Makati/",,,"NCR, Makati City, C5 Kalayaan, Barangay Pembo",12.0,,"motorcycle, van, truck, taxi, SUV, pickup truck"
+Man killed by loose truck wheels,1546.0,1.0,2014-04-03 00:00:00,,,1.0,name: Johnny Balasa; age: 23; gender: male; ridergroup: cyclist; causeofdeath: hit by dislodged wheels from truck; /,"NCR, Manila, Road 10, Tondo",2.0,11:30 AM,"bicycle, truck"
+"2 killed, 2 hurt in Cebu road accident | Inquirer News",2074.0,1.0,2014-04-05 00:00:00,2.0,"name: Roel Cadiz; age: 33; gender: male; ridergroup: pedestrian; natureofinjury: hit by car on the sidewalk; residence: Camotes Island, Cebu /
+name: Danny Vale; age: 37; gender: male; ridergroup: pedestrian; natureofinjury: hit by car on the sidewalk; residence: Cebu City /",2.0,"name: Gaudeoso Bontilao; gender: male; profession: casino employee; residence: Barangay Guba, Cebu City; ridergroup: motorcycle rider; causeofdeath: thrown of motorcycle; condition: died on the spot; /
+name: Joselito Lopez; age: 43; gender: male; profession: casino employee; residence: of Capitol Site, Cebu City; ridergroup: motorcycle rider; causeofdeath: thrown of motorcycle; condition: died on the spot; /","Cebu, Cebu City , Salinas Drive, Lahug",2.0,Morning,"motorcycle, car"
+4 wounded in truck-motorcycle mishap in QC,1365.0,1.0,2014-04-06 00:00:00,4.0,"name: Tito Cerrado; gender: male; ridergroup: motorcycle rider; others: father of a family of four aboard motorcycle /
+name: Eloisa Ortegera; gender: female; ridergroup: motorcycle passenger; others: mother of family of four aboard motorcycle /
+name: Trisha Cerrado; age: 8; gender: female; ridergroup: motorcycle passenger; others: daughter of driver /
+name: Tristan Cerrado; age: 6; gender: male; ridergroup: motorcycle passenger; others: son of driver /",,,"NCR, Quezon, Mindanao Avenue",2.0,Morning,"motorcycle, truck"
+Six killed in Cebu road accident | Inquirer News,2499.0,1.0,2014-04-10 00:00:00,1.0,ridergroup: driver; hospital: Carcar Provincial Hospital / ridergroup: passenger; hospital: Carcar Provincial Hospital /,6.0,ridergroup: truck passenger; condition: dead on spot; /,"Cebu , Carcar City, Barangay Guadalupe",1.0,12 noon,truck
+Report: at least 5 killed in Cebu road accident | News | GMA News Online,1587.0,1.0,2014-04-10 00:00:00,21.0,,5.0,,"Cebu, Carcar City, Sitio Mabugnawon along national road",1.0,,truck
+"Quezon road mishap claims three lives, injures 24  | Inquirer News",434.0,1.0,2014-04-10 00:00:00,24.0,"ridergroup: bus passenger; hospital: Liwag Medical Clinic in Tiaong, St. Peter and Paul Hospital in Candelaria, United Doctors Hospital in Candelaria; * 24/",3.0,"name: Eden Montiano Sangrones; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: died at hospital; injury: head and body traume; hospital: Sts. Peter and Paul Hospital in Candelaria; /
+name: Remedios Montiano Sangrones; age: 65; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: dead on spot; /
+name: Alyssa Rosanne Singayan; gender: female; residence: BF International, Las Piñas City; ridergroup: bus passenger; condition: dead on spot; /","Quezon, Tiaong, Barangay Lalig, Maharlika Highway",2.0,11:50 PM,"truck, bus"
+2 bus crashes along Quezon highway Monday night | News | GMA News Online,1098.0,1.0,2014-04-15 00:00:00,,,,,"Quezon, Tagkawayan Town, Quirino Highway",2.0,Night,bus
+Motorcycle rider falls from Buendia flyover,781.0,1.0,2014-04-11 00:00:00,1.0,name: Clark Macasadi; ridergroup: motorcycle driver; hospital: Ospital ng Makati; /,,,"Makati City, Buendia flyover",1.0,7:00 AM,motorcycle
+Two-year-old among five dead in Camarines Sur road mishap | Inquirer News,1540.0,1.0,2014-04-16 00:00:00,15.0,ridergroup: bus passenger; * 15/,5.0,"name: Alexander Belen; residence: Albay; gender: male; ridergroup: bus passenger; /
+name: Jason Purita; age: 23; residence: Albay; gender: male; ridergroup: passenger; /
+name: Cindy Garcia; age: 17; residence: Marikina; gender: female; ridergroup: bus passenger; /
+name: Arnelli Dacullo; gender: male; residence: San Jose del Monte in Bulacan; others: father; ridergroup: bus passenger; /
+name: Marc Dacullo; age: 2; gender: male; residence: San Jose del Monte in Bulacan; ridergroup: bus passenger; /","Camarines Sur, Libmanan, Barangay Bikal",2.0,4:00 AM,"truck, bus"
+Bus-truck collision snarls traffic in NLEx | Inquirer News,1716.0,1.0,2014-04-15 00:00:00,,,,,"Bulacan, Bocaue, North Luzon Expressway",2.0,4:50 PM,"truck, bus"
+2 hurt in motorcycle collision in QC,330.0,1.0,2014-04-23 00:00:00,2.0,"name: Nio Valencia; ridergroup: motorcycle driver; /
+name: Teipal Singh; ridergroup: motorcycle driver; nationality: Indian; /",,,"Metro Manila, Quezon City, Quezon Avenue",2.0,predawn,motorcycle
+"TRB: 3-vehicle collision slows traffic at SLEX
+ | News | GMA News Online",2567.0,1.0,2014-04-19 00:00:00,,,,,SLEX,3.0,,
+"Bus, sumalpok sa kainan sa gilid ng kalsada; 14 na pasahero, sugatan  | Ulat Filipino | GMA News Online",665.0,1.0,2014-04-26 00:00:00,14.0,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",,,"Camarines Sur, Del Gallego",1.0,daytime,bus
+4 hurt in bus crash along Commonwealth,2304.0,1.0,2014-04-23 00:00:00,4.0,ridergroup: passenger; gender: female; * 4/,,,"Quezon City, Commonwealth Avenue",4.0,5:00 AM,"motorcycle, bus"
+Woman killed in QC motorcycle crash | News | GMA News Online,563.0,1.0,2014-04-29 00:00:00,1.0,name: Mary Joy Socorro; ridergroup: motorcycle driver; /,1.0,"name: Espartero; ridergroup: motorcycle passenger; gender: female; /
+","Metro Manila, Quezon City, Commonwealth Avenue",2.0,,"motorcycle, bus"
+Motorcycle passenger dies in QC road mishap,2504.0,1.0,2014-04-29 00:00:00,,,1.0,name: Rendell Espartero; gender: female; ridergroup: motorcycle passenger; causeofdeath: head injury; /,"Quezon City, Belfast Avenue, Fairview",2.0,Before dawn,"motorcycle, bus"
+"1,000 sacks of rice block C-5 tunnel",1153.0,1.0,2014-05-01 00:00:00,1.0,name: Bayani Alberto; gender: male; ridergroup: truck passenger; natureofinjury: truck fell on its side/,,,"NCR, Quezon City, C5 Libis Tunnel ",1.0,11:00 PM,truck
+"2 killed, 2 hurt as truck falls into ravine in Aklan | News | GMA News Online",828.0,1.0,2014-05-02 00:00:00,2.0,"name: Rey-ann Terible; age: 29; ridergroup: truck passenger; natureofinjury: truck fell into ravine; hospital: Malay Baptist Hospital; / 
+name: Elmer Prodente; age: 20; ridergroup: truck passenger; natureofinjury: truck fell into ravine; hospital: Malay Baptist Hospital; /",2.0,"name: Peter Paul Palma; age: 46; gender: male; ridergroup: truck driver; causeofdeath: truck fell into ravine, dead on spot; /
+name: Arnel Epilepcia; age: 25; gender: male; ridergroup: truck passenger; causeofdeath: truck fell into ravine; /","Aklan, National Highway",1.0,,truck
+3 hurt in EDSA bus collision,2273.0,1.0,2014-05-03 00:00:00,3.0,medicalcondition: slightly injured,,,"NCR, Quezon City, EDSA Cubao Southbound",2.0,Afternoon,bus
+"Report: 1 killed, 2 hurt in Cagayan de Oro road accident | News | GMA News Online",1285.0,1.0,2014-05-04 00:00:00,,"name: Alfie Sulatan; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; others: possibly intoxicated; /
+name: Robert John Fernandez; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; others: possibly intoxicated; /",1.0,"name: Sonny Escolano; age: 22; gender: male; residence: Barangay 5, Talakag, Bukidnon; ridergroup: motorcycle passenger; /","Cagayan de Oro City, Barangay Mambuaya",2.0,,"motorcycle, Unclear large parked vehicle"
+Report: 4 soldiers hurt as army truck crashes in Capiz | News | GMA News Online,1748.0,1.0,2014-05-05 00:00:00,4.0,"name: TSgt. Jovito Mendez; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: SSgt. Alberto Herami; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: SSgt. Gaspar Sabara; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /
+name: TSgt. Salvador Roma; profession: soldier; ridergroup: army truck passenger; hospital: Passi City District Hospital; /",,,"Iloilo, Passi City, Barangay Sablugon highway",2.0,,truck
+Driver hurt in Pasig road mishap,2031.0,1.0,2014-05-05 00:00:00,1.0,name: Roberto delos Santos; ridergroup: van driver; hospital: Pasig City General Hospital; /,,,"Pasig City, Amang Rodriguez Sr Avenue",2.0,,"van, truck"
+Overturned tanker closes Batangas road to traffic | Inquirer News,1237.0,1.0,2014-05-06 00:00:00,,,,,"Batangas, Cuenca, National Road, Barangay Ibabao",1.0,1:00 AM,truck
+4 killed as truck plunges into ravine in Laguna | Inquirer News,1248.0,1.0,2014-05-09 00:00:00,6.0,"name: Domingo Arsulacia; gender: male; ridergroup: truck driver; natureofinjury: truck fell into a ravine; /
+ridergroup: truck passenger; natureofinjury: truck fell into a ravine; *5;  /",4.0,"ridergroup: truck passengers; causeofdeath: truck fell into a ravine; condition: dead on spot; *2 /
+ridergroup: truck passengers; causeofdeath: truck fell into a ravine; condition: dead on arrival; *2 /","Laguna, Majayjay highway",1.0,5:30 AM,truck
+PAF master sergeant linked to 1983 Ninoy assassination dies after road accident | News | GMA News Online,2102.0,1.0,2014-05-08 00:00:00,,,1.0,name: Pablo Martinez; profession: Air Force master sergeant; ridergroup: bicycle rider;  gender: male; age: adult; /,"Manila, Roxas Boulevard",2.0,morning,"bicycle, SUV"
+Vehicular collision causes traffic near Calamba toll plaza,1491.0,1.0,2014-05-11 00:00:00,,,,,"Laguna, Calamba, Calamba Toll Plaza at SLEX northbound",3.0,morning,"car, truck, bus"
+Motorcycle rider killed in Mindanao Ave. mishap,15.0,1.0,2014-05-14 00:00:00,,,1.0,name: Paul Joseph Ignacio; gender: male; ridergroup: motorcycle rider; causeofdeath: fell off his motorcycle after being sideswiped by a trailer truck; condition: dead on the spot; others: not wearing helmet; /,"NCR, Quezon City, Mindanao Avenue",2.0,3:00 AM,"motorcycle, truck"
+Aiko Melendez involved in minor car crash | Showbiz | GMA News Online,312.0,1.0,2014-05-12 00:00:00,,,,,Metro Manila,,,Pajero
+Truck crashes into SLEx concrete barriers,1372.0,1.0,2014-05-14 00:00:00,,,,,South Luzon Expressway,1.0,,truck
+"Car, motorcycle collision along Chino Roces Avenue snarls traffic | Inquirer News",420.0,1.0,2014-05-17 00:00:00,2.0,ridergroup: motorcycle rider; profession: security guard; medicalcondition: brought to hospital / ridergroup: motorcycle rider; profession: security guard; medicalcondition: brought to hospital / ,,,"NCR, Makati City, Chino Roces avenue corner Mola Street",2.0,Noon,"motorcycle, car"
+"2 killed, 13 hurt in Quezon road accident | Inquirer News",2354.0,1.0,2014-05-14 00:00:00,13.0,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",2.0,"name: Precious Denise Siruma; ridergroup: bus passenger; gender: female; age: 3; residence: Valenzuela City; /
+name: Niel Tabuzo; ridergroup: bus passenger; gender: male; age: 25; residence: Camarines Sur; /","Quezon, Tiaong, Barangay Lalig",,12:30 AM,"van, bus"
+9 hurt in jeep-bus collision along Commonwealth,2123.0,1.0,2014-05-17 00:00:00,9.0,"ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",,,"Metro Manila, Quezon City, Commonwealth Avenue",2.0,9:10 AM,"jeepney, bus"
+Motorcycle rider wounded after hitting bus,1454.0,1.0,2014-05-18 00:00:00,1.0,"name: Jess Chaves Boyles; age: 33; residence: Tala, Caloocan City; ridergroup: motorcycle driver; hospital: East Avenue Medical Center; / ",,,"Metro Manila, Quezon City, Commonwealth Avenue",2.0,2:00 AM,"motorcycle, bus"
+LOOK: Bus burns along SLEX,402.0,1.0,2014-05-18 00:00:00,,,,,"Pasay City, Villamor Exit",1.0,5:57 PM,bus
+Two-truck collision snarls traffic in Libis,2356.0,1.0,2014-05-21 00:00:00,2.0,"name: Ronnie Villaganta; gender: male; ridergroup: truck driver; natureofinjury: vehicle collision; injury: minor /
+name: Marlon dela Vega; gender: male; ridergroup: truck driver; natureofinjury: vehicle collision; injury: minor /",,,"NCR, Quezon City, Libis flyover",2.0,Morning,truck
+"3 dead, 4 wounded in Batangas road accident  | Inquirer News",1199.0,1.0,2014-05-22 00:00:00,4.0,"name: Lovely May Castillo; age: 5; /
+name: Dianne Bolima; age:16; /
+name: Jomar Sanchez; age: 21; /
+name: Nina Gariando; /",3.0,"name: Ferdinand Uy; condition: dead on arrival; /
+name: Glenn Mias; condition: dead on arrival; / 
+name: Bernie Supnit; age: 35; condition: dead on arrival; /","Batangas, Ibaan, San Agustin",2.0,,"tricycle, car"
+8 hurt in EDSA 4-vehicle smash-up,46.0,1.0,2014-05-23 00:00:00,1.0,ridergroup: motorcycle rider; /,,,EDSA,4.0,,"motorcycle, bus"
+2 motorcycle riders killed in QC road mishap,2325.0,1.0,2014-05-23 00:00:00,,,2.0,"ridergroup: motorcycle driver; name: Ricardo Potenoza; /
+ridergroup: motorycle rider; /","Quezon City, Payatas Road",2.0,,"motorcycle, bus"
+"Motorcycle gets pinned between 2 buses on EDSA, 2 hurt | News | GMA News Online",1448.0,1.0,2014-05-23 00:00:00,2.0,,,,"Mandaluyong City, EDSA corner Shaw",3.0,night,"motorcycle, bus"
+"Mother and baby hit by truck, killed in Bacolod | Inquirer News",2221.0,1.0,2014-05-24 00:00:00,,,2.0,"name: Mary Rosa Arosa; gender: female; ridergroup: pedestrian; causeofdeath: hit by a truck; profession: mother; / 
+ridergroup: pedestrian; age: 6 months; causeofdeath: hit by a truck; /","Negros Occidental, Bacolod City, Circumferential Road",1.0,,truck
+4 killed in 2 Davao City road accidents | News | GMA News Online,1617.0,1.0,2014-05-25 00:00:00,29.0,,4.0,,"Davao City, BukidnonDavao road",,,
+Collision with truck kills 2 motorcyclists in GenSan | News | GMA News Online,2373.0,1.0,2014-05-27 00:00:00,,,2.0,"name: Rowel Salon; ridergroup: motorcycle driver; condition: dead on arrival; /
+name: Kirok Dantan; ridergroup: motorcycle passenger; condition: dead on arrival; /
+",General Santos City,2.0,,"motorcycle, truck"
+Truck driver dies in Katipunan crash,1785.0,1.0,2014-05-27 00:00:00,1.0,ridergroup: truck passenger; age: 17; injury: minor; /,1.0,ridergroup: truck driver; name: Wilfredo Reyes; age: 51; gender: male; condition: dead on arrival; hospital: Quirino Memorial Medical Center; /,"Quezon City, Katipunan near Blue Ridge Subdivision",2.0,morning,truck
+Truck crashes into houses in Alabang; 2 hurt,1069.0,1.0,2014-05-28 00:00:00,2.0,ridergroup: bystander; natureofinjury: truck fell into their house from the expressway; hospital: Alabang Medical Center; others: couple/,,,"NCR, Alabang, SLEX  Susana Heights",1.0,4:40 AM,truck
+17 hurt in Commonwealth bus crash,792.0,1.0,2014-06-02 00:00:00,17.0,"ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /
+ridergroup: bus passenger; hospital: East Avenue Medical Center; /",,,"Metro Manlia, Quezon City, Commonwealth Avenue",2.0,morning,bus
+Speeding car kills kid on way to school  | Inquirer News,1813.0,1.0,2014-06-04 00:00:00,,,1.0,name: Denmark Volpane; age: 7; gender: male; profession: Grade 2 student; causeofdeath: run over by speeding SUV; condition: dead on the spot; /,"Laguna, San Pedro City, GSIS Village",1.0,Noon,SUV
+MMDA employee dies in motorcycle accident,1212.0,1.0,2014-06-04 00:00:00,,,1.0,name: Joel Acanto; profession: MMDA traffic enforcer; ridergroup: motorcycle driver; /,"Metro Manila, Pasig City, Julia Vargas Avenue",1.0,,motorcycle
+2 hurt as truck rams houses in Taytay,968.0,1.0,2014-06-04 00:00:00,2.0,"ridergroup: truck driver; name: Joland Dela Cruz; age: adult; gender: male; /
+ridergroup: truck passenger; /",,,"Rizal, Taytay, Barangay Dolores",3.0,night,"tricycle, truck"
+MMDA: 2 hurt in 3-vehicle collision at EDSA Magallanes | News | GMA News Online,699.0,1.0,2014-06-06 00:00:00,2.0,,,,"Metro Manila, EDSA Magallanes Flyover",3.0,afternoon,
+15 hurt as bus overturns in SLEx-Nichols,2082.0,1.0,2014-06-08 00:00:00,15.0,"ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /
+ridergroup: bus passenger; /",,,South Luzon Expressway,1.0,,bus
+Nova bus again? 21 hurt in QC road accident | Inquirer News,902.0,1.0,2014-06-11 00:00:00,21.0,ridergroup: passenger; medicalcondition: cuts and bruises; hospital: East Avenue Medical Center,,,"NCR, Quezon City, Commonwealth Avenue corner Camaro Street",2.0,5:00 AM,bus
+"Cop falls off motorcycle, gets run over by truck | News | GMA News Online",844.0,1.0,2014-06-13 00:00:00,,,1.0,name: Rolindo Undagan; gender: male; profession: policeman; ridergroup: motorcycle driver; causeofdeath: thrown off motorcycle then ran over by dump truck; /,"Rizal, San Mateo, JP Rizal Street, Barangay Malanday",2.0,,"motorcycle, truck"
+"1 killed, 1 hurt in C5 Road collision | News | GMA News Online",564.0,1.0,2014-06-13 00:00:00,1.0,ridergroup: van passenger; profession: helper; /,1.0,ridergroup: van driver; condition: dead on arrival; gender: male; /,"Metro Manila, Taguig City, C5 Road",1.0,,van
+"9 people, most of them schoolchildren, hurt in Cebu jeep crash | News | GMA News Online",1502.0,1.0,2014-06-18 00:00:00,9.0,"ridergroup: pedestrians; profession: elementary school student; age: child * 7; /
+ridergroup: pedestrian; profession: messenger; /",,,"Cebu City, V Rama Street",1.0,12:00 PM,"motorcycle, car, jeepney"
+Buko vendor hit by car in Mandaluyong,2519.0,1.0,2014-06-18 00:00:00,1.0,name: Romeo Cahilig Jr; profession: buko vendor; /,,,"Metro Manila, Mandaluyong, Boni Tunnel",1.0,morning,car
+4 hurt in 6-vehicle smash-up along EDSA,1863.0,1.0,2014-06-21 00:00:00,4.0,"name: Johans Uy; ridergroup: car driver; /
+ridergroup: taxi driver; /
+ridergroup: bystander; profession: construction worker; / 
+ridergroup: bystander; profession: construction worker; /",,,"Metro Manila, Quezon City, EDSA corner Fema Road",6.0,,"car, taxi, bus"
+Motorcycle rider killed in freak predawn EDSA accident | News | GMA News Online,2547.0,1.0,2014-07-03 00:00:00,,,1.0,ridergroup: motorcycle rider; /,"NCR, Mandaluyong City, EDSA corner Shaw Boulevard",1.0,Before dawn,motorcycle
+"6 hurt, traffic stalled on SLEX in 3-vehicle accident--report | Inquirer News",2398.0,1.0,2014-07-04 00:00:00,6.0,,,,South Luzon Expressway,3.0,,"van, truck, bus"
+4 hurt after truck plows into houses in Iloilo  report | News | GMA News Online,2483.0,1.0,2014-07-07 00:00:00,4.0,"name: Ruby Jabanag; age: 42; ridergroup: bystander; /
+name: Alvin Jabanag; age: 20; ridergroup: bystander; /
+name: Ana Mae Jabanag; age: 18; ridergroup: bystander; /
+name: Andy Boy Jabanag; age: 16; ridergroup: bystander; /",,,"Iloilo, Iloilo City, La Paz",1.0,10:30 PM,truck
+"Ipinapasadang multicab, biglang nagliyab at sumabog sa kalye ng Davao City  | Ulat Filipino | GMA News Online",1594.0,1.0,2014-07-08 00:00:00,,,,,Davao City,1.0,,tricycle
+"2 killed as motorcycle, bus collide in Iloilo | News | GMA News Online",1455.0,1.0,2014-07-10 00:00:00,,,2.0,"name: Hermoso Sorsano; age: 60; ridergroup: motorcycle driver; condition: dead on arrival; hospital: West Visayas State University Medical Center; /
+name: Roberto Provido; age: 51; ridergroup: motorcycle rider; condition: dead on arrival; hospital: West Visayas State University Medical Center; /","Iloilo, Leganes",2.0,evening,"motorcycle, bus"
+Fallen acacia tree causes traffic jam in Cebu; 3 hurt in 6-vehicle smashup  | News | GMA News Online,1159.0,1.0,2014-07-10 00:00:00,,,,,"Cebu, San Fernando",1.0,,truck
+2 women killed in motorcycle accident at Manila bridge | News | GMA News Online,1574.0,1.0,2014-07-18 00:00:00,1.0,ridergroup: motorcycle passenger; gender: female; condition: seriously injured; /,2.0,"ridergroup: motorcycle driver; gender: female; condition: dead on spot; /
+ridergroup: motorcycle passenger; gender: female; condition: dead on spot; /","Metro Manila, Manila, Ayala Bridge",1.0,11:00 PM,motorcycle
+Multiple collision stalls traffic on C5 | Inquirer News,2270.0,1.0,2014-07-21 00:00:00,,,,,,3.0,,car
+"2 motorsiklo, nagsalpukan sa Davao City; 3, patay, 2 pa, sugatan  | Ulat Filipino | GMA News Online",1899.0,1.0,2014-07-22 00:00:00,1.0,ridergroup: motorcycle passenger; /,3.0,"name: Dondon Tayao; ridergroup: motorcycle driver; /
+name: Julito Galles; ridergroup: motorcycle driver; / 
+name: Vanessa Gocotano; ridergroup: motorcycle passenger; /","Davao, Davao City, Barangay Upper Lacson",2.0,,motorcycle
+1 hurt as trailer truck rams post in QC,2587.0,1.0,2014-07-30 00:00:00,1.0,ridergroup: truck passenger; natureofinjury: truck rammed into a concrete post and turned on its side; injury: serious head injury/,,,"NCR, Quezon City, San Mateo  IBP road",1.0,Morning,truck
+2 dead in Antipolo jeep crash | Inquirer News,1613.0,1.0,2014-08-01 00:00:00,24.0,"ridergroup: jeepney passenger; * 23/
+ridergroup: jeepney driver; name: Arturo Ramirez; gender: male; age: adult; /",2.0,"name: Miguel Kotol; ridergroup: jeep passenger; gender: male; condition: dead on arrival; /
+name: Luning Dayana; ridergroup: jeep passenger; gender: female; condition: dead on arrival; /","Rizal, Antipolo City, Marcos Highway near Mayamot Police station",1.0,,jeepney
+1 killed as truck hits 8 vehicles along C-5,570.0,1.0,2014-08-04 00:00:00,,,1.0,name: Eboy; gender: male; ridergroup: truck passenger; /,"NCR, Taguig City, C5 Road Southbound",9.0,Morning,"car, truck, taxi"
+1 dead as cargo truck hits 7 vehicles | Inquirer News,594.0,1.0,2014-08-05 00:00:00,4.0,"ridergroup: passenger; injury: minor; hospital: Ospital ng Makati; /
+ridergroup: driver; injury: minor; hospital: Ospital ng Makati; /",1.0,name: Richard Parado; gender: male; ridergroup: passenger; causeofdeath: trapped in burning truck; /,"NCR, Taguig City, C5 Southbound",8.0,4:00 AM,"car, truck, taxi, SUV"
+"5-year-old girl killed, 2 others hurt as truck rams eatery  | Inquirer News",2229.0,1.0,2014-08-05 00:00:00,2.0,"name: Danilo Bumagat; age: 41; gender: male; ridergroup: bystander; natureofinjury: run over by truck with faulty brakes; injury: multiple fractures in his arms and legs; hospital: Rizal Medical Center; /
+name: Nerissa Montefero; age: 66; gender: female; profession: eatery owner; ridergroup: bystander; natureofinjury: run over by truck with faulty brakes; injury: minor bruises; /",1.0,name: Joeylyn Beraa; age: 5; gender: female; ridergroup: bystander; causeofdeath: run over by truck with faulty brakes; condition: dead on the spot due to head injuries; hospital: Immaculate Conception Hospital; /,"NCR, Pasig City, Dr Sixto Antonio Avenue, Barangay Caniogan",1.0,6:30 PM,truck
+"Truck makes illegal turn, hits 5 vehicles",2409.0,1.0,2014-08-08 00:00:00,3.0,"ridergroup: truck driver; /
+ridergroup: truck driver; /
+ridergroup: truck passenger; profession: porter; /
+",,,"Metro Manila, Pasig City, C5 corner Ortigas Avenue Extension",6.0,,"motorcycle, truck, taxi"
+Motorcycle rider's skull crushed in hit-and-run,2282.0,1.0,2014-08-08 00:00:00,,,1.0,"name: Gerardo Garcia; age: 37; gender: male; profession: driver at Maynilad Water Services, Inc.; injury: skull crushed; /","Quezon City, Commonwealth Avenue and Mindanao Avenue Extension",2.0,3:40 AM,"motorcycle, truck"
+Driver rams truck into road separator,1111.0,1.0,2014-08-08 00:00:00,1.0,name: Jay-ar Abrera; ridergroup: passenger; injury: bruises; gender: male; /,,,"Quezon City, Commonwealth",2.0,before dawn,"truck, bus"
+"MMDA: 3 injured, eastbound traffic snarled in 7-vehicle smashup along C5 | News | GMA News Online",2403.0,1.0,2014-08-08 00:00:00,3.0,,,,"Pasig City, Eastbound part of C5 Ortigas Road",7.0,before dawn,"motorcycle, truck, taxi"
+"7 killed, 14 hurt as truck loses brakes, plows through coconut trees | Inquirer News",477.0,1.0,2014-08-10 00:00:00,14.0,ridergroup: truck passenger * 14/,7.0,"ridergroup: truck passenger; condition: dead on spot; * 4/
+ridergroup: truck passenger; condition: died at hospital; * 3/","Lanao del Norte, Linamon",1.0,afternoon,truck
+80-year-old cyclist may go blind after mishap with motorcycle | News | GMA News Online,1359.0,1.0,2014-08-11 00:00:00,1.0,name: Yakatay Sebastian; age: 80; gender: male; ridergroup: cyclist; natureofinjury: hit by motorcycle; medicalcondition: may go blind and recuperating /,,,"NCR, Pasay City, Diokno Boulevard",2.0,Morning,"bicycle, motorcycle"
+Man waiting for a ride hit by bus on EDSA,1705.0,1.0,2014-08-11 00:00:00,1.0,ridergroup: pedestrian; injury: head injury; age: 20+; gender: male; /,,,"Mandaluyong City, EDSA Reliance Southbound",,morning,bus
+Iloilo pupil critical after freak road accident | News | GMA News Online,522.0,1.0,2014-08-13 00:00:00,1.0,name: John Rey Dorde; gender: male; profession: Grade 4 student; natureofinjury: ran over by pickup truck; condition: critical; hospital: private; others: student of Dawis Elementary School/,,,"Iloilo, Zarraga, Barangay Dawis",1.0,,pickup truck
+"Elementary student, barangay tanod, killed in Iloilo by speeding jeep | News | GMA News Online",1480.0,1.0,2014-08-13 00:00:00,,,2.0,"name: John Michael Andrade; age: 8; gender: male; profession: student; ridergroup: pedestrian; /
+name: Pedronilo Mandal, Jr.; profession: barangay tanod; age: adult; gender: male; ridergroup: pedestrian; /","Iloilo, Oton, BotongCabanbanan Elementary School",,afternoon,jeepney
+"3 dead, 2 hurt in Pangasinan road accident | Inquirer News",425.0,1.0,2014-08-14 00:00:00,2.0,"ridergroup: truck driver; / 
+ridergroup: truck driver; / ",3.0,"ridergroup: bystander; gender: female; profession: mother; /
+ridergroup: motorcycle passenger; gender: female; /
+ridergroup: motorcycle driver; gender: male; /","Pangasinan, Dagupan City",3.0,,"motorcycle, truck"
+4 hurt as truck falls into Davao City ravine | News | GMA News Online,62.0,1.0,2014-08-14 00:00:00,4.0,"name: Akilan Mangansakan; ridergroup: truck driver; gender: male; age: adult; /
+ridergroup: truck passenger; /
+ridergroup: truck passenger; /
+ridergroup: truck passenger; /",,,"Davao City, Barangay Marilog",1.0,evening,truck
+"22 baboy, napaaga ang kamatayan; trak na sinasakyan nila, naaksidente  | Ulat Filipino | GMA News Online",512.0,1.0,2014-08-22 00:00:00,,,,,"Bukidnon, Manolo Fortich",1.0,,truck
+"Traffic enforcer sa Laoag City, tinumbok ng sinita niyang tricycle; driver nito, wala palang lisensiya | Ulat Filipino | GMA News Online",1682.0,1.0,2014-08-27 00:00:00,1.0,"name: Nathan Dancel; gender: male; profession: traffic enforcer, ridergroup: pedestrian; natureofinjury: run over by apprehended motorcycle; others: damaged pants and lost cellphone; /",,,"Ilocos Norte, Laoag City , National Highway",1.0,,motorcycle
+"Fire truck hits Paco pedestrians; 1 killed, 13 injured--report | Inquirer News",311.0,1.0,2014-08-30 00:00:00,13.0,"ridergroup: pedestrian; hospital: Philippine General Hospital * 13; /
+",1.0,name: Corazon Catambe; gender: female; age: adult; ridergroup: pedestrian; /,"Manila, Angel Linao Street, Paco",1.0,3:00 PM,truck
+Truck accident causes heavy traffic on C-5 | Inquirer News,1174.0,1.0,2014-09-05 00:00:00,,,,,"NCR, Pasig City, Ortigas Flyover Northbound",4.0,Morning,truck
+11 hurt in vehicular accidents in Metro Manila,270.0,1.0,2014-09-05 00:00:00,4.0,"ridergroup: delivery truck driver, medicalcondition: rushed to the hospital/
+ridergroup: delivery truck passenger, medicalcondition: rushed to the hospital/
+ridergroup: van driver; medicalcondition: rushed to the hospital/
+ridergroup: unknown; medicalcondition: rushed to the hospital/",,,"NCR, Pasig City, Lanuza Street corner Ortigas Avenue",4.0,Morning,"car, van"
+6 dead in road accident in Cagayan | Inquirer News,2255.0,1.0,2014-09-06 00:00:00,2.0,,6.0,"ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+ridergroup: tricycle passenger; /
+","Cagayan, Tuguegarao City, Maharlika Highway",2.0,past noon,"tricycle, car"
+"1 killed, 4 hurt after trailer truck hits house in Tondo | News | GMA News Online",427.0,1.0,2014-09-12 00:00:00,4.0,,1.0,ridergroup: bystander; age: 53; /,"Metro Manila, Manila, Tondo",2.0,afternoon,truck
+"Tricycle, natabunan ng lupa na karga ng tumagilid na trak; 1, patay, 4, sugatan | Ulat Filipino | GMA News Online",1120.0,1.0,2014-09-13 00:00:00,4.0,"ridergroup: welding shop employee; natureofinjury: truck ran over shop; /
+ridergroup: welding shop customer; natureofinjury: truck ran over shop; /
+ridergroup: tricycle driver; natureofinjury: soil from truck pinned tricycle; /
+ridergroup: tricycle passenger; age: minor; natureofinjury: soil from truck pinned tricycle; / ",1.0,ridergroup: tricycle passenger; causeofdeath: pinned by soil from the truck; /,"Davao, Davao City",2.0,,"tricycle, truck"
+"3 dead, 22 hurt in La Union road accident | Inquirer News",354.0,1.0,2014-09-18 00:00:00,22.0,ridergroup: jeepney passenger; * 22; /,3.0,"name: Loren Mayo; age: 43; gender: female; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on spot; /
+name: Evangeline; gender: female; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on spot; /
+name: Helen Fernandez; ridergroup: jeepney passenger: causeofdeath: jeep hit a stone wall; condition: dead on arrival; /","La Union, San Fernando City, Barangay Pias",1.0,8:00 AM,jeepney
+"1, patay sa banggaan ng pick-up truck at delivery truck sa Iloilo | Ulat Filipino | GMA News Online",2412.0,1.0,2014-09-19 00:00:00,,,1.0,name: Cezar Dominguez; ridergroup: pickup truck driver; condition: dead on arrival; /,"Iloilo, Leganes, Radial Road",2.0,,truck
+"2 dead, 6 hurt in C-5 collision",520.0,1.0,2014-09-20 00:00:00,6.0,"ridergroup: car passenger; hospital: The Medical City; /
+ridergroup: car passenger: hospital: Quirino Memorial Medical Center; /",2.0,"ridergroup: car driver; /
+ridergroup: car passenger; /","Metro Manila, Pasig City, C5 flyover",2.0,,car
+"1 killed, 28 hurt as bus and truck collide on NLEX | News | GMA News Online",2305.0,1.0,2014-09-22 00:00:00,28.0,"name: Renato Fajardo; gender: male; ridergroup: bus driver; injury: right leg amputated; condition: critical; others: leg had to be cut off so that he could be extricated from the bus; /
+name: Salvador Encarnacion; gender: female; ridergroup: bus passenger; others: said driver was sleepy; /",1.0,name: Benedict Dipad; gender: male; profession: bus conductor; ridergroup: bus passenger; causeofdeath: vehicle collision; condition: dead on the spot; /,"Pampanga, Mexico, NLEX Southbound",2.0,Before midnight,"truck, bus"
+Jeep crashes into tree; 18 hurt,747.0,1.0,2014-09-30 00:00:00,18.0,"ridergroup: jeepney passenger; hospital: Antipolo District Hospital; *12/
+ridergroup: jeepney passenger; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; * 2/
+name: Jhie Convocar; ridergroup: jeepney passenger; profession: tabloid reporter; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; /
+name: Michael Cadinao; ridergroup: jeepney driver; profession: jeepney driver; hospital: Antipolo District Hospital, transferred to Amang Rodriguez Memorial Medical Center; condition: critical; /",,,"Rizal, Antipolo City, Barangay San Jose, Marcos Highway",1.0,9:00 PM,jeepney
+Lawyer faces charges after hitting traffic enforcers in apparent road rage | News | GMA News Online,607.0,1.0,2014-10-01 00:00:00,,,,,"NCR, EDSA Ortigas ",2.0,Before dawn,"car, bus"
+3-vehicle accident slows down traffic on Edsa | Inquirer News,1758.0,1.0,2014-10-01 00:00:00,,,,,"NCR, Quezon City, EDSA  Northbound",3.0,Morning,"car, bus, pickup truck"
+"1 killed, 2 wounded as motorcycle crashes in Davao City | News | GMA News Online",2275.0,1.0,2014-10-03 00:00:00,2.0,ridergroup: passengers; natureofinjury: motorcycle crash; condition: rushed to hospital,1.0,name: Marianee Relatibo; age: 17; gender: female; ridergroup: motorcycle rider; causeofdeath: motorcycle crash; condition: dead on the spot; /,"Davao, Davao City , Barangay Lubogan",1.0,Before dawn,motorcycle
+Bus in deadly Albay accident a colorum coffin on wheels? | News | GMA News Online,758.0,1.0,2014-10-06 00:00:00,30.0,,4.0,profession: teacher; age: 26; /,"Albay, Daraga, Barangay Kimantong",2.0,,"tricycle, bus"
+"2 dead, 9 injured in Albay road accident  | Inquirer News",130.0,1.0,2014-10-07 00:00:00,9.0,"name: Rodrigo Murillo; gender: male, ridergroup: motorcycle driver; age: grandfather; /
+name: Joey Salvador, gender: male, ridergroup: truck driver; /",2.0,"name: Aliza Daza, gender: female, age: 10, causeofdeath: thrown from motorcycle and run over by truck, ridergroup: motorcycle passenger; /
+name: Michael Pante, gender: male; /","Albay, Guinobatan, Sitio Kangao, Barangay Quitago",7.0,afternoon,"motorcycle, tricycle, van, truck"
+"1 killed, 5 hurt after car hits mango tree in Pangasinan | News | GMA News Online",551.0,1.0,2014-10-14 00:00:00,5.0,"name: Noreto Fernandez; ridergroup: car driver; /
+name: Noel Repoyo; ridergroup: car passenger; /
+name: Garry Gromio; ridergroup: car passenger; /
+name: Crisanto Flores; ridergroup: car passenger; / 
+name: Jonathan Mina; ridergroup: car passenger; /",1.0,name: Max Manzano; ridergroup: car passenger; /,"Pangasinan, Binalonan, Barangay Linmansangan national highway",1.0,,car
+71-year-old killed by 6-wheeler truck in Camarines Sur | News | GMA News Online,1431.0,1.0,2014-10-16 00:00:00,,,1.0,name: Bertinio Bismonte; injury: severe head injuries; ridergroup: pedestrian; age: 71; gender: male; /,"Camarines Sur, Pili",1.0,,truck
+Engineer dies in SLEx mishap,2463.0,1.0,2014-10-20 00:00:00,,,1.0,name: Jun Rasul; age: 57; ridergroup: motorcycle driver; age: gender; profession: engineer; /,"Makati City, SLEx in Magallanes",3.0,3:30 AM,"motorcycle, car, truck"
+"1,000 QC homes lose power due to truck mishap",1951.0,1.0,2014-10-21 00:00:00,2.0,"ridergroup: truck driver; /
+ridergroup: truck passenger; /",,,"Metro Manila, Quezon City, Payatas Road",1.0,morning,truck
+12 hurt as bus crashes into MRT post,1439.0,1.0,2014-10-22 00:00:00,12.0,ridergroup: passenger; injury: minor; natureofinjury: bus rammed into an MRT post after hitting another bus; hospital: San Juan Hospital/,,,"NCR, EDSA Ortigas  Southbound",2.0,,bus
+10 hurt as bus rams post on Edsa flyover in Mandaluyong | Inquirer News,2357.0,1.0,2014-10-22 00:00:00,10.0,ridergroup: passenger; natureofinjury: bus rammed into MRT post after hitting another bus; injury: minor; others: brought to MMDA rescue base under Ortigas flyover/,,,"NCR, Mandaluyong, EDSA Ortigas  Southbound",2.0,Morning,bus
+"1 killed, 2 injured in road accident on Edsa early Friday | Inquirer News",2003.0,1.0,2014-10-24 00:00:00,2.0,ridergroup: motorcycle rider; natureofinjury: vehicle collision; hospital: Quezon City General Hospital; /,1.0,ridergroup: motorcycle rider; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Quezon City General Hospital; /,"NCR, Quezon City, EDSA  Northbound",2.0,past 4:00 am,"motorcycle, container van"
+2 killed after motorcycle collides with SUV in Iloilo | News | GMA News Online,1013.0,1.0,2014-10-24 00:00:00,,,2.0,"name: Dennis Romero; gender: male; ridergroup: motorcycle driver; causeofdeath: motorcycle collided with SUV; /
+name: Mark Jerrel Adelantar; gender: male; ridergroup: motorcycle passenger; causeofdeath: motorcycle collided with SUV; /","Iloilo, Cabatuan Town, Barangay Tabucan",2.0,Night,"motorcycle, SUV"
+Truck helper injured in QC road mishap,1588.0,1.0,2014-10-25 00:00:00,1.0,name: Michael John Arcillas; gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: foot was pinned inside the truck/,,,"NCR, Quezon City, Congressional Avenue Extension",3.0,Morning,"car, truck"
+"4 dead, 2 hurt in road crash after buying medicines for sick father | Inquirer News",2265.0,1.0,2014-10-29 00:00:00,2.0,"name: Kevin Villamonte; age: 25; ridergroup: driver / 
+name: Rosalyn Tuason; age: 25; profession: nurse; ridergroup: passenger /",4.0,"name: Jhed Marvin de Guzman; age: 12; ridergroup: passenger; condition: dead on arrival; / 
+name: Matthew de Leon; age: 13; ridergroup: passenger; condition: dead on arrival; /
+name: Riza Antonette Asansa; age: 25; profession: nurse; ridergroup: passenger; condition: dead on arrival; / 
+ridergroup: passenger; gender: male; condition: dead on arrival; /","Camarines Norte, Vinzons, Maharlika Highway",,12:15 AM,car
+"LOOK: Taxi cuts off container van, causes traffic",958.0,1.0,2014-10-30 00:00:00,,,,,"Pasay City, RoxasBuendia Flyover",2.0,morning,"truck, taxi"
+11 people hurt in Maguindanao road mishap | News | GMA News Online,271.0,1.0,2014-10-31 00:00:00,11.0,name: Carlo Arancilla; ridergroup: driver /,0.0,,"Maguindanao, Sultan Kudarat, Kilometer 16, Barangay Iadia",1.0,5:30 AM,van
+"Motorcycle rider na bumangga sa trak, namatay matapos maipit sa gulong  | Ulat Filipino | GMA News Online",113.0,1.0,2014-10-31 00:00:00,2.0,"name: Mary Joy Henon; gender: female; ridergroup: motorcycle passenger; injury: wounded; condition: brought to hospital; /
+name: Melanie Sia; gender: female; ridergroup: motorcycle passenger; injury: wounded; condition: brought to hospital; /",1.0,name: Jean Mart Henon; gender: male; ridergroup: motorcycle rider; causeofdeath: pinned under truck after vehicle collision; condition: dead on the spot; /,"Davao, Davao City , Tugbok District",2.0,Early Morning,"motorcycle, truck"
+2-bus collision in Quezon slows Maharlika Highway traffic | News | GMA News Online,821.0,1.0,2014-11-01 00:00:00,0.0,,0.0,,"Quezon, Plaridel, Maharlika Highway",,,bus
+Heherson Alvarez hurt in vehicular accident in Bacolod City | Inquirer News,326.0,1.0,2014-11-04 00:00:00,2.0,"name: Heherson Alvarez; age: 75; gender: male; profession: Climate Change Commissioner; ridergroup: SUV passenger; natureofinjury: vehicle collision; injury: in need of oxygen and may have internal bleeding; hospital: Pablo O. Torre Medical Center/
+name: Bernadette Felix; age: 50; gender: female; profession: secretary; ridergroup: SUV passenger; natureofinjury: vehicle collision; injury: bump in the head, back and bleeding lip; hospital: Pablo O. Torre Medical Center/",,,"Negros Occidental, Murcia Town, Purok Tangke, Barangay Pandanon Silos",2.0,3:15 PM,"truck, SUV"
+"4 dead, 5 hurt as truck carrying PH Marines falls off cliff in Cavite | Inquirer News",6.0,1.0,2014-11-05 00:00:00,5.0,ridergroup: passenger; profession: marine; age: adult * 5; hospital: San Lorenzo Hospital; /,4.0,"ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: passenger; profession: marine; age: adult; /
+ridergroup: truck driver; profession: truck driver; age: adult; /","Cavite, Ternate",,,truck
+"Truck hits, kills motorcycle rider in Davao | News | GMA News Online",1651.0,1.0,2014-11-07 00:00:00,,,1.0,name: Giovanni Azucena Fuentes; ridergroup: motorcycle driver; /,"Davao, Davao City, Carlos P Garcia Highway",2.0,predawn,"motorcycle, truck"
+"Motorcycle rider dies in Naga City, CamSur road accident | News | GMA News Online",1321.0,1.0,2014-11-07 00:00:00,,,1.0,name: Godofredo delos Angeles; age: 21; condition: dead on arrival; injury: head injuries; /,"Camarines Sur, Naga City, Panganiban Drive",2.0,,"motorcycle, car"
+Motorist injured after hitting truck in Commonwealth,615.0,1.0,2014-11-08 00:00:00,1.0,name: Leonardo Berba; gender: male; ridergroup: van driver; hospital: Far Eastern University hospital/,,,"NCR, Quezon City, Commonwealth Avenue",2.0,,"van, truck"
+9 hurt in Marikina road mishap,451.0,1.0,2014-11-10 00:00:00,9.0,"ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /
+ridergroup: jeepney passenger; condition: minor injury; /",,,"Metro Manila, Marikina, J Molina corner E Santos, Barangay Concepcion Uno",2.0,predawn,"van, jeepney"
+Driver stuck for two hours inside own truck,1816.0,1.0,2014-11-11 00:00:00,1.0,name: Feliciano Bayeta; gender: male; ridergroup: truck driver; natureofinjury: trapped inside the truck after colliding with another truck; /,,,"NCR, Quezon City, A Bonifacio corner Sgt Esguerra street",2.0,Before dawn,truck
+"1 hurt, Ortigas extension traffic snarled as dump truck crashes | News | GMA News Online",576.0,1.0,2014-11-12 00:00:00,1.0,ridergroup: driver/,,,"Rizal, Cainta, Ortigas Extension",2.0,Early Morning,truck
+"1 killed, 5 hurt as truck crashes in Davao City | News | GMA News Online",2421.0,1.0,2014-11-12 00:00:00,5.0,"name: Jerry Sanama; ridergroup: truck driver; /
+name: Darwin Dayao; ridergroup: truck passenger; /
+name: Esmael Anda; ridergroup: truck passenger; /
+name: Jobel Serdan ridergroup: truck passenger; /
+name: Alex Lorgonio; ridergroup: truck passenger; /",1.0,name: Felix Lorgonio; ridergroup: truck passenger; /,"Davao, Davao City, Barangay Suwan, Marilog",1.0,evening,truck
+2 hurt as bus hits UV Express vehicle on Commonwealth Ave. | News | GMA News Online,1307.0,1.0,2014-11-13 00:00:00,2.0,ridergroup: passenger; injury: neck injury / ridergroup: passenger; injury: difficulty walking /,,,"NCR, Quezon City, Commonwealth Avenue",2.0,Morning,"bus, UV Express Van"
+Tricycle driver killed in collision with jeep in Abra | News | GMA News Online,1217.0,1.0,2014-11-13 00:00:00,,,1.0,ridergroup:tricycle driver; gender: male; age: adult; name: Eric Paringit; others: alcohol; injury: severe head wounds; /,"Abra, Pearrubia",,,"tricycle, jeepney"
+Cement truck crashes into electric post,350.0,1.0,2014-11-14 00:00:00,1.0,name: Ricky Reyes; gender: male; ridergroup: truck driver; natureofinjury: stuck in the crushed front end of the truck/,,,"NCR, Quezon City, Kamuning",1.0,1:00 AM,truck
+Cop killed in Rizal road accident | News | GMA News Online,1156.0,1.0,2014-11-14 00:00:00,,,1.0,ridergroup: motorcycle driver; profession: policeman; /,"Rizal, Rodriguez",2.0,7:00 PM,"motorcycle, truck"
+Truck rams 16 posts along East Service Road in Taguig City | Inquirer News,642.0,1.0,2014-11-17 00:00:00,,,,,"NCR, Taguig City, East Service Road",1.0,6:22 AM,truck
+"1 dead, 5 hurt on C-5 flyover accident in Pasig City | Inquirer News",1745.0,1.0,2014-11-17 00:00:00,5.0,"injury: head wounds; hospital: Rizal Medical Center, The Medical City; /",1.0,,"NCR, Pasig City, C5 Flyover",2.0,Before dawn,"Asian Utility Vehicle FX, SUV"
+QC policeman hit and dragged by truck he flagged down | Inquirer News,1737.0,1.0,2014-11-18 00:00:00,,,1.0,name: Juanito Luardo; age: 53; gender: male; profession: policeman; ridergroup: motorcycle rider; causeofdeath: hit while on a motorcycle by the truck he flagged down; /,"NCR, Quezon City, Congressional Avenue",2.0,Night,"motorcycle, truck"
+"1 killed, 5 injured in truck accident in Zambo Sibugay | News | GMA News Online",1030.0,1.0,2014-11-19 00:00:00,5.0,"name: Reneboy Fabe; age: 20; gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: truck overturned; /
+name: Tomasito Cabatas Salundagit.  gender: male; profession: truck helper; ridergroup: truck passenger; natureofinjury: truck overturned; /
+name: Jose Estecomin; gender: male; profession: Department of Public Works and Highways employee; /
+name: Joemarie Sumalinog; profession: Department of Public Works and Highways employee; /
+name: Simon Arnaiz; gender: male; profession: Department of Public Works and Highways employee; /",1.0,name: Wilfredo Mahilum; gender: male; ridergroup: truck driver; causeofdeath: truck overturned; /,"Zamboanga Sibugay, Tungawan Town, Barangay Langon",1.0,,truck
+Hunt on for truck driver who ran over QC cop | Inquirer News,1193.0,1.0,2014-11-19 00:00:00,,,1.0,"name: Juanito Luardo; age: 53; gender: male; profession: Quezon City police officer; residence: Barangay Bagong Silang, Caloocan City; ridergroup: motorcycle driver; /","Quezon City, Barangay Pasong Tamo, Congressional Road",2.0,9:20 PM,"motorcycle, truck"
+"1 killed as truck, tricycle collide in Iloilo | News | GMA News Online",1157.0,1.0,2014-11-21 00:00:00,2.0,"name: Jesmar Legario; age: 24; gender: male; hospital: Western Visayas Medical Center/
+name: Benjamin Nava; age: 45; gender: male; hospital: Western Visayas Medical Center/",1.0,name: Oscar Hembra; age: 61; gender: male; condition: dead on arrival; hospital:  Western Visayas Sanitarium; /,"Iloilo, Santa Barbara, Barangay Lanag",2.0,7:00 PM,"tricycle, truck"
+Traffic enforcer run over by truck in QC,1121.0,1.0,2014-11-22 00:00:00,,,1.0,name: Richard Seoron; profession: traffic enforcer; residence: Manila; ridergroup: motorcycle driver; /,"Metro Manila, Quezon City, A Bonifacio Avenue corner J Manuel Street",2.0,,"motorcycle, truck"
+"24 hurt as bus, dump truck collide in Cagayan de Oro | News | GMA News Online",2471.0,1.0,2014-11-24 00:00:00,24.0,"ridergroup: bus driver; age: adult/
+ridergroup: bus passenger; age: child * 2/",,,"Cagayan de Oro City, Barangay Tablon",2.0,12:15 PM,"truck, bus"
+"Car slams into cement mixer, 2 hurt",1877.0,1.0,2014-11-28 00:00:00,2.0,"name: Randolph Acua; ridergroup: car driver; /
+ridergroup: car passenger; /",,,"Metro Manila, Quezon City, Aghan Road ",2.0,6:00 AM,"car, truck"
+"Pampasaherong jeepney, naaksidente sa Davao City; 12 pasahero, sugatan  | Ulat Filipino | GMA News Online",1255.0,1.0,2014-11-29 00:00:00,12.0,"ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",,,"Davao, Davao City, Barangay Dumoy",1.0,,jeepney
+Two trucks crash into wall along C-5,282.0,1.0,2014-11-30 00:00:00,1.0,ridergroup: driver; gender: male; natureofinjury: truck crashed into a wall; hospital: Taguig-Pateros District Hospital/,,,"NCR, C5 Road",1.0,4:00 AM,truck
+"15 hurt as jeep, motorcycle collide in QC | News | GMA News Online",1430.0,1.0,2014-12-10 00:00:00,15.0,"ridergroup: jeepney driver; natureofinjury: jeepney crashed into a street sign after colliding with truck/
+ridergroup: jeepney passengers; natureofinjury: jeepney crashed into a street sign after colliding with truck/",,,"NCR, Quezon City, Roosevelt Avenue corner Osmena Street",2.0,9:00 PM,"motorcycle, jeepney"
+Motorcycle rider killed after collision with truck in Camarines Sur | News | GMA News Online,2274.0,1.0,2014-12-11 00:00:00,,,1.0,name: Taul Santiano; gender: male; ridergroup: motorcycle rider; causeofdeath: vehicle collision; condition: dead on the spot; /,"Camarines Sur, Bula Town",2.0,,"motorcycle, truck"
+"Truck beats red light, slams into van; 4 dead",2369.0,1.0,2014-12-12 00:00:00,1.0,ridergroup: trailer truck porter; hospital: St. Dominic Hospital; /,4.0,ridergroup: trailer truck driver; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; / ridergroup: delivery van driver; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; / ridergroup: delivery van passengers * 2; causeofdeath: vehicle collision; condition: dead on arrival; hospital: Ospital ng Paranaque; /,"NCR, Paranaque, CAVITEX  Marina Road intersection",2.0,,"van, truck"
+4 students hurt in QC road mishap,921.0,1.0,2014-12-14 00:00:00,4.0,"name: Alexus Cahimat; ridergroup: car driver; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Luis Viola Amano; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Kristine Singzon; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /
+name: Francisco Achilles; ridergroup: car passenger; profession: student; hospital: Far Eastern University-Nicanor Reyes Medical Foundation Hospital; /",,,"Metro Manila, Quezon City, Commonwealth Avenue",1.0,3:00 AM,car
+"5 killed, 16 hurt as container van falls on jeep in Bukidnon town | News | GMA News Online",714.0,1.0,2014-12-15 00:00:00,16.0,"name: Niel Lumigue; ridergroup: jeepney passenger; gender: male; /
+name: Perlita Labial; ridergroup: jeepney passenger; gender: female; /
+name: Jimmy Mancia; ridergroup: jeepney passenger; gender: male; /
+name: Arnel Paano; ridergroup: jeepney passenger; gender: male; /
+name: Arnold Paano; ridergroup: jeepney passenger; gender: male; /
+name: Arken Paano; ridergroup: jeepney passenger; gender: male; /
+name: Jojie Mae Allera; ridergroup: jeepney passenger; gender: female; /
+name: Samantha Fe Allera; ridergroup: jeepney passenger; gender: female; /
+name: Luvilla Namulan; ridergroup: jeepney passenger; gender: female; /
+name: Irish Melody Namulan, ridergroup: jeepney passenger; gender: female; /
+name: Leah Mae Napay: ridergroup: jeepney passenger; gender: female; /
+name: Florencio Sabogaa; ridergroup: jeepney passenger; gender: female; /
+name: Emma Sabogaa; ridergroup: jeepney passenger; gender: female; /
+name: Manuel Babeda: ridergroup: jeepney passenger; gender: female; /
+name: Renz Napay; ridergroup: jeepney passenger; gender: female; /
+name: Eva Mae Naamulan; ridergroup: jeepney passenger; gender: female; /",5.0,"name: Ricardo Napay; ridergroup: jeepney passenger; gender: male; /
+name: Irish Mae Napay; ridergroup: jeepney passenger; gender: female; /
+name: Eleanor Talaroc; ridergroup: jeepney passenger; gender: female; /
+name: Ethel Talaroc; ridergroup: jeepney passenger; gender: female; /
+name: Blessel Corita; ridergroup: jeepney passenger; gender: female; /","Bukidnon, Talakag, Barangay San Isidro",2.0,,"truck, jeepney, container van"
+14 hurt as van hits truck in Davao City | News | GMA News Online,1525.0,1.0,2014-12-16 00:00:00,14.0,"ridergroup: van passenger;  * 2/
+
+",,,"Davao City, Barangay Ilang",2.0,night,"van, truck"
+"Lalaking naaburido raw sa trapik at may problema sa pamilya, nakasagasa ng mga tao | Ulat Filipino | GMA News Online",2370.0,1.0,2014-12-24 00:00:00,12.0,ridergroup: passenger * 12/,,,"Quezon, Calauag",1.0,,Asian Utility Vehicle FX
+Accident causes heavy traffic on NLEX | News | GMA News Online,2455.0,1.0,2014-12-24 00:00:00,,,,,North Luzon Expressway,4.0,morning,
+"One hurt, traffic worsens as tanker hits trailer in Del Pan | News | GMA News Online",684.0,1.0,2014-12-24 00:00:00,1.0,name: Rolly de Leon; ridergroup: truck driver; hospital: National Orthopedic Hospital; /,,,"Manila, R10",2.0,,truck
+"1 killed, 10 hurt in Maharlika Highway accidents | Inquirer News",1879.0,1.0,2014-12-25 00:00:00,10.0,,1.0,name: Gertrudes Batanes; gender: female; ridergroup: tricycle passenger; others: thrown from vehicle and run over by car; /,"Quezon, Lopez, Maharlika Highway, Barangay Jongo",8.0,11:55 PM,"tricycle, SUV Mitsubishi Adventure"
+18 reported hurt in jeep collision in Cagayan de Oro | News | GMA News Online,944.0,1.0,2014-12-26 00:00:00,18.0,"name: Jerry Daloyan, ridergroup: jeepney driver, condition: lost consciousness, gender: male, age: adult; / name: Rexie Go, ridergroup: jeepney driver, gender: male, age: adult; /
+gender: female, ridergroup: passenger, condition: 4 months pregnant, age: adult; /
+age: child, ridergroup: jeepney passenger; / 
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+age: child, ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; / 
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /
+ridergroup: jeepney passenger; /",0.0,,"Misamis Oriental, Cagayan de Oro City, Barangay Baloy",2.0,evening,jeepney
+1 killed as motorcycle hits parked truck in Pangasinan on Christmas Eve | News | GMA News Online,1667.0,1.0,2014-12-27 00:00:00,,,1.0,name: Gilven Ferrer; age: 23; ridergroup: motorcycle driver; /,"Pangasinan, Binmaley, Barangay Naguilayan",2.0,,"motorcycle, truck"
+"Bus hits truck at Balintawak Toll Plaza, 1 hurt | News | GMA News Online",377.0,1.0,2014-12-27 00:00:00,1.0,ridergroup: bus conductor; /,,,"Metro Manila, North Luzon Expressway",2.0,,"truck, bus"
+SUV driver injured in collision with truck,793.0,1.0,2014-12-28 00:00:00,1.0,"ridergroup: SUV driver; age: adult; gender: male; injury: broken knee, facial injuries; others: intoxicated; /",0.0,,Manila,2.0,evening,"truck, SUV"
+"4-vehicle smashup slows traffic at NLEX, some hurt | News | GMA News Online",685.0,1.0,2014-12-29 00:00:00,,,,,"Bulacan, Pulilan, Kilometer 42 NLEX",4.0,morning,
+2 injured in QC car accident,475.0,1.0,2014-12-30 00:00:00,2.0,"name: Heherson Cabuenas; gender: male; ridergroup: driver; injury: minor/
+ridergroup: passenger; gender: female; injury: minor; others: wife of driver/",,,"NCR, Quezon City, Barangay Old Balara",1.0,1:30 AM,car
+Motorcycle rider fatally pinned in Bacolod road accident | News | GMA News Online,1395.0,1.0,2014-12-31 00:00:00,,,1.0,name: Aldrin Carmona; ridergroup: motorcycle driver; condition: dead on spot; gender: male; /,"Bacolod City, Barangay Pahanocoy",4.0,evening,"motorcycle, car, jeepney"
+"Delivery van sa northbound lane ng EDSA-Santolan, naaksidente",2630.0,1.0,2014-01-11 00:00:00,1.0,ridergroup: truck passenger; gender: male; profession: truck helper; injury: arm wound /,,,EDSA Santolan North Bound,1.0,7:00 AM,Delivery Van
+"Kotse at 2 school service, nasangkot sa isang aksidente sa Kamuning, QC",2633.0,1.0,2014-01-16 00:00:00,,,,,"Kamuning, Quezon City",3.0,,"car, school service "
+"Magkahiwalay na aksidente sa Laoag City, Ilocos Norte, na-hulicam",2634.0,1.0,2014-01-17 00:00:00,2.0,name: Marvin James Pascua; gender: male; ridergroup: motorcycle rider; gender: male; injury: arm bruises and scratches / name: Marivic Agno; gender: female; ridergroup: pedestrian; injury: head and arm injury /,,,"Rizal Street, Laoag City, Ilocos Norte",1.0,Morning,motorcycle
+"2 kotse, naaksidente malapit sa EDSA-Kamuning",2635.0,1.0,2014-01-20 00:00:00,,,,,,2.0,,Not specified
+"Pick-up na nagsakay ng pasahero ng na-aksidenteng bus, bumaligtad; 1 patay",2657.0,1.0,2014-02-13 00:00:00,15.0,"ridergroup: pickup passenger; hospital: Las Pinas General Hospital, St. Dominic Hospital * 15 /",1.0,gender: male; age: 50 to 60 years old; ridergroup: passenger; medicalcondition: DOA; hospital: Las Pinas General Hospital,Coastal Road,1.0,Past 8:00 pm,Pick up truck
+"Salpukan ng motorsiklo sa umano'y takaw-aksidenteng intersection, na-huli cam",2666.0,1.0,2014-02-20 00:00:00,3.0,ridergroup: motorcycle driver; gender: male; / ridergroup: motorcycle driver; gender: male; / ridergroup: motorcycle passenger; gender: female;/,,,"Ilocos Norte, Laoag City",2.0,daytime,motorcycle
+"Sasakyan, naaksidente sa Skyway kahapon",2675.0,1.0,2014-03-06 00:00:00,,,,,"Metro Manila, Skyway",1.0,daytime,
+"Prangkisa ng 2 kompanya ng bus na sangkot sa aksidente sa EDSA-Magallanes, kinansela ng LTFRB",2676.0,1.0,2014-03-08 00:00:00,,,,,,2.0,,bus
+"3 sasakyan, naaksidente sa EDSA-Guadalupe southbound dahil sa tumapong buhangin",2677.0,1.0,2014-03-10 00:00:00,,,,,"Metro Manila, Makati City, EDSA Guadalupe",3.0,before dawn,
+5 patay sa magkahiwalay na aksidente sa Davao City,2678.0,1.0,2014-03-10 00:00:00,,,4.0,ridergroup: motorcycle rider; gender: male; condition: dead on the spot / ridergroup: motorcycle passenger; gender: female; others: pregnant; condition: dead on the spot / ridergroup: truck driver; condition: dead on the spot / ridergroup: cement mixer driver; condition: dead on the spot /,"Pangi Singko intersection, Davao City, Davao",3.0,,"motorcycle, truck driver, cement mixer "
+"17 miyembro ng PNP SAF, sugatan sa aksidente sa Sarangani Province",2680.0,1.0,2014-03-16 00:00:00,17.0,ridergroup: passengers; profession: PNP SAF * 17/,,,"Sarangani Province, Kiangan",1.0,before dawn,truck
+"Trailer truck, naaksidente sa Mindanao Avenue",2681.0,1.0,2014-03-20 00:00:00,1.0,ridergroup: passenger; /,,,"Metro Manila, Quezon City, Mindanao Avenue",1.0,morning,truck
+"Truck accident sa Mindanao Ave., nagdudulot ng traffic sa NLEX",2682.0,1.0,2014-03-20 00:00:00,,,,,Mindanao Avenue,1.0,,truck
+"Alisto: Mga aksidente sa Cavite, nakunan ng CCTV!",2687.0,1.0,2014-03-28 00:00:00,,,,,,,,
+"Kotseng nagda-drag race umano sa Marcos Highway, naaksidente",2688.0,1.0,2014-03-29 00:00:00,,,,,Marcos Highway,1.0,,car
+"Motorcycle rider at angkas niya, sugatan sa aksidente sa Cavite",2697.0,1.0,2014-04-03 00:00:00,2.0,"ridergroup: motorcycle rider; gender: female; age: 24; injury: broken leg, arm and face stabbed by steel pole; medicalcondition: face, leg and arm require surgery / ridergroup: motorcycle passenger; gender: female; natureofinjury: thrown off motorcycle; injury: bruises / ",,,"Zulueta Street, Brgy. 61 A, Talong Cavite City",1.0,evening,Motorcycle
+"Driver ng naaksidenteng cargo truck sa Maynila, nailigtas matapos maipit",2699.0,1.0,2014-04-10 00:00:00,4.0,ridergroup: truck driver; / ridergroup: bystander; *3 /,,,"Metro Manila, Manila",2.0,,truck
+"Kaanak ng mga namatay sa aksidente, magsasampa ng reklamo",2700.0,1.0,2014-04-10 00:00:00,,,,,,,,
+"LTFRB, maaring suspendihin ang Jam Liner dahil sa aksidente sa Quezon",2701.0,1.0,2014-04-10 00:00:00,,,,,"Tiaong, Quezon",2.0,night,"truck, bus"
+"Tatlong magkakahiwalay na aksidente, nagpasikip sa daloy ng trapiko sa NLEX",2705.0,1.0,2014-04-14 00:00:00,,,,,,,,
+"Kabi-kabilang aksidente, naitala sa NLEX",2706.0,1.0,2014-04-15 00:00:00,,,,,,2.0,,"truck, jeepney"
+"Sasakyan ng pulis, naaksidente sa EDSA-Santolan; pulis, umaming naka-idlip",2707.0,1.0,2014-04-15 00:00:00,,,,,"Metro Manila, San Juan, EDSA Santolan",1.0,night,van
+"Nalaglag na bahagi ng tower crane dahil sa aksidente kahapon, hindi pa rin naiaalis sa NLEX",2708.0,1.0,2014-04-16 00:00:00,,,,,,,,
+Kabi-kabilang aksidente sa biyahe ngayong Miyerkules Santo,2710.0,1.0,2014-04-17 00:00:00,15.0,,5.0,ridergroup: bus passenger; age: 2; /,Camarines Sur,2.0,,"bus, truck"
+"3 patay, 14 sugatan sa aksidente sa daan sa Ilocos Norte",2723.0,1.0,2014-05-11 00:00:00,14.0,,3.0,,Ilocos Norte,1.0,,bus
+"Tsuper na tinangkang tumakas sa kinasangkutang aksidente sa QC, ipinosas sa poste",2724.0,1.0,2014-06-09 00:00:00,4.0,ridergroup: jeepney passenger; *4 /,,,Congressional Avenue,2.0,,"jeepney, truck"
+"Driver ng naaksidenteng closed van sa Q.C., posible raw nakainom",2726.0,1.0,2014-06-13 00:00:00,1.0,"ridergroup: truck driver; name: Eduardo Pacalso; age: 34; residence: Quezon City; / 
+ridergroup: pedestrian; /",2.0,ridergroup: truck passenger; name: Bener Bagungol; age: 30; condition: dead on spot; profession: truck helper; / ridergroup: truck passenger: name: Jess Jurios; condition: dead on spot; profession: truck helper; /,,1.0,,truck
+"Driver ng naaksidenteng truck sa Valenzuela, iginiit na 'di niya alam na may nakasagasa siya",2727.0,1.0,2014-06-13 00:00:00,,,1.0,ridergroup: motorcycle driver; name: Riza Abalos; age: 25; /,Valenzuela,2.0,,"truck, motorcycle"
+"Tatlo, sugatan sa aksidente sa QC",2729.0,1.0,2014-06-16 00:00:00,3.0,"ridergroup: tricycle driver; gender: male/
+ridergroup: motorcycle driver; gender: male; name: JB Garcia/
+ridergroup: motorcycle passenger; gender: male; name: RJ/",,,"Corner of Cavite and Ilocos Sur streets, Barangay Ramon Magsaysay, Quezon City, Metro Manila",,night,"motorcycle, tricycle"
+"Truck at PUV, naaksidente sa Pasig",2732.0,1.0,2014-06-19 00:00:00,,,,,"Metro Manila, Pasig City",2.0,morning,"truck, PUV"
+"2, sugatan matapos maaksidente ang isang humaharurot na SUV sa QC",2734.0,1.0,2014-06-23 00:00:00,2.0,"ridergroup: passenger; /
+ridergroup: bystander; /",,,"Metro Manila, Quezon City, North Fairview",2.0,12:00 AM,"SUV, taxi"
+Sitwasyon ng mga sugatan sa aksidente sa Marikina,2738.0,1.0,2014-07-10 00:00:00,6.0,,,,"Metro Manila, Marikina City, Marcos Highway",18.0,,"van, motorcycle"
+"Limang sasakyan, nagkarambola; truck driver na sanhi umano ng aksidente, tumakas",2742.0,1.0,2014-08-02 00:00:00,2.0,"ridergroup: taxi passenger; gender: female; / 
+ridergroup: taxi driver; gender: male; / ",,,"Metro Manila, Pasig City, C5",5.0,10:00 PM,"truck, taxi, car"
+"2 pulgadang kawayan, nakita sa loob ng tinahing sugat ng lalaking naaksidente",2776.0,1.0,2014-09-04 00:00:00,1.0,,,,"Western Visayas, Guimaras, Buenavista",1.0,,motorcycle
+"Ilang aksidente sa Katipunan Ave., isinisi sa bagong sistema sa trapiko roon",2780.0,1.0,2014-09-13 00:00:00,,,,,"Metro Manila, Quezon City, Katipunan Avenue",2.0,2:00 PM,"motorcycle, van"
+"Ilang nagmo-motorsiklo, naaksidente dahil sa mga bagong stoplight sa Katipunan Ave.",2781.0,1.0,2014-09-13 00:00:00,1.0,ridergroup: motorcycle rider; injury: leg injury /,,,"Katipunan Avenue, Quezon City",2.0,Morning,Motorcycle
+"Naaksidenteng motorsiklo habang umaambon, na-huli cam",2782.0,1.0,2014-09-16 00:00:00,,,,,Metro Manila,2.0,,"motorcycle, SUV"
+"Pulis, naaksidente nang maidlip habang nagmamaneho sa Quezon City",2788.0,1.0,2014-10-11 00:00:00,1.0,ridergroup: rider; profession: police; name: Jun Tabili; /,,,"Metro Manila, Quezon City, Eastbound Mindanao Avenue",2.0,1:00 AM,"van, truck"
+"Truck at 2 closed van, nagkarambola; aksidente, isinisi sa madulas na kalsada",2791.0,1.0,2014-10-28 00:00:00,,,,,"Metro Manila, Quezon City, Katipunan Flyover",3.0,10:00 PM,truck
+"Daloy ng trapik, bumigat sa bungad ng NLEX dahil sa aksidente sa Balintawak at event sa PHL Arena",2792.0,1.0,2014-10-31 00:00:00,,,,,NLEX Balintawak,8.0,,
+"Buntis, patay matapos maaksidente ang sinasakyang tricycle sa Bacolod City",2794.0,1.0,2014-11-07 00:00:00,,,1.0,ridergroup: tricycle passenger; gender: female; condition: dead on arrival; others: pregnant;  / ,"Bago City, Negros Occidental",1.0,,tricycle
+"IIang aksidente, narespondehan dahil sa kuha ng CCTV",2795.0,1.0,2014-11-12 00:00:00,2.0,ridergroup: pedestrian; / ridergroup: motorcycle driver; /,,,"Scout Madrinan, Quezon City",1.0,,motorcycle
+"Tumagilid na truck sa Cainta, naaksidente muli matapos itayo",2796.0,1.0,2014-11-12 00:00:00,,,,,"Rizal, Cainta, Ortigas Extension",6.0,,"truck, bicycle, motorcycle"
+"Hinihinalang snatcher, sugatan matapos maaksidente habang tumatakas",2805.0,1.0,2014-11-21 00:00:00,1.0,ridergroup: motorcycle driver; other: snatcher; name: Rodel Raet; /,,,"Metro Manila, Quezon City, Panay Avenue",2.0,night,"motorcycle, truck"
+"Naaksidenteng cement mixer sa Quirino Highway, hindi pa rin naiaalis",2806.0,1.0,2014-11-26 00:00:00,,,,,"Metro Manila, Quezon City, Quirino Highway, Barangay Gulod",1.0,morning,truck
+#SRPtunnelcrash,"[1757.0, 93.0]",2.0,2014-01-04 00:00:00,3.0,"name: Pedro Dublin, gender: male, profession: driver, ridergroup: AUV driver, medicalcondition: minor injuries, others: resident of Barangay Subongdaku in Mandaue City /
+name: Henson Go, age: 58, gender: male, ridergroup: passenger; medicalcondition: minor injuries, others: employer of Pedro Dublin and husband of Norma Go /
+name: Norma Go, gender: female, ridergroup: passenger; medicalcondition: minor injuries, others: wife of Henson Go /",,,"['Cebu, Cebu City , SRP Tunner']",6.0,4:00 PM,"['car, van, truck, Asian Utility Vehicle FX, multicab']"
+#donmarianoskyway,"[1356.0, 2.0, 872.0, 1061.0, 528.0, 2306.0, 368.0, 1444.0, 676.0, 1939.0, 2631.0, 2632.0]",12.0,2014-01-07 00:00:00,24.0,ridergroup: passenger * 24/,21.0,"ridergroup: driver; /
+ridergroup: passenger; * 23/","['NCR, Skyway']",1.0,,['bus']
+#hitandrunQC,"[182.0, 1522.0]",2.0,2014-01-10 00:00:00,,,1.0,ridergroup: bicycle rider; gender: male; age: adult; hospital: Quezon City General Hospital; condition: died before receiving care; /,"['Quezon City, Fairview']",2.0,night,"['bicycle, taxi']"
+#bontocbustragedy,"[1050.0, 2526.0, 711.0, 264.0, 614.0, 102.0, 185.0, 1385.0, 77.0, 1414.0, 363.0, 600.0, 200.0, 1906.0, 369.0, 1897.0, 394.0, 1725.0, 320.0, 1871.0, 107.0, 141.0, 727.0, 2331.0, 2105.0, 2442.0, 2404.0, 2246.0, 452.0, 1778.0, 2619.0, 1028.0, 715.0, 809.0, 2637.0, 2638.0, 2639.0, 2640.0, 2641.0, 2642.0, 2643.0, 2644.0, 2645.0, 2646.0, 2647.0, 2649.0, 2650.0, 2651.0, 2652.0, 2653.0, 2654.0, 2655.0, 2656.0, 2658.0, 2659.0, 2660.0, 2661.0, 2663.0, 2664.0, 2667.0, 2735.0]",61.0,2014-02-07 00:00:00,32.0,"set(['name: Edgar Renon; gender: male; profession: bus driver; medicalcondition: recuperating at a hospital / ', 'ridergroup: bus passenger; * 13/'])",15.0,"set(['name: Arvin Tado Jimenez; ridergroup: passenger; profession: artist; /\nname: Gerard Baja; ridergroup: bus passenger; profession: artist; /\nname: David Sicam; ridergroup: bus passenger; profession: musician; /', ""name: Randy Pattaui; profession: farmer; residence: Barangay Gosi Norte; age: 34; ridergroup: pedestrian; condition: dead on arrival; hospital: People's General Hospital; /"", 'ridergroup: bus passenger; profession: artist; name: Arvin Tado Jimenez; age: adult; gender: male; /\nridergroup: bus passengers * 14/', 'name: David Sicam; gender: male; profession: artist; /\nname: Arvin Tado Jimenez; gender: male; profession: artist; /'])","['Mt Province, Bontoc' 'Benguet, Bontoc, Barangay Bayyo'
+ 'Mountain Province, Bontoc' 'Mt Province, Benguet' 'Tuguegarao City']",1.0,"set(['7:00 AM', 'Morning'])",['bus']
+#abracrash,"[1653.0, 660.0]",2.0,2014-02-09 00:00:00,17.0,"ridergroup: jeepney passengers; natureofinjury: jeepney fell into a roadside canal; hospital: Abra Christian Hospital, Seares Memorial Hospital; /",5.0,"set(['name: Melba Millare; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: dead on arrival; /\nname: Slomen Colangan; gender: male; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /\nname: Veronica Tucio; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /\nname: Noreen Tugadi; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /\nname: Dimple Tugadi; gender: female; ridergroup: jeepney passenger; causeofdeath: jeepney fell into a roadside canal; condition: died while undergoing treatment; /', 'ridergroup: jeepney passenger; gender: female; /\nridergroup: jeepney passenger; gender: female; /\nridergroup: jeepney passenger; gender: female; /\nridergroup: jeepney passenger; gender: female; /\nridergroup: jeepney passenger; gender: male; /'])","['Abra, BaayLicuan Town, Sitio Balitungan, Barangay Nalbuan'
+ 'Abra, LicuanBaay, Sitio Baquero, Barangay Nalbuan']",1.0,"set(['6:00 PM', '6:05 PM'])",['jeepney']
+#cebuPWDcrash,"[2621.0, 951.0]",2.0,2014-02-13 00:00:00,10.0,"set(['ridergroup: van passenger; others: PWD * 9/\nridergroup: van driver; name: Jose Ramil Entice; gender: male/\n', 'ridergroup: van driver; /'])",3.0,"set(['name: Guillera Belandres; age: 35; residence: Dalaguete; gender: female; ridergroup: van passenger; condition: dead on arrival; others: was escorting PWD relative in van; hospital: Kintanar Memorial Hospital in Argao, Cebu; /\nname: Rosalinda Laurente age: 42; residence: Oslob; gender: female; ridergroup: van passenger; condition: dead on arrival; others: was escorting PWD relative in van; hospital: Kintanar Memorial Hospital in Argao, Cebu; /\nname:Diether Caracol; age: 10; residence: Oslob; gender: male; ridergroup: van passenger; condition: died in hospital; hospital: Kintanar Memorial Hospital in Argao, Cebu; /\n\n', 'name: Guillerma Belandres; age: 35; condition: dead on arrival; ridergroup: van passenger;  /\nname: Rosalinda Laurente; age: 42; condition: dead on arrival; ridergroup: van passenger; /\nridergroup: van passenger; age: 10; gender: male; /'])","['Cebu, Argao' 'Cebu, Argao, Barangay Talaga']",2.0,"set(['7:00 AM', 'morning'])","['van, truck' 'tricycle, van, truck']"
+#8vehiclecollissionQC,"[1820.0, 1892.0]",2.0,2014-03-01 00:00:00,11.0,"set(['ridergroup: UV express passenger /\nridergroup: motorcycle rider; medicalcondition: critical/', 'ridergroup: motorcycle rider; medicalcondition: brought to hospital/\nridergroup: unspecified; medicalcondition: brought to East Avenue Medical Center/'])",,,"['NCR, Quezon City, Commonwealth Avenue']",8.0,Noon,"['motorcycle, bus, UV Express Van'
+ 'motorcycle, car, van, bus, Asian Utility Vehicle FX, UV Express Van']"
+#SUVskywaycrash,"[1688.0, 2559.0]",2.0,2014-03-03 00:00:00,2.0,"set(['name: Allan Nopal; gender: male; ridergroup: driver / name: Rax John Erese; gender: male; ridergroup: driver / ', 'ridergroup: driver; injury: minor injury/ ridergroup: driver; injury: minor injury/'])",0.0,,"['NCR, Skyway' 'Metro Manlia, Skyway']",2.0,"set(['Early Morning', 'Morning'])","['Sports Utility Vehicle, Shuttle Bus' 'car, bus']"
+#mayamybuscommonwealth,[324.0],1.0,2014-03-05 00:00:00,,,,,,,,
+#elenalinerbuscrash,[1549.0],1.0,2014-03-07 00:00:00,38.0,,7.0,,"['Makati, EDSA Magallanes']",1.0,,['bus']
+#4deadcavite,"[1885.0, 1931.0]",2.0,2014-03-14 00:00:00,,,4.0,"set(['name: Joan Toledo; gender: female; ridergroup: car driver; causeofdeath: vehicle collision; condition: dead on the spot; residence: Cavite; others: wrecked faces, almost unidentifiable; /\nname: Lowie Alcaraz; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Noveleta, Cavite; others: wrecked faces, almost unidentifiable; /\nname: Rogelio Santos, Jr; gender: male; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Imus City, Cavite; others: wrecked faces, almost unidentifiable; /\nname: Armando San Pedro III; gender: male; ridergroup: car passenger; causeofdeath: vehicle collision; condition: dead on the spot; residence: Tagaytay City; others: wrecked faces, almost unidentifiable; /', 'name: Joan Toledo; ridergroup: car driver; /\nname: Lui Alcaraz; ridergroup: car passenger; /\nname: Rogelio Santos Jr.; ridergroup: car passenger; /\nname: Armando San Pedro; ridergroup: car passenger; /'])","['Cavite, Damarinas City , Aguinaldo Highway, Barangay San Agustin I'
+ 'Cavite, Dasmarinas, Barangay San Agustin ']",2.0,2:45 AM,"['car, truck']"
+#matalamcrash,[741.0],1.0,2014-03-19 00:00:00,30.0,ridergroup: passenger * 30/,5.0,"name: Jobaida Abdulhawab; age: 50; ridergroup: passenger; /
+name: Talutawan Kungan; age: 60; ridergroup: passenger; /
+name: Guiamela Talutawan; age: 50; ridergroup: passenger; /
+name: Rebecca Litugan; age: 40; ridergroup: passenger; /
+name: Juhanel Bansuan; age: 29; ridergroup: jeepney driver; /","['North Cotabato, Matalam']",2.0,,"['truck, jeepney']"
+#40hurtonSLEX,"[197.0, 1017.0]",2.0,2014-03-24 00:00:00,45.0,"set(['ridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Bian Doctors Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: Perpetual Hospital; / \nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /\nridergroup: bus passenger; hospital: San Jose Hospital and Trauma Center; /', 'name: Edgar Lagrimas; gender: male; ridergroup: passenger; medicalcondition: bruised /\ngender: female; ridergroup: passenger; medicalcondition: face scraped; hospital: Bian Doctors Hospital /\nridergroup: passenger; hospital: Bian Doctors Hospital; *30 /\ngender: female; ridergroup: passenger; medicalcondition: severed hand; hospital: San Jose Hospital and Trauma Center; others: seated behind Edgar Lagrimas /\nridergroup: passenger; hospital: Perpetual Help Medical Center; *15 /\nridergroup: passenger; hospital: San Jose Hospital and Trauma Center; *8 / '])",,,"['Laguna, Sta Rosa, SLEX Northbound' 'South Luzon Expressway']",1.0,"set(['6:20 AM', 'Morning'])",['bus']
+#southerncarrier,"[124.0, 1320.0]",2.0,2014-03-25 00:00:00,22.0,name: Almarie Camson; injury: severed hand; /,,,['South Luzon Expressway'],1.0,,['bus']
+#truckbuscollisionEDSA,"[1578.0, 1374.0]",2.0,2014-03-27 00:00:00,9.0,"set(['name: Edgar Arandia; gender: male; ridergroup: driver / name: Johnson Miravales; gender: male; ridergroup: passenger / ', 'name: Idelfonso Amoyo; age: 26; ridergroup: bus passenger; /\nname: Nena Miravalles; age: 44; ridergroup: bus passenger; / \nname: Carlo Roxas; age: 42; ridergroup: bus passenger; / \nname: Arnold Desillo; age: 26; ridergroup: bus passenger; / \nname: Dervin Guevarra; age: 17;  ridergroup: bus passenger; / \nname: Marisse Cereno; age: 29; ridergroup: bus passenger; /\nname: Catthene Cereno; age: 24;  ridergroup: bus passenger; / \nname: Lailani Roncesvalles; age: 40; ridergroup: bus passenger; / \nname: Annalyn Namoro; age: 34 ridergroup: bus passenger; /'])",,,"['NCR, Quezon City, EDSA Munoz' 'EDSA']",2.0,Early Morning,"['truck, bus']"
+#bryangahol,"[1145.0, 81.0, 901.0, 581.0, 2689.0, 2690.0, 2691.0, 2692.0, 2693.0, 2694.0, 2695.0, 2696.0]",12.0,2014-04-01 00:00:00,3.0,name: Johnny Bangsoy; gender: male; ridergroup: passenger / name: Felix Gonatisie; gender: male; ridergroup: passenger /,2.0,"set(['name: Bryan Gahol; gender: male; profession: former basketball player; ridergroup: driver; causeofdeath: road crash; / name: Rosemarie Manalo; gender: female; ridergroup: passenger; causeofdeath: road crash; /', 'name: Bryan Gahol; age: 36; gender: male; profession: former PBA player; causeofdeath: vehicle collision; condition: dead on arrival; /\nname: Rosemarie Manalo; gender: female; causeofdeath: vehicle collision; condition: dead on arrival; /', 'name: Bryan Gahol; profession: basketball player; ridergroup: van driver; condition: dead on arrival; /\nridergroup: van passenger; condition: dead on arrival; /', 'name: Bryan Gahol; gender: male; profession: former professional basketball player; ridergroup: driver; /\nname: Rosemarie Manalo; gender: female; ridergroup: passenger; causeofdeath: vehicular impact; /'])","['SLEX' 'NCR, Muntinlupa City, SLEX, Barangay Cupang'
+ 'NCR, Muntinlupa City, SLEX Northbound'
+ 'Muntinlupa, South Luzon Expressway']",4.0,"set(['Early Morning', '10:00 PM', 'Night'])","['van, truck, cargo jeepney' 'van, truck, jeepney']"
+#corimbabus,"[1881.0, 2240.0, 1407.0, 2702.0]",4.0,2014-04-04 00:00:00,8.0,"set(['ridergroup: jeepney driver; injury: bruises and pain; natureofinjury: jeepney overturned after being hit by a bus; hospital: East Avenue Medical Center/\nname: Mary Jane Asbestos; age: 17; gender: female; injury: deep cut or laceration on the face; natureofinjury: jeepney overturned after being hit by a bus; hospital: East Avenue Medical Center/', 'gender: female, ridergroup: passenger; medicalcondition: head injury /', 'ridergroup: jeepney passenger * 6/'])",,,"['NCR, Quezon City, Commonwealth Avenue' 'Quezon City, Commonwealth Avenue'
+ 'Metro Manila, Quezon City, Commonwealth']",2.0,,"['jeepney, bus' 'bus, jeep']"
+#pnoyconvoy,"[1822.0, 72.0, 589.0, 2555.0, 1797.0, 2013.0]",6.0,2014-04-21 00:00:00,,,,,,,,
+#uproadrage,"[1382.0, 719.0, 892.0, 635.0]",4.0,2014-10-28 00:00:00,,,,,,,,
+#2deadonC5,"[1536.0, 2125.0]",2.0,2014-05-12 00:00:00,3.0,"set(['name: John Carlo Mariano; age: 19; gender: male; ridergroup: driver/\nname: Jayme Pardinas; age: 19; gender: male; ridergroup: passenger/\nname: Robert Roa; age: 19; gender: male; ridergroup: passenger/', 'name: Robert Roa; ridergroup: car rider; hospital: Taguig-Pateros District hospital; gender: male; /\nname: John Carlo Mariano; ridergroup: car rider; hospital: Taguig-Pateros District hospital; gender: male; /\nname: Jayme Pardinas; ridergroup: car rider; hospital: Taguig-Pateros District hospital; /'])",2.0,"ridergroup: car rider; condition: dead on spot; /
+ridergroup: car rider; condition: dead on spot; /","['NCR, Taguig City, C5 Road' 'Taguig City, C5 northbound lane']",1.0,set(['3:00 AM']),['car']
+#trainjeepcrashManila,"[722.0, 640.0]",2.0,2014-05-19 00:00:00,7.0,"set(['ridergroup: jeepyney passenger; /\nridergroup: jeepyney passenger; /\nridergroup: jeepyney passenger; /\nridergroup: jeepyney passenger; /\nridergroup: jeepyney passenger; /\nridergroup: jeepyney passenger; /\n', 'ridergroup: jeepney passenger; condition: critical; hospital: Ospital ng Sampaloc; /\nridergroup: jeepney passenger; condition: critical; hospital: Ospital ng Sampaloc; /\nridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /\nridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /\nridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /\nridergroup: jeepney passenger; gender: female; hospital: Ospital ng Sampaloc; /\nname: Ronald Valdez; ridergroup: jeepney driver; hospital: Ospital ng Sampaloc; /'])",1.0,"set(['ridergroup: jeepyney passenger; /', 'name: Reynaldo Macapagal; gender: male; age: 56; profession: cigarette vendor; ridergroup: jeepney passenger; condition: dead on arrival; hospital: Ospital ng Sampaloc; /'])","['Metro Manila, Manila, Sampaloc' 'Manila, Sampaloc']",2.0,afternoon,"['jeepney, PNR train']"
+#maserati,"[1608.0, 101.0, 380.0, 2574.0, 1079.0, 133.0, 2568.0, 717.0, 2508.0, 1827.0, 1267.0, 1837.0, 2267.0, 106.0, 2329.0, 1921.0, 712.0, 1855.0, 1196.0, 775.0, 2561.0, 1275.0, 2066.0, 1552.0, 2301.0, 2375.0, 1383.0, 2121.0, 39.0, 428.0, 2609.0]",31.0,2014-11-27 00:00:00,,,,,,,,
+#1killedTaytay,"[168.0, 265.0]",2.0,2014-05-27 00:00:00,13.0,"set(['name: Anna Rose Valdez; age: 17; ridergroup: bystander; /\nname: Marian Salles; age: 2; ridergroup: bystander; /\nname: CJ Salles; age: 8; ridergroup: bystander; /\nname: Glenda Salles; age: 26; ridergroup: bystander; /\nname: Nicole Salles; age: 5; ridergroup: bystander; /\nname: Johnric Salles; age: 6; ridergroup: bystander; /\nname: Angelo Francisco; age: 28; ridergroup: bystander; /\nname: Marisa Francisco; age: 68; ridergroup: bystander; /\nname: Diane Abenon; age: 13; ridergroup: bystander; /\nname: John Lester Eustaquio; age: 6; ridergroup: bystander; /\nname: John Lenon Eustaquio; age: 4; ridergroup: bystander; /\nname: Eleanor Eustaquio; age: 33; ridergroup: bystander; /\nname: John Michael Eustaquio; age: 33; ridergroup: bystander; /', 'name: Jansen (Francisco); gender: male; ridergroup: bystander; age: child; residence: Taytay, Rizal; /\nname: Angelo (Francisco); gender: male; ridergroup: bystander; age: child; residence: Taytay, Rizal; /\nname: Marian (Francisco); gender: female; ridergroup: bystander; age: child; residence: Taytay, Rizal; /'])",1.0,"set(['name: Jun Francisco; age: adult; gender: male; ridergroup: bystander; others: father; /', 'name: Domingo Francisco; age: 68; ridergroup: bystander; condition: dead on arrival; hospital: Taytay Emergency Medical Center; /'])","['Rizal, Taytay, Dolores' 'Rizal, Taytay, Tikling']",1.0,4:00 AM,['truck']
+#3deadincagayan,"[1392.0, 1133.0]",2.0,2014-06-21 00:00:00,3.0,"set(['name: Jamil Uy; profession: town councilor; ridergroup: car driver; condition: critical; /\nname: Felomena Tulali; profession: town councilor; ridergroup: car passenger; condition: critical; /\nname: Romeo Pecsonand; profession: town councilor; ridergroup: car passenger; condition: critical; /\nname: Robin Evangelista; ridergroup: car passenger; condition: critical; /', 'name: Jamil Romeo Uy; gender: male; ridergroup: SUV driver; natureofinjury: vehicle fell off bridge; condition: severely injured; /\nname: Felomena Tulali; gender: female; ridergroup: SUV passenger; natureofinjury: vehicle fell off bridge; condition: severely injured; /\nname: Romeo Pecson; gender: male; ridergroup: SUV passenger; natureofinjury: vehicle fell off bridge; condition: severely injured; /'])",3.0,"set(['name: Orlando Campano; profession: town councilor; ridergroup: car passenger; condition: dead on spot; /\nname: Rosendo Ruiz; profession: town councilor; ridergroup: car passenger; condition: dead on spot; /\nname: Zenaida de Leon; ridergroup: car passenger; /', ""name: Rosendo Ruiz Jr; gender: male; profession: Santo Nio councilor; ridergroup: SUV passenger; causeofdeath: vehicle fell off a bridge; condition: dead on arrival; hospital: St Paul's Hospital\nname: Orlando Campano; gender: male; profession: Santo Nio councilor; ridergroup: SUV passenger; causeofdeath: vehicle fell off a bridge; condition: dead on arrival; hospital: St Paul's Hospital""])","['Cagayan, Santo Nio, Barangay Masical']",1.0,5:30 PM,['SUV' 'car']
+#pnrtondocrash,"[2534.0, 2046.0]",2.0,2014-07-04 00:00:00,1.0,name: Jerome Brieva; age: 36; gender: male; profession: project coordinator of a construction company; natureofinjury: car was hit by train; injury: head injury; /,,,"['Metro Manila, Manila, Tondo'
+ 'NCR, Manila, Jose Abad Santos Avenue, Daang Bakal, Tondo']",2.0,"set(['Morning', 'morning'])","['car, PNR train' 'car, train']"
+#20vehiclemarcoshighway,"[207.0, 1213.0]",2.0,2014-07-09 00:00:00,,,,,"['Marikina, Marcos Highway' 'Marikina City, Marcos Highway, Barangka']",20.0,evening,"['motorcycle, car, truck' 'car, truck']"
+#8vehiclesC5,"[84.0, 2057.0, 2743.0]",3.0,2014-08-04 00:00:00,7.0,"ridergroup: driver; gender: male;/
+gender: male * 6/",1.0,ridergroup: passenger; profession: truck helper; gender: male; name: Richard Parato; other: one of 5 siblings; /,"['NCR, C5 Kalayaan' 'Makati City, C5Kalayaan'
+ 'Metro Manila, Makati City, C5 Kalayaan Southbound']",8.0,night,"['car, truck, taxi, Asian Utility Vehicle FX' 'truck, taxi, AUV, car']"
+#TVexeccrash,"[1694.0, 1186.0]",2.0,2014-08-16 00:00:00,2.0,"name: Juanito Nocos; ridergroup: car driver; age: 74; profession: TV executive at Basketball TV; gender: male; liability: reckless imprudence resulting in multiple damage to property; hospital: Cardinal Santos Hospital; injury: bruises to chest; /
+ridergroup: car driver; others: father of three children; injury: foot injuries; /",,,"['San Juan, Annapolis Car Park, Greenhills Shopping Center']",7.0,3:10 PM,['car']
+#16hurtQuezon,"[1833.0, 2110.0]",2.0,2014-08-20 00:00:00,16.0,"set(['ridergroup: truck driver; /\nridergroup: pickup truck driver; /\nridergroup: pickup truck passengers; profession: BJMP officers, BJMP inmates * 14; /', 'ridergroup: jail van passenger; profession: jail guard, inmate * 14; /\nridergroup: jail van passenger; /'])",,,"['Quezon, Pagbilao Town, Barangay Silangang Malicboy'
+ 'Quezon, Pagbilao Town']",2.0,12:30 PM,"['van, pickup truck' 'truck, pickup truck']"
+#3buscollisionEDSA,"[1753.0, 2506.0]",2.0,2014-09-05 00:00:00,,,,,"['NCR, Quezon City, EDSA Santolan Southbound' 'EDSA']",3.0,9:00 AM,['bus']
+#16hurtinSablan,"[1358.0, 673.0]",2.0,2014-09-08 00:00:00,16.0,"set(['ridergroup: van passenger; age: child; /\nridergroup: van passenger; age: child; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; /\nridergroup: van passenger; / ', 'name: Jhon Paul Lagmay; age: 8; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Snooky Lagmay; age: 29; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Edilyn Rivera; age: 18; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Melvin Rimando; age: 26; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Mary Jane Licudine, age: 28; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Romy Pertudo; age: 48;  gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Sara Leen Joy Layoso; age: 19; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Limuel Marquez; age: 27; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Herbert Yao; gender: male; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Cathlyn Velocora; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Angelica Escaltron; age: 29; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / \nname: Elynita de Paz; age: 26; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / \nname: Devina Estepa Pajara; age: 36; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; / \nname: Mark Darren Querol; age: 39; gender: male; ridergroup: passenger; hospital: Benguet General Hospital; / \nname: Paul Estepa; age: 11; gender: male; ridergroup: passenger; hospital: Benguet General Hospital; / \nname: Christina Estepa; age: 44; gender: female; ridergroup: passenger; hospital: Benguet General Hospital; /'])",1.0,name: John Vincent Guillermo Florendo; residence: La Union; ridergroup: van passenger; /,"['Benguet, Sablan, Naguilian Road, Sitio Calot in Barangay Banangan']",1.0,5:20 PM,['van']
+#buguiascrash,"[1315.0, 2056.0, 431.0]",3.0,2014-09-09 00:00:00,4.0,"set(['name: Jamerose Bankin; age: 15; gender: female; ridergroup: passenger; injury: broken left foot; hospital: Baguio General Hospital and Medical Center/\nname: Reyshan Latuwed; age: 18; gender: female; ridergroup: passenger; injury: head injury; hospital: Baguio General Hospital and Medical Center/\nname: Elejoy Agyapas; age: 17; gender: female; ridergroup: passenger; hospital: Abatan Lutheran Hospital/', 'name: Reyshan Latuwed; age: 18; gender: female; ridergroup: passenger; hospital: Baguio General Hospital Medical Center; /\nname: Charre Bestre; age: 15; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Jamerose Bankin; age: 15; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /\nname: Elejoy Agyapas; age: 17; gender: female; ridergroup: passenger; hospital: Baguio General Hospital and Medical Center; /'])",13.0,"set(['name: Efren Dalisdis; gender: male; /\nname: Jera Flair Mayao; age: 15; gender: male; ridergroup: passenger; condition: dead on spot; /\nname: Maricel Basatan; age: 13; gender: female; ridergroup: passenger; condition: dead on spot; /\nname: Jera Madiano; age: 15; gender: male; ridergroup: passenger; condition: dead on spot; /\nname: Jeribeth Simeon; age: 12; gender: female; ridergroup: passenger; condition: dead on spot; /\nname: Jasmin Lestino; age: 15; gender: female; ridergroup: passenger; condition: dead on spot; /\nname: Nenerva Menzi; age: 16; gender: female; ridergroup: passenger; condition: dead on spot; /\nname: Angie Aguien; age: 15; gender: female; ridergroup: passenger; condition: dead on spot; /\nname: Meljoy Agustin; age: 15; gender: female; ridergroup: passenger; condition: dead on arrival; /\nname: Ivonne Bestre; age: 13; gender: female; ridergroup: passenger; condition: dead on arrival; /\nname: John Ray Dalisdis; age: 16; gender: male; ridergroup: passenger; condition: dead on arrival; /\nname: Mari Faith Lamsis; age: 16; gender: female; ridergroup: passenger; condition: dead on arrival; /', 'name: Efren Dalisdis; age: 45; gender: male; ridergroup: driver; causeofdeath: jeep fell into a deep ravine; condition: dead on spot; /\nname: John Ray Dalisdis; age: 16; gender: male; ridergroup: passenger;  causeofdeath: jeep fell into a deep ravine; condition: dead on the way to hospital; /\nname: Charee Bestre; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; condition: died in hospital; hospital: Baguio General Hospital and Medical Center; /\nname: Jeribeth Simeon; age: 12; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Maricel Basatan; age: 13; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Ivonne Bestre; age: 13; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Jera Flair Mayao; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Jera Madiano; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Jasmin Lestino; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Angie Aguien; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Meljoy Agustin; age: 15; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Nenerva Menzi; age: 16; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /\nname: Mari Faith Lamsis; age: 16; gender: female; ridergroup: passenger; causeofdeath: jeep fell into a deep ravine; /'])","['Benguet, Buguias'
+ 'Benguet, Buguias, Sitio Bangbangayen, Barangay Poblacion']",1.0,set(['4:30 PM']),['multicab' 'jeepney']
+#lagunacop,"[1214.0, 2026.0]",2.0,2014-09-13 00:00:00,,,1.0,"set(['name: Wally Reyes; profession: police; /', 'profession: policeman; ridergroup: motorcycle driver; condition: dead on arrival; hospital: Los Ba\xc3\xb1os Doctors Hospital and Medical Center; /'])","['Laguna, Calamba City, National highway'
+ 'Laguna, Los Baxc3xb1os, Barangay Maahas']",2.0,9:00 PM,"['motorcycle, bus']"
+#victorylinerNLEX,[2206.0],1.0,2014-09-27 00:00:00,,,,,,,,
+#apalitcrash,"[2502.0, 2510.0]",2.0,2014-10-03 00:00:00,6.0,,1.0,name: Quelvin Pugal; age: 40; gender: male; profession: Dominion bus conductor; condition: dead on arrival; /,"['Pampanga, Apalit, NLEX Southbound' 'Pampanga, Apalit, Nor']",5.0,"set(['4:00 AM', 'Morning'])","['truck, bus' 'car, truck, bus']"
+#truckfallsTaguig,"[2262.0, 1533.0]",2.0,2014-10-29 00:00:00,3.0,"set(['ridergroup: truck passenger; /\nridergroup: truck passenger; /\nridergroup: truck passenger; /', 'ridergroup: truck driver; name: Ben Helsano; age: adult; gender: male; profession: truck driver; /\nridergroup: truck passenger; profession: pahinante; * 2/'])",,,"['Taguig City, C5 Road'
+ 'Taguig City, C5 Southbound Lane near Libingan ng mga Bayani']",2.0,3:00 AM,['truck']
+#47hurtBatangas,"[2036.0, 1188.0]",2.0,2014-10-31 00:00:00,47.0,"set(['ridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /\nridergroup: bus passenger; /', 'name: Lorenzo Karingal; profession: bus driver; ridergroup: bus driver; age: 44; hospital: Mary Mediatrix Hospital/'])",2.0,"set(['ridergroup: bus rider; /\nridergroup: bus rider; /', 'name: Arniel Diaz; profession: bus conductor; ridergroup: bus passenger; /\nname: Jade Anthony Malibot; ridergroup: bus passenger; / '])","['Batangas, Lipa City, Star Tollway']",2.0,11:00 PM,"['truck, bus']"
+#xavierschoolbus,"[2311.0, 2367.0, 2793.0]",3.0,2014-11-04 00:00:00,9.0,"set(['ridergroup: passenger; age: child; profession: student; * 3/\nridergroup: passenger; age: 7; name: Calix Andres:  injury: scratches and head bump; /\nridergroup: passenger; name: Cristina Go; /', 'name: Jerry Lito Papa; profession: school service driver; ridergroup: school service driver; age: adult; gender: male; /\nname: Ramsur Padios; profession: school service driver; ridergroup: school service driver; age: adult; gender: male; /\nridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; others: son of Dennis Trillo and Carlene Aguilar; /\nridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /\nridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /\nridergroup: passenger; gender: male; age: child; profession: student; school: Xavier Elementary School; hospital: Chinese General Hospital; /\nage: child; profession: student; ridergroup: passenger; school: Ramon Magsaysay High School; hospital: Sta. Teresita Hospital, Quezon City; /\nage: child; profession: student; ridergroup: passenger; school: Esteban Abada High School; hospital:  Sta. Teresita Hospital, Quezon City; /'])",,,"['Quezon City, Speaker Perez St at N Roxas, Barangay Lourdes' 'Quezon City']",2.0,set(['morning']),['school bus']
+#asistiocrash,"[2005.0, 1738.0, 2807.0]",3.0,2014-11-17 00:00:00,4.0,"name: Luis Orillaza Asistio III; gender: male; ridergroup: Montero driver / 
+name: Jacklyn Mae Terrado; gender: female; ridergroup: passenger /
+name: Bubles Lapu-os; gender: female; ridergroup: passenger /
+name: Ryan Lester Yadao; gender: male; ridergroup: passenger / ",3.0,"name: Lyn Pascua; gender: female; profession: nurse; ridergroup: passenger; /
+name: Rose Ann Oquendo; gender: female; profession: nurse; ridergroup: passenger; /
+name: Janine Ray Manzanida; gender: female; profession: nurse; ridergroup: passenger; /","['NCR, Pasig City, C5 Flyover']",2.0,2:30 AM,"['Asian Utility Vehicle FX, SUV'
+ 'Asian Utility Vehicle FX, SUV Mitsubishi Montero']"
+#acostaMMDA,"[1735.0, 1600.0, 2396.0, 1976.0, 1034.0, 86.0, 1541.0, 1259.0, 407.0, 743.0]",10.0,2014-12-19 00:00:00,1.0,"set([""name: Sonny Acosta; ridergroup: traffic enforcer; profession: MMDA traffic constable; condition: critical; injury: dragged by SUV; hospital: St. Luke's Medical Center; age: 38; gender: male; /"", 'name: Roger Borres; age: 28; gender: male; profession: MMDA traffic aide; ridergroup: motorcycle rider; natureofinjury: suffered bruises after being bumped by bus from behind /', 'name: Sonny Acosta; gender: male; profession: MMDA traffic enforcer; natureofinjury: dragged and run over by vehicle; injury: serious injuries in the head and body; condition: critical; hospital: St Lukes Medical Center Quezon City/', ""name: Sonny Acosta; profession: MMDA traffic constable; injury: run over by vehicle; ridergroup: traffic enforcer or bystander; hospital: St. Luke's Medical Center; age: adult; gender: male; condition: critical; /""])",1.0,"set(['name: Sonny Acosta; condition: died after days in coma; /', 'others: family breadwinner, father of three, husband, hardworking, perfect attendance at work, hospitalization costs covered by MMDA; /'])","['Quezon City, Cubao' 'NCR, Quezon City, EDSA Cubao']",2.0,"set(['8:00 AM', '6:35 PM', 'Morning'])","['SUV Red Isuzu Sporvito' 'Asian Utility Vehicle FX' 'SUV Isuzu Sportivo'
+ 'motorcycle, bus']"
+#1deadsorsogon,"[2533.0, 327.0]",2.0,2014-12-24 00:00:00,5.0,"set(['name: Diomedez Altarejos Madrelejos; age: 51; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /\nname: Emelyn Banagbanag Divana; age: 35; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /\nname: Catherine Banagbanag Divana; age: 11; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /\nname: Lorna Esperas Otario age: 42; gender: female; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /\nname: Kirby Banagbanag Divana; age: 8 months; ridergroup: tricycle passenger; natureofinjury: vehicle collision; injury: serious; hospital: Matnog Medicare Center; /', 'name: Diomedez Madrelejos; age: 51; gender: male; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /\nname: Emelyn Divana; age: 35; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /\nname: Catherine Divina; age: 11; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /\nname: Kirby Divina; age: 8 months; gender: male; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /\nname: Lorna Esperas Otario; age: 42; gender: female; residence: Capul, Northern Samar; hospital: Matnog Medicare Center; ridergroup: bystander; /'])",1.0,"set(['name: Antonio Madrelejos; age: 82; gender: male; residence: Barangay Mambajog, Matnog, Sorsogon; ridergroup: bystander; condition: dead on spot; /', 'name: Antonio Altarejos Madrelejos; age: 82; gender: male; causeofdeath: vehicle collision; condition: dead on the spot; /'])","['Sorsogon, Matnog, Maharlika Highway'
+ 'Sorsogon, Matnog, Kilometer post 637 of Maharlika Highway, Barangay Hidhid']",4.0,1:20 PM,"['tricycle, truck, bus']"
+#truckSLEX,"[553.0, 2472.0]",2.0,2014-12-24 00:00:00,,,,,"['South Luzon Expressway' 'Makati, SLEx, Magallanes interchange']",1.0,afternoon,['truck']
+#7hurtinparanaque,"[1325.0, 1087.0]",2.0,2014-12-25 00:00:00,7.0,"set(['condition: minor injury; /\ncondition: minor injury; /\ncondition: minor injury; /\ncondition: minor injury; /\ncondition: minor injury; /\ncondition: minor injury; / \ncondition: minor injury; /', 'name: Ramil Tapia; age: 46; gender: male; medicalcondition: minor injuries /\nname: Lolita Castro; age: 66; gender: female; medicalcondition: minor injuries /\nname: Marissa Aliling; age: 41; gender: female; medicalcondition: minor injuries /\nname: John Paul Edrian Aliling; age: 12; gender: male; medicalcondition: minor injuries /\nname: Wilfredo R Contemplo; age: 62; gender: male; medicalcondition: minor injuries /\nname: Joel Pascual; age: 57; gender: male; ridergroup: driver; medicalcondition: minor injuries /\nname: Doroteo Cabalejo; age: 41; gender: male; ridergroup: driver; medicalcondition: minor injuries /'])",,,"[ 'NCR, Paranaque City, Intersection of MIA Road and Coastal Road in Barangay Tambo ']",11.0,7:00 AM,"['motorcycle, car, van, truck, jeepney, taxi, bus'
+ 'motorcycle, car, jeepney, Sports Utility Vehicle, Pickup Truck']"
+#cavitecouple,"[2668.0, 2669.0]",2.0,2014-02-22 00:00:00,,,2.0,"ridergroup: driver; gender: female; name: Marion Acaba; age: 25; /
+ridergroup: passenger; gender: male; name: Michael John; age: 25; /","['Cavite, Silang']",2.0,morning,"['car, truck']"
+#skywaycoaster,"[2672.0, 2673.0]",2.0,2014-03-03 00:00:00,1.0,ridergroup: driver; employer: Skyway corporation;/,,,,2.0,night,"['SUV, coaster van']"
+#sccibus,"[2684.0, 2685.0, 2686.0]",3.0,2014-03-25 00:00:00,,,,,"['Batangas, SLEX']",1.0,,['bus']
+#2killedinbenguet,[2698.0],1.0,2014-04-06 00:00:00,5.0,ridergroup: pickup truck passenger; profession: OFW; hospital: Baguio General Hospital; *2 / ,2.0,,"['Benguet, Itogon']",1.0,,['car']
+#9deadincarcar,[2703.0],1.0,2014-04-11 00:00:00,9.0,,,,"['Carcar, Cebu']",1.0,,['truck']
+#libmanan,[2709.0],1.0,2014-04-16 00:00:00,,,,,,,,
+#victoryolongapo,"[2711.0, 2712.0]",2.0,2014-04-22 00:00:00,40.0,set(['ridergroup: bus passenger; name: Peter Yabut; age: 61; /']),1.0,set(['ridergroup: bystander; name: Guadalupe Walters; /']),"['Zambales, Olongapo City' 'Olongapo City']",1.0,,['va' 'bus']
+#jambusbatangas,"[2714.0, 2715.0, 2716.0]",3.0,2014-05-04 00:00:00,46.0,set(['ridergroup: bus passengers; *46 /']),1.0,set(['ridergroup: bus passenger; gender: female; age: 57; /']),,2.0,,['bus']
+#lagunacrash,"[2717.0, 2719.0, 2722.0]",3.0,2014-05-09 00:00:00,10.0,"set(['ridergroup: truck driver; injury: head injury; /', 'ridergroup: truck foreman; injury: lung injury; /'])",4.0,,,1.0,,['truck']
+#pablomartinez,"[2718.0, 2720.0, 2721.0]",3.0,2014-05-09 00:00:00,,,1.0,set(['ridergroup: bicycle driver; name: Pablo Martinez; /']),['Roxas Boulevard'],2.0,,"['car, bicycle']"
+#fieldtripcrash,"[2773.0, 2774.0, 2775.0]",3.0,2014-08-22 00:00:00,,,,,,,,
+#13deadbenguet,"[2777.0, 2778.0, 2779.0]",3.0,2014-09-10 00:00:00,,,,,,,,
+#albaybus,"[2784.0, 2785.0, 2786.0, 2787.0]",4.0,2014-10-05 00:00:00,,,,,,,,
+#3nursesC5,"[2797.0, 2799.0]",2.0,2014-11-17 00:00:00,4.0,"ridergroup: driver; /
+ridergroup: passenger; * 13 /",3.0,ridergroup: passenger; gender: female; profession: nurse; * 3/,"['Metro Manila, Pasig City, Barangay Ugong C5 Flyover']",2.0,2:00 AM,"['AUV, SUV']"
+#dumptruckguagua,"[2800.0, 2801.0, 2802.0, 2803.0, 2804.0]",5.0,2014-11-19 00:00:00,,,,,,1.0,,['truck']
